@@ -1,0 +1,369 @@
+<!-- Learning Objectives Preview Box -->
+{% assign current_url = page.url %}
+{% assign lesson_number = current_url | split: 'lesson' | last | split: '/' | first | plus: 0 %}
+{% assign lang = page.lang | default: 'zh' %}
+
+<div class="learning-objectives-container" style="margin: 2rem 0; padding: 2rem; background: linear-gradient(135deg, #e3f2fd 0%, #f3e5f5 100%); border-radius: 20px; border-left: 6px solid #2196F3; box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1); position: relative; overflow: hidden;">
+
+  <!-- Decorative background pattern -->
+  <div class="bg-pattern" style="position: absolute; top: 0; right: 0; width: 150px; height: 150px; opacity: 0.1; background: url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><circle cx=\"50\" cy=\"50\" r=\"20\" fill=\"%23666\"/><circle cx=\"20\" cy=\"20\" r=\"10\" fill=\"%23666\"/><circle cx=\"80\" cy=\"20\" r=\"8\" fill=\"%23666\"/><circle cx=\"20\" cy=\"80\" r=\"12\" fill=\"%23666\"/><circle cx=\"80\" cy=\"80\" r=\"6\" fill=\"%23666\"/></svg>') no-repeat center; background-size: contain;"></div>
+
+  <!-- Header with icon and title -->
+  <div class="objectives-header" style="display: flex; align-items: center; margin-bottom: 1.5rem;">
+    <div class="header-icon" style="font-size: 2.5rem; margin-right: 1rem; animation: float 3s ease-in-out infinite;">🎯</div>
+    <div>
+      <h3 style="color: #1976D2; margin: 0; font-size: 1.6rem; font-weight: 700;">
+        {% if lang == 'en' %}What You'll Learn{% else %}您将学到什么{% endif %}
+      </h3>
+      <p style="color: #666; margin: 0.25rem 0 0 0; font-size: 1rem;">
+        {% if lang == 'en' %}Key learning objectives for this lesson{% else %}本课的核心学习目标{% endif %}
+      </p>
+    </div>
+  </div>
+
+  <!-- Learning objectives list based on lesson number -->
+  <div class="objectives-content">
+    {% case lesson_number %}
+
+      {% when 1 %}
+        <!-- Lesson 1: What is Computer Science? -->
+        <div class="objective-item" style="display: flex; align-items: flex-start; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s ease;">
+          <div style="font-size: 1.5rem; margin-right: 1rem; margin-top: 0.25rem;">💡</div>
+          <div>
+            <h4 style="color: #1976D2; margin: 0 0 0.5rem 0; font-size: 1.1rem;">
+              {% if lang == 'en' %}Understand Computer Science Basics{% else %}理解计算机科学基础概念{% endif %}
+            </h4>
+            <p style="margin: 0; color: #555; line-height: 1.5;">
+              {% if lang == 'en' %}Learn that computer science is not just about hardware, but a discipline for solving problems and analyzing data.{% else %}学生能够理解"计算机科学"指的不仅仅是计算机硬件，而是探索如何解决问题的学科。{% endif %}
+            </p>
+          </div>
+        </div>
+
+        <div class="objective-item" style="display: flex; align-items: flex-start; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s ease;">
+          <div style="font-size: 1.5rem; margin-right: 1rem; margin-top: 0.25rem;">🌍</div>
+          <div>
+            <h4 style="color: #1976D2; margin: 0 0 0.5rem 0; font-size: 1.1rem;">
+              {% if lang == 'en' %}Discover Real-World Applications{% else %}发现现实世界中的应用{% endif %}
+            </h4>
+            <p style="margin: 0; color: #555; line-height: 1.5;">
+              {% if lang == 'en' %}Identify how computer science helps us process information, communicate, and create entertainment.{% else %}认识计算机科学如何帮助我们处理信息、进行沟通和娱乐等。{% endif %}
+            </p>
+          </div>
+        </div>
+
+        <div class="objective-item" style="display: flex; align-items: flex-start; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s ease;">
+          <div style="font-size: 1.5rem; margin-right: 1rem; margin-top: 0.25rem;">🚀</div>
+          <div>
+            <h4 style="color: #1976D2; margin: 0 0 0.5rem 0; font-size: 1.1rem;">
+              {% if lang == 'en' %}Spark Curiosity and Interest{% else %}激发好奇心和兴趣{% endif %}
+            </h4>
+            <p style="margin: 0; color: #555; line-height: 1.5;">
+              {% if lang == 'en' %}Build excitement about computer science through interactive games and real-world examples.{% else %}通过互动游戏和案例，激发学生对计算机科学的好奇心和兴趣。{% endif %}
+            </p>
+          </div>
+        </div>
+
+      {% when 2 %}
+        <!-- Lesson 2: Computer History and Impact -->
+        <div class="objective-item" style="display: flex; align-items: flex-start; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s ease;">
+          <div style="font-size: 1.5rem; margin-right: 1rem; margin-top: 0.25rem;">📚</div>
+          <div>
+            <h4 style="color: #1976D2; margin: 0 0 0.5rem 0; font-size: 1.1rem;">
+              {% if lang == 'en' %}Explore Computer Evolution{% else %}探索计算机的发展历程{% endif %}
+            </h4>
+            <p style="margin: 0; color: #555; line-height: 1.5;">
+              {% if lang == 'en' %}Journey from huge old machines to today's smartphones and understand technological progress.{% else %}从巨大的老式机器到今天的智能手机，跟随计算机发展的脚步。{% endif %}
+            </p>
+          </div>
+        </div>
+
+        <div class="objective-item" style="display: flex; align-items: flex-start; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s ease;">
+          <div style="font-size: 1.5rem; margin-right: 1rem; margin-top: 0.25rem;">🌐</div>
+          <div>
+            <h4 style="color: #1976D2; margin: 0 0 0.5rem 0; font-size: 1.1rem;">
+              {% if lang == 'en' %}Understand Technology's Impact{% else %}理解科技的影响{% endif %}
+            </h4>
+            <p style="margin: 0; color: #555; line-height: 1.5;">
+              {% if lang == 'en' %}Learn how technology has changed our lives, society, and the way we communicate.{% else %}感受科技如何改变我们的生活和社会。{% endif %}
+            </p>
+          </div>
+        </div>
+
+      {% when 3 %}
+        <!-- Lesson 3: Programs and Algorithms -->
+        <div class="objective-item" style="display: flex; align-items: flex-start; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s ease;">
+          <div style="font-size: 1.5rem; margin-right: 1rem; margin-top: 0.25rem;">🧩</div>
+          <div>
+            <h4 style="color: #1976D2; margin: 0 0 0.5rem 0; font-size: 1.1rem;">
+              {% if lang == 'en' %}Master Problem Decomposition{% else %}掌握问题分解{% endif %}
+            </h4>
+            <p style="margin: 0; color: #555; line-height: 1.5;">
+              {% if lang == 'en' %}Learn to break down complex problems into simple, manageable steps.{% else %}学习将复杂的问题分解为简单的步骤。{% endif %}
+            </p>
+          </div>
+        </div>
+
+        <div class="objective-item" style="display: flex; align-items: flex-start; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s ease;">
+          <div style="font-size: 1.5rem; margin-right: 1rem; margin-top: 0.25rem;">⚙️</div>
+          <div>
+            <h4 style="color: #1976D2; margin: 0 0 0.5rem 0; font-size: 1.1rem;">
+              {% if lang == 'en' %}Understand Algorithms{% else %}理解算法概念{% endif %}
+            </h4>
+            <p style="margin: 0; color: #555; line-height: 1.5;">
+              {% if lang == 'en' %}Grasp the concept of algorithms and how programs implement step-by-step solutions.{% else %}理解算法的概念，明白如何用程序实现这些步骤。{% endif %}
+            </p>
+          </div>
+        </div>
+
+      {% when 4 %}
+        <!-- Lesson 4: Visual Programming -->
+        <div class="objective-item" style="display: flex; align-items: flex-start; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s ease;">
+          <div style="font-size: 1.5rem; margin-right: 1rem; margin-top: 0.25rem;">🎨</div>
+          <div>
+            <h4 style="color: #1976D2; margin: 0 0 0.5rem 0; font-size: 1.1rem;">
+              {% if lang == 'en' %}Create with Scratch Programming{% else %}使用Scratch创作{% endif %}
+            </h4>
+            <p style="margin: 0; color: #555; line-height: 1.5;">
+              {% if lang == 'en' %}Use Scratch or Snap! to create mini-games and animations by dragging code blocks.{% else %}使用Scratch或Snap!进行简单编程，通过拖拽代码块创建小游戏或动画。{% endif %}
+            </p>
+          </div>
+        </div>
+
+        <div class="objective-item" style="display: flex; align-items: flex-start; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s ease;">
+          <div style="font-size: 1.5rem; margin-right: 1rem; margin-top: 0.25rem;">🎮</div>
+          <div>
+            <h4 style="color: #1976D2; margin: 0 0 0.5rem 0; font-size: 1.1rem;">
+              {% if lang == 'en' %}Experience Programming Joy{% else %}感受编程乐趣{% endif %}
+            </h4>
+            <p style="margin: 0; color: #555; line-height: 1.5;">
+              {% if lang == 'en' %}Discover the fun and creativity of programming through hands-on projects.{% else %}感受编程的乐趣和创造性。{% endif %}
+            </p>
+          </div>
+        </div>
+
+      {% else %}
+        <!-- Generic learning objectives for other lessons -->
+        <div class="objective-item" style="display: flex; align-items: flex-start; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s ease;">
+          <div style="font-size: 1.5rem; margin-right: 1rem; margin-top: 0.25rem;">📖</div>
+          <div>
+            <h4 style="color: #1976D2; margin: 0 0 0.5rem 0; font-size: 1.1rem;">
+              {% if lang == 'en' %}Core Concepts{% else %}核心概念{% endif %}
+            </h4>
+            <p style="margin: 0; color: #555; line-height: 1.5;">
+              {% if lang == 'en' %}Master the fundamental concepts covered in this lesson.{% else %}掌握本课涵盖的基础概念。{% endif %}
+            </p>
+          </div>
+        </div>
+
+        <div class="objective-item" style="display: flex; align-items: flex-start; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s ease;">
+          <div style="font-size: 1.5rem; margin-right: 1rem; margin-top: 0.25rem;">🛠️</div>
+          <div>
+            <h4 style="color: #1976D2; margin: 0 0 0.5rem 0; font-size: 1.1rem;">
+              {% if lang == 'en' %}Practical Skills{% else %}实践技能{% endif %}
+            </h4>
+            <p style="margin: 0; color: #555; line-height: 1.5;">
+              {% if lang == 'en' %}Apply knowledge through hands-on activities and projects.{% else %}通过实践活动和项目应用知识。{% endif %}
+            </p>
+          </div>
+        </div>
+
+        <div class="objective-item" style="display: flex; align-items: flex-start; margin-bottom: 1.25rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; transition: transform 0.3s ease;">
+          <div style="font-size: 1.5rem; margin-right: 1rem; margin-top: 0.25rem;">🎯</div>
+          <div>
+            <h4 style="color: #1976D2; margin: 0 0 0.5rem 0; font-size: 1.1rem;">
+              {% if lang == 'en' %}Problem Solving{% else %}问题解决{% endif %}
+            </h4>
+            <p style="margin: 0; color: #555; line-height: 1.5;">
+              {% if lang == 'en' %}Develop critical thinking and problem-solving abilities.{% else %}培养批判性思维和问题解决能力。{% endif %}
+            </p>
+          </div>
+        </div>
+
+    {% endcase %}
+  </div>
+
+  <!-- Progress indicator for learning objectives -->
+  <div class="objectives-footer" style="margin-top: 2rem; padding-top: 1.5rem; border-top: 2px solid rgba(25, 118, 210, 0.1);">
+    <div style="display: flex; justify-content: space-between; align-items: center;">
+      <div style="display: flex; align-items: center;">
+        <span style="font-size: 1rem; color: #666; margin-right: 1rem;">
+          {% if lang == 'en' %}Lesson Duration:{% else %}课程时长:{% endif %}
+        </span>
+        <div class="duration-badge" style="background: linear-gradient(135deg, #4CAF50 0%, #66BB6A 100%); color: white; padding: 0.5rem 1rem; border-radius: 20px; font-weight: 600; font-size: 0.9rem;">
+          ⏱️ 60 {% if lang == 'en' %}minutes{% else %}分钟{% endif %}
+        </div>
+      </div>
+
+      <div style="display: flex; align-items: center;">
+        <span style="font-size: 1rem; color: #666; margin-right: 1rem;">
+          {% if lang == 'en' %}Difficulty:{% else %}难度:{% endif %}
+        </span>
+        <div class="difficulty-indicator" style="display: flex; gap: 0.25rem;">
+          {% for i in (1..5) %}
+            {% assign filled = false %}
+            {% if lesson_number <= 3 and i <= 2 %}
+              {% assign filled = true %}
+            {% elsif lesson_number <= 8 and i <= 3 %}
+              {% assign filled = true %}
+            {% elsif lesson_number <= 12 and i <= 4 %}
+              {% assign filled = true %}
+            {% elsif lesson_number > 12 and i <= 5 %}
+              {% assign filled = true %}
+            {% endif %}
+
+            <div style="width: 12px; height: 12px; border-radius: 50%; background: {% if filled %}#F18F01{% else %}#E0E0E0{% endif %}; transition: all 0.3s ease;"></div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+
+<!-- Learning Objectives Styles -->
+<style>
+.objective-item:hover {
+  transform: translateX(8px);
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+.learning-objectives-container:hover .header-icon {
+  animation: bounce 0.6s ease;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(0);
+  }
+  25% {
+    transform: translateY(-5px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+  75% {
+    transform: translateY(-5px);
+  }
+}
+
+.difficulty-indicator div:hover {
+  transform: scale(1.5);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .learning-objectives-container {
+    padding: 1.5rem !important;
+    margin: 1.5rem 0 !important;
+  }
+
+  .objectives-header {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+
+  .header-icon {
+    font-size: 2rem !important;
+    margin: 0 0 1rem 0 !important;
+  }
+
+  .objective-item {
+    flex-direction: column !important;
+    text-align: center !important;
+  }
+
+  .objective-item div:first-child {
+    margin: 0 0 0.75rem 0 !important;
+  }
+
+  .objectives-footer > div {
+    flex-direction: column !important;
+    gap: 1rem !important;
+  }
+
+  .objectives-footer > div > div {
+    justify-content: center !important;
+  }
+}
+
+/* Add progress completion animation */
+.objectives-completed {
+  animation: completion-glow 0.8s ease;
+}
+
+@keyframes completion-glow {
+  0% { box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1); }
+  50% { box-shadow: 0 6px 25px rgba(76, 175, 80, 0.4); }
+  100% { box-shadow: 0 6px 25px rgba(0, 0, 0, 0.1); }
+}
+</style>
+
+<!-- Interactive JavaScript -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add click effects to objective items
+  const objectiveItems = document.querySelectorAll('.objective-item');
+
+  objectiveItems.forEach(item => {
+    item.addEventListener('click', function() {
+      // Add a small completion animation
+      this.style.background = 'rgba(76, 175, 80, 0.2)';
+      this.style.transform = 'translateX(8px) scale(1.02)';
+
+      setTimeout(() => {
+        this.style.background = 'rgba(255, 255, 255, 0.7)';
+        this.style.transform = 'translateX(8px)';
+      }, 300);
+    });
+  });
+
+  // Add progressive disclosure for objectives
+  let objectiveIndex = 0;
+  const revealObjectives = () => {
+    if (objectiveIndex < objectiveItems.length) {
+      objectiveItems[objectiveIndex].style.opacity = '0';
+      objectiveItems[objectiveIndex].style.transform = 'translateY(20px)';
+      objectiveItems[objectiveIndex].style.transition = 'all 0.5s ease';
+
+      setTimeout(() => {
+        objectiveItems[objectiveIndex].style.opacity = '1';
+        objectiveItems[objectiveIndex].style.transform = 'translateY(0)';
+        objectiveIndex++;
+        setTimeout(revealObjectives, 200);
+      }, 100);
+    }
+  };
+
+  // Start the reveal animation
+  setTimeout(revealObjectives, 500);
+
+  // Mark objectives as completed when page is scrolled to bottom
+  let objectivesCompleted = false;
+  window.addEventListener('scroll', function() {
+    if (!objectivesCompleted && (window.innerHeight + window.scrollY) >= document.body.offsetHeight - 100) {
+      const container = document.querySelector('.learning-objectives-container');
+      if (container) {
+        container.classList.add('objectives-completed');
+        objectivesCompleted = true;
+
+        // Store completion in localStorage
+        const currentLesson = {{ lesson_number }};
+        const viewedObjectives = JSON.parse(localStorage.getItem('viewedObjectives') || '[]');
+        if (!viewedObjectives.includes(currentLesson)) {
+          viewedObjectives.push(currentLesson);
+          localStorage.setItem('viewedObjectives', JSON.stringify(viewedObjectives));
+        }
+      }
+    }
+  });
+});
+</script>

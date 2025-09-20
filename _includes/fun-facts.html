@@ -1,0 +1,287 @@
+<!-- Fun Facts and Did You Know Components -->
+
+<!-- Fun Fact Box -->
+<div class="fun-fact-box" style="background: linear-gradient(135deg, #FFE082 0%, #FFF59D 100%); border: 3px solid #FFC107; border-radius: 16px; padding: 1.5rem; margin: 2rem 0; position: relative; overflow: hidden; box-shadow: 0 6px 20px rgba(255, 193, 7, 0.3);">
+
+  <!-- Decorative elements -->
+  <div class="fact-decoration" style="position: absolute; top: -10px; right: -10px; width: 60px; height: 60px; background: radial-gradient(circle, rgba(255,255,255,0.3) 0%, transparent 70%); border-radius: 50%;"></div>
+  <div class="fact-sparkle" style="position: absolute; top: 15px; right: 25px; font-size: 1.2rem; animation: sparkle-rotate 3s infinite;">✨</div>
+
+  <!-- Fact Header -->
+  <div class="fact-header" style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <div class="fact-icon" style="font-size: 2rem; margin-right: 1rem; animation: bounce-gentle 2s infinite;">🤔</div>
+    <h4 style="color: #E65100; margin: 0; font-size: 1.3rem; font-weight: 700;">
+      {% if page.lang == 'en' %}Did You Know?{% else %}你知道吗？{% endif %}
+    </h4>
+  </div>
+
+  <!-- Fact Content -->
+  <div class="fact-content" style="color: #5D4037; font-size: 1.1rem; line-height: 1.6; font-weight: 500;">
+    {{ include.content }}
+  </div>
+
+  <!-- Fun emoji trail -->
+  <div class="emoji-trail" style="position: absolute; bottom: 10px; right: 20px; font-size: 0.8rem; opacity: 0.6;">💭💡🎯</div>
+</div>
+
+<!-- Amazing Fact Box (for more impressive facts) -->
+<div class="amazing-fact-box" style="background: linear-gradient(135deg, #E1BEE7 0%, #F3E5F5 100%); border: 3px solid #9C27B0; border-radius: 16px; padding: 1.5rem; margin: 2rem 0; position: relative; overflow: hidden; box-shadow: 0 6px 20px rgba(156, 39, 176, 0.3);">
+
+  <!-- Animated background pattern -->
+  <div class="amazing-bg" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; opacity: 0.1; background: url('data:image/svg+xml,<svg xmlns=\"http://www.w3.org/2000/svg\" viewBox=\"0 0 100 100\"><polygon points=\"50,5 61,35 95,35 69,57 79,91 50,70 21,91 31,57 5,35 39,35\" fill=\"%239C27B0\"/></svg>') repeat; background-size: 30px 30px; animation: bg-slide 10s linear infinite;"></div>
+
+  <!-- Amazing Header -->
+  <div class="amazing-header" style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <div class="amazing-icon" style="font-size: 2rem; margin-right: 1rem; animation: pulse-scale 2s infinite;">🤯</div>
+    <h4 style="color: #4A148C; margin: 0; font-size: 1.3rem; font-weight: 700;">
+      {% if page.lang == 'en' %}Amazing Fact!{% else %}惊人事实！{% endif %}
+    </h4>
+  </div>
+
+  <!-- Amazing Content -->
+  <div class="amazing-content" style="color: #4A148C; font-size: 1.1rem; line-height: 1.6; font-weight: 500;">
+    {{ include.amazing_content }}
+  </div>
+</div>
+
+<!-- Tech Tip Box -->
+<div class="tech-tip-box" style="background: linear-gradient(135deg, #B3E5FC 0%, #E1F5FE 100%); border: 3px solid #03A9F4; border-radius: 16px; padding: 1.5rem; margin: 2rem 0; position: relative; overflow: hidden; box-shadow: 0 6px 20px rgba(3, 169, 244, 0.3);">
+
+  <!-- Tech decoration -->
+  <div class="tech-decoration" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; animation: float-gentle 3s ease-in-out infinite;">💡</div>
+
+  <!-- Tech Header -->
+  <div class="tech-header" style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <div class="tech-icon" style="font-size: 2rem; margin-right: 1rem;">💻</div>
+    <h4 style="color: #0277BD; margin: 0; font-size: 1.3rem; font-weight: 700;">
+      {% if page.lang == 'en' %}Tech Tip{% else %}技术小贴士{% endif %}
+    </h4>
+  </div>
+
+  <!-- Tech Content -->
+  <div class="tech-content" style="color: #01579B; font-size: 1.1rem; line-height: 1.6; font-weight: 500;">
+    {{ include.tech_tip }}
+  </div>
+</div>
+
+<!-- Quick Quiz Box -->
+<div class="quick-quiz-box" style="background: linear-gradient(135deg, #C8E6C9 0%, #E8F5E8 100%); border: 3px solid #4CAF50; border-radius: 16px; padding: 1.5rem; margin: 2rem 0; position: relative; overflow: hidden; box-shadow: 0 6px 20px rgba(76, 175, 80, 0.3);">
+
+  <!-- Quiz decoration -->
+  <div class="quiz-decoration" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; animation: rotate-gentle 4s linear infinite;">❓</div>
+
+  <!-- Quiz Header -->
+  <div class="quiz-header" style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <div class="quiz-icon" style="font-size: 2rem; margin-right: 1rem;">🧠</div>
+    <h4 style="color: #2E7D32; margin: 0; font-size: 1.3rem; font-weight: 700;">
+      {% if page.lang == 'en' %}Quick Think!{% else %}快速思考！{% endif %}
+    </h4>
+  </div>
+
+  <!-- Quiz Content -->
+  <div class="quiz-content" style="color: #1B5E20; font-size: 1.1rem; line-height: 1.6; font-weight: 500;">
+    {{ include.quiz_question }}
+  </div>
+
+  <!-- Interactive reveal button -->
+  <button class="reveal-answer-btn" onclick="toggleAnswer(this)" style="background: #4CAF50; color: white; border: none; padding: 0.75rem 1.5rem; border-radius: 25px; font-weight: 600; margin-top: 1rem; cursor: pointer; transition: all 0.3s ease; box-shadow: 0 3px 10px rgba(76, 175, 80, 0.3);">
+    {% if page.lang == 'en' %}🔍 Reveal Answer{% else %}🔍 显示答案{% endif %}
+  </button>
+
+  <div class="quiz-answer" style="margin-top: 1rem; padding: 1rem; background: rgba(255, 255, 255, 0.7); border-radius: 12px; display: none; border-left: 4px solid #4CAF50;">
+    <strong style="color: #2E7D32;">
+      {% if page.lang == 'en' %}Answer:{% else %}答案:{% endif %}
+    </strong>
+    <span style="color: #1B5E20;">{{ include.quiz_answer }}</span>
+  </div>
+</div>
+
+<!-- Historical Moment Box -->
+<div class="history-box" style="background: linear-gradient(135deg, #FFCCBC 0%, #FFF3E0 100%); border: 3px solid #FF9800; border-radius: 16px; padding: 1.5rem; margin: 2rem 0; position: relative; overflow: hidden; box-shadow: 0 6px 20px rgba(255, 152, 0, 0.3);">
+
+  <!-- History decoration -->
+  <div class="history-decoration" style="position: absolute; top: 10px; right: 15px; font-size: 1.5rem; animation: float-gentle 3s ease-in-out infinite reverse;">📚</div>
+
+  <!-- History Header -->
+  <div class="history-header" style="display: flex; align-items: center; margin-bottom: 1rem;">
+    <div class="history-icon" style="font-size: 2rem; margin-right: 1rem;">🏛️</div>
+    <h4 style="color: #E65100; margin: 0; font-size: 1.3rem; font-weight: 700;">
+      {% if page.lang == 'en' %}Historical Moment{% else %}历史时刻{% endif %}
+    </h4>
+  </div>
+
+  <!-- History Content -->
+  <div class="history-content" style="color: #BF360C; font-size: 1.1rem; line-height: 1.6; font-weight: 500;">
+    {{ include.historical_fact }}
+  </div>
+</div>
+
+<!-- Styles for all fun fact components -->
+<style>
+/* Animation keyframes */
+@keyframes sparkle-rotate {
+  0% { transform: rotate(0deg) scale(1); }
+  25% { transform: rotate(90deg) scale(1.1); }
+  50% { transform: rotate(180deg) scale(1); }
+  75% { transform: rotate(270deg) scale(1.1); }
+  100% { transform: rotate(360deg) scale(1); }
+}
+
+@keyframes bounce-gentle {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+@keyframes pulse-scale {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.1); }
+}
+
+@keyframes float-gentle {
+  0%, 100% { transform: translateY(0px); }
+  50% { transform: translateY(-8px); }
+}
+
+@keyframes rotate-gentle {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+@keyframes bg-slide {
+  0% { transform: translateX(0); }
+  100% { transform: translateX(30px); }
+}
+
+/* Hover effects */
+.fun-fact-box:hover, .amazing-fact-box:hover, .tech-tip-box:hover,
+.quick-quiz-box:hover, .history-box:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2) !important;
+}
+
+/* Button interactions */
+.reveal-answer-btn:hover {
+  background: #45a049 !important;
+  transform: translateY(-2px);
+  box-shadow: 0 5px 15px rgba(76, 175, 80, 0.4) !important;
+}
+
+.reveal-answer-btn:active {
+  transform: translateY(0);
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .fun-fact-box, .amazing-fact-box, .tech-tip-box,
+  .quick-quiz-box, .history-box {
+    padding: 1.25rem !important;
+    margin: 1.5rem 0 !important;
+  }
+
+  .fact-header, .amazing-header, .tech-header,
+  .quiz-header, .history-header {
+    flex-direction: column !important;
+    text-align: center !important;
+    margin-bottom: 1.25rem !important;
+  }
+
+  .fact-icon, .amazing-icon, .tech-icon,
+  .quiz-icon, .history-icon {
+    margin: 0 0 0.5rem 0 !important;
+  }
+
+  .fact-content, .amazing-content, .tech-content,
+  .quiz-content, .history-content {
+    font-size: 1rem !important;
+    text-align: center !important;
+  }
+
+  .reveal-answer-btn {
+    width: 100% !important;
+    font-size: 1rem !important;
+  }
+}
+
+/* Accessibility improvements */
+.reveal-answer-btn:focus {
+  outline: 3px solid #F18F01;
+  outline-offset: 2px;
+}
+
+/* Add entrance animations */
+.fun-fact-box, .amazing-fact-box, .tech-tip-box,
+.quick-quiz-box, .history-box {
+  animation: fade-in-up 0.8s ease-out;
+}
+
+@keyframes fade-in-up {
+  0% {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>
+
+<!-- JavaScript for interactive elements -->
+<script>
+function toggleAnswer(button) {
+  const answerDiv = button.nextElementSibling;
+  const isVisible = answerDiv.style.display === 'block';
+
+  if (isVisible) {
+    answerDiv.style.display = 'none';
+    button.innerHTML = '🔍 Reveal Answer';
+    button.style.background = '#4CAF50';
+  } else {
+    answerDiv.style.display = 'block';
+    answerDiv.style.animation = 'fade-in-up 0.5s ease-out';
+    button.innerHTML = '🙈 Hide Answer';
+    button.style.background = '#FF9800';
+
+    // Add celebration effect
+    const celebration = document.createElement('span');
+    celebration.innerHTML = '🎉';
+    celebration.style.cssText = 'position: absolute; font-size: 1.5rem; animation: celebration-pop 1s ease-out; pointer-events: none;';
+    button.appendChild(celebration);
+
+    setTimeout(() => {
+      if (celebration.parentNode) {
+        celebration.remove();
+      }
+    }, 1000);
+  }
+}
+
+// Add celebration animation
+const celebrationStyle = document.createElement('style');
+celebrationStyle.textContent = `
+  @keyframes celebration-pop {
+    0% { transform: scale(0) rotate(0deg); opacity: 1; }
+    50% { transform: scale(1.5) rotate(180deg); opacity: 1; }
+    100% { transform: scale(0) rotate(360deg); opacity: 0; }
+  }
+`;
+document.head.appendChild(celebrationStyle);
+
+// Add intersection observer for entrance animations
+document.addEventListener('DOMContentLoaded', function() {
+  const factBoxes = document.querySelectorAll('.fun-fact-box, .amazing-fact-box, .tech-tip-box, .quick-quiz-box, .history-box');
+
+  const observer = new IntersectionObserver((entries) => {
+    entries.forEach(entry => {
+      if (entry.isIntersecting) {
+        entry.target.style.animationDelay = Math.random() * 0.3 + 's';
+        entry.target.classList.add('animate-in');
+      }
+    });
+  }, { threshold: 0.3 });
+
+  factBoxes.forEach(box => {
+    observer.observe(box);
+  });
+});
+</script>

@@ -1,35 +1,13 @@
 title: COMPSCI 0.10
-description: ""
-url: "https://lewisliu819.github.io/jdtest/" # the base hostname & protocol for your site, e.g. http://example.com
-repository: lewisliu819/jdtest # for github-metadata
-
-# permalink: pretty
-
-# defaults:
-#   - scope:
-#       path: "" # an empty string here means all files in the project
-#       type: "pages"
-#     values:
-#       layout: "default"
-
-
-# theme: "just-the-docs"
-# nav_enabled: true
-
-# search_enabled: true
-# aux_links:
-#   "GitHub":
-#     - "https://github.com/jdtest"
-# show_topnav: true
-
-
-# #--------------------------------------------------------------------------------------------
+description: "An Introduction to Computer Science Course for Elementary Students"
+url: "https://lewisliu819.github.io/jdtest/"
+repository: lewisliu819/jdtest
 
 permalink: pretty
 
 defaults:
   - scope:
-      path: "" # an empty string here means all files in the project
+      path: ""
       type: "pages"
     values:
       layout: "default"
@@ -164,7 +142,7 @@ gh_edit_branch: "main" # the branch that your docs is served from
 gh_edit_view_mode: "tree" # "tree" or "edit" if you want the user to jump into the editor immediately
 
 # Color scheme currently only supports "dark", "light"/nil (default), or a custom scheme that you define
-color_scheme: nil
+color_scheme: compsci-kids
 
 callouts_level: quiet # or loud
 callouts:
@@ -194,6 +172,18 @@ plugins:
   - jekyll-github-metadata
   - jekyll-include-cache
   - jekyll-sitemap
+
+# Language support
+languages: ["zh", "en"]
+default_lang: "zh"
+
+# Just the docs navigation by language
+just_the_docs:
+  collections:
+    zh_lessons:
+      nav_exclude: false
+    en_lessons:
+      nav_exclude: false
 
 kramdown:
   syntax_highlighter_opts:

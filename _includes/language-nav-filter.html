@@ -1,0 +1,74 @@
+{% assign current_lang = page.lang | default: 'zh' %}
+
+<style>
+/* Hide navigation items based on language */
+{% if current_lang == 'zh' %}
+  /* Hide English navigation items when on Chinese pages */
+  .nav-list a[href^="/en/"],
+  .nav-list a[href^="/en/"] + ul,
+  .nav-list li:has(a[href^="/en/"]) {
+    display: none !important;
+  }
+{% elsif current_lang == 'en' %}
+  /* Hide Chinese navigation items when on English pages */
+  .nav-list a[href="/lessons/"],
+  .nav-list a[href^="/lessons/lesson"],
+  .nav-list a[href="/"] {
+    display: none !important;
+  }
+
+  /* Hide specific Chinese navigation containers */
+  .nav-list li:has(a[href="/lessons/"]),
+  .nav-list li:has(a[href="/"]:not([href="/en/"])) {
+    display: none !important;
+  }
+{% endif %}
+
+/* Clean up empty navigation sections */
+.nav-list li:empty {
+  display: none !important;
+}
+</style>
+
+<script>
+// Fallback JavaScript filtering for browsers that don't support :has()
+document.addEventListener('DOMContentLoaded', function() {
+  const currentLang = '{{ current_lang }}';
+
+  // Remove navigation items that don't match current language
+  const navItems = document.querySelectorAll('.nav-list li');
+
+  navItems.forEach(function(item) {
+    const link = item.querySelector('a[href]');
+    if (!link) return;
+
+    const href = link.getAttribute('href');
+    if (!href || href.startsWith('http') || href.startsWith('#')) return;
+
+    const isEnglish = href.startsWith('/en/');
+    const isChinese = href.startsWith('/lessons/') || href === '/';
+
+    // Hide items that don't match current language
+    if (currentLang === 'en' && isChinese) {
+      item.style.display = 'none';
+    } else if (currentLang === 'zh' && isEnglish) {
+      item.style.display = 'none';
+    }
+  });
+
+  // Clean up empty parent containers after a brief delay
+  setTimeout(function() {
+    const allItems = document.querySelectorAll('.nav-list li');
+    allItems.forEach(function(item) {
+      const visibleChildren = Array.from(item.children).filter(child =>
+        child.style.display !== 'none' &&
+        !child.classList.contains('nav-list-expander')
+      );
+
+      if (visibleChildren.length === 0) {
+        item.style.display = 'none';
+      }
+    });
+  }, 100);
+});
+</script>

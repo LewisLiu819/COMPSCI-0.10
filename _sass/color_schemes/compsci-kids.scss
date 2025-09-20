@@ -1,0 +1,55 @@
+// COMPSCI Kids Color Scheme
+// Child-friendly colors with blues, greens, and oranges
+
+// Primary brand colors
+$primary-color: #2E86AB; // Friendly blue
+$secondary-color: #A23B72; // Warm purple-pink
+$accent-color: #F18F01; // Vibrant orange
+$success-color: #C73E1D; // Red-orange
+
+// Background colors
+$body-background-color: #FEFEFE;
+$main-content-wrap: #FFFFFF;
+$sidebar-color: #F7F9FC; // Very light blue
+
+// Text colors
+$body-text-color: #2B2B2B;
+$muted-text-color: #6B7280;
+$link-color: $primary-color;
+$btn-primary-color: #FFFFFF;
+
+// Navigation colors
+$nav-child-link-color: $primary-color;
+$navigation-background-color: $sidebar-color;
+
+// Search colors
+$search-background-color: #F1F5F9;
+$search-result-preview-color: $muted-text-color;
+
+// Button colors
+$btn-primary-background-color: $accent-color;
+$btn-primary-hover-background-color: darken($accent-color, 10%);
+
+// Border colors
+$border-color: #E5E7EB;
+$table-background-color: #F9FAFB;
+
+// Code colors
+$code-background-color: #F3F4F6;
+$code-text-color: #374151;
+
+// Alert/callout colors
+$note-color: $primary-color;
+$warning-color: #F59E0B;
+$danger-color: #EF4444;
+
+// Fun accent colors for interactive elements
+$fun-green: #10B981;
+$fun-purple: #8B5CF6;
+$fun-yellow: #F59E0B;
+$fun-pink: #EC4899;
+
+// Override default theme variables
+$base-button-color: $accent-color;
+$base-link-color: $primary-color;
+$base-text-color: $body-text-color;

@@ -1,0 +1,84 @@
+{% include language-nav-filter.html %}
+
+{% assign current_lang = page.lang | default: 'zh' %}
+{% assign current_path = page.url %}
+
+<div class="language-toggle" style="position: fixed; top: 20px; right: 20px; z-index: 1000; background: white; border: 1px solid #ddd; border-radius: 6px; padding: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+  {% if current_lang == 'zh' %}
+    {% assign en_url = current_path | replace: '/lessons/', '/en/lessons/' %}
+    {% if current_path == '/' %}
+      {% assign en_url = '/en/' %}
+    {% elsif current_path contains '/lessons/lesson' %}
+      {% assign lesson_num = current_path | split: 'lesson' | last | split: '/' | first %}
+      {% assign en_url = '/en/lessons/lesson' | append: lesson_num | append: '/' %}
+    {% elsif current_path contains '/lessons/' %}
+      {% assign en_url = '/en/lessons/' %}
+    {% endif %}
+    <a href="{{ en_url }}" style="text-decoration: none; color: #333; font-size: 14px;">🇺🇸 English</a>
+  {% else %}
+    {% assign zh_url = current_path | replace: '/en/lessons/', '/lessons/' | replace: '/en/', '/' %}
+    {% if current_path == '/en/' %}
+      {% assign zh_url = '/' %}
+    {% elsif current_path contains '/en/lessons/lesson' %}
+      {% assign lesson_num = current_path | split: 'lesson' | last | split: '/' | first %}
+      {% assign zh_url = '/lessons/lesson' | append: lesson_num | append: '/' %}
+    {% elsif current_path contains '/en/lessons/' %}
+      {% assign zh_url = '/lessons/' %}
+    {% endif %}
+    <a href="{{ zh_url }}" style="text-decoration: none; color: #333; font-size: 14px;">🇨🇳 中文</a>
+  {% endif %}
+</div>
+
+<script>
+// Navigation filtering by language
+document.addEventListener('DOMContentLoaded', function() {
+  const currentLang = '{{ current_lang }}';
+
+  function hideNavItem(element) {
+    if (element) {
+      element.style.display = 'none';
+    }
+  }
+
+  function filterNavigation() {
+    // Get all navigation links
+    const navLinks = document.querySelectorAll('.nav-list a[href]');
+
+    navLinks.forEach(function(link) {
+      const href = link.getAttribute('href');
+      if (!href || href.startsWith('http') || href.startsWith('#')) return;
+
+      const isEnglish = href.startsWith('/en/');
+      const isInternal = href.startsWith('/');
+
+      if (!isInternal) return;
+
+      // Hide navigation items that don't match current language
+      if (currentLang === 'en' && !isEnglish) {
+        hideNavItem(link.closest('li'));
+      } else if (currentLang === 'zh' && isEnglish) {
+        hideNavItem(link.closest('li'));
+      }
+    });
+
+    // Clean up empty parent containers
+    setTimeout(function() {
+      const allNavItems = document.querySelectorAll('.nav-list li');
+      allNavItems.forEach(function(item) {
+        // Check if this item has any visible children or links
+        const visibleChildren = item.querySelectorAll('li:not([style*="display: none"]), a[href]:not([style*="display: none"])');
+        const hasDirectLink = item.querySelector(':scope > a[href]');
+        const isDirectLinkVisible = hasDirectLink && hasDirectLink.style.display !== 'none';
+
+        // If no visible children and no visible direct link, hide the parent
+        if (visibleChildren.length === 0 && !isDirectLinkVisible) {
+          hideNavItem(item);
+        }
+      });
+    }, 50);
+  }
+
+  // Run filtering
+  filterNavigation();
+});
+</script>

@@ -1,0 +1,129 @@
+<div class="hero-section" style="background: linear-gradient(135deg, #2E86AB 0%, #A23B72 50%, #F18F01 100%); color: white; padding: 4rem 2rem; margin: -2rem -2rem 3rem -2rem; border-radius: 0 0 24px 24px;">
+  <div class="hero-content" style="max-width: 1200px; margin: 0 auto; text-align: center;">
+
+    <!-- Animated Computer Graphics -->
+    <div class="hero-graphics" style="margin-bottom: 2rem;">
+      <div class="floating-icons" style="display: flex; justify-content: center; align-items: center; gap: 2rem; flex-wrap: wrap;">
+        <div class="icon-item bounce-on-hover" style="font-size: 3rem; animation: float 3s ease-in-out infinite;">💻</div>
+        <div class="icon-item bounce-on-hover" style="font-size: 3rem; animation: float 3s ease-in-out infinite 0.5s;">🤖</div>
+        <div class="icon-item bounce-on-hover" style="font-size: 3rem; animation: float 3s ease-in-out infinite 1s;">🎮</div>
+        <div class="icon-item bounce-on-hover" style="font-size: 3rem; animation: float 3s ease-in-out infinite 1.5s;">🚀</div>
+        <div class="icon-item bounce-on-hover" style="font-size: 3rem; animation: float 3s ease-in-out infinite 2s;">🧠</div>
+      </div>
+    </div>
+
+    <!-- Main Hero Text -->
+    <h1 class="hero-title" style="font-size: 3.5rem; font-weight: 800; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
+      {% if page.lang == 'en' %}
+        Welcome to COMPSCI 0.10!
+      {% else %}
+        欢迎来到COMPSCI 0.10！
+      {% endif %}
+    </h1>
+
+    <p class="hero-subtitle" style="font-size: 1.5rem; margin-bottom: 2rem; opacity: 0.95; max-width: 600px; margin-left: auto; margin-right: auto;">
+      {% if page.lang == 'en' %}
+        🌟 An exciting journey into Computer Science for young explorers! 🌟<br>
+        <span style="font-size: 1.2rem;">Perfect for students in grades 4-6</span>
+      {% else %}
+        🌟 专为小探索者设计的计算机科学精彩之旅！🌟<br>
+        <span style="font-size: 1.2rem;">完美适合4~6年级学生</span>
+      {% endif %}
+    </p>
+
+    <!-- Call to Action Buttons -->
+    <div class="hero-buttons" style="display: flex; gap: 1.5rem; justify-content: center; flex-wrap: wrap; margin-bottom: 2rem;">
+      {% if page.lang == 'en' %}
+        <a href="/en/lessons/lesson1/" class="btn-hero-primary" style="background: #F18F01; color: white; padding: 1rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.3rem; box-shadow: 0 6px 20px rgba(241, 143, 1, 0.4); transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 0.5rem;">
+          🚀 Start Learning!
+        </a>
+        <a href="/en/lessons/" class="btn-hero-secondary" style="background: rgba(255,255,255,0.2); color: white; padding: 1rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 1.3rem; border: 2px solid white; transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 0.5rem;">
+          📚 View All Lessons
+        </a>
+      {% else %}
+        <a href="/lessons/lesson1/" class="btn-hero-primary" style="background: #F18F01; color: white; padding: 1rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 700; font-size: 1.3rem; box-shadow: 0 6px 20px rgba(241, 143, 1, 0.4); transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 0.5rem;">
+          🚀 开始学习！
+        </a>
+        <a href="/lessons/" class="btn-hero-secondary" style="background: rgba(255,255,255,0.2); color: white; padding: 1rem 2rem; border-radius: 50px; text-decoration: none; font-weight: 600; font-size: 1.3rem; border: 2px solid white; transition: all 0.3s ease; display: inline-flex; align-items: center; gap: 0.5rem;">
+          📚 查看所有课程
+        </a>
+      {% endif %}
+    </div>
+
+    <!-- Course Stats -->
+    <div class="hero-stats" style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; margin-top: 2rem;">
+      <div class="stat-item" style="text-align: center;">
+        <div style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">15</div>
+        <div style="font-size: 1rem; opacity: 0.9;">
+          {% if page.lang == 'en' %}Lessons{% else %}节课程{% endif %}
+        </div>
+      </div>
+      <div class="stat-item" style="text-align: center;">
+        <div style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">60</div>
+        <div style="font-size: 1rem; opacity: 0.9;">
+          {% if page.lang == 'en' %}Minutes Each{% else %}分钟每节{% endif %}
+        </div>
+      </div>
+      <div class="stat-item" style="text-align: center;">
+        <div style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">4-6</div>
+        <div style="font-size: 1rem; opacity: 0.9;">
+          {% if page.lang == 'en' %}Grade Levels{% else %}年级适用{% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Hero Section Animations -->
+<style>
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+}
+
+.btn-hero-primary:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 25px rgba(241, 143, 1, 0.5) !important;
+}
+
+.btn-hero-secondary:hover {
+  background: rgba(255,255,255,0.3) !important;
+  transform: translateY(-3px);
+}
+
+@media (max-width: 768px) {
+  .hero-title {
+    font-size: 2.5rem !important;
+  }
+
+  .hero-subtitle {
+    font-size: 1.2rem !important;
+  }
+
+  .hero-buttons {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .btn-hero-primary, .btn-hero-secondary {
+    font-size: 1.1rem !important;
+    padding: 0.8rem 1.5rem !important;
+  }
+
+  .hero-stats {
+    gap: 2rem !important;
+  }
+
+  .floating-icons {
+    gap: 1rem !important;
+  }
+
+  .icon-item {
+    font-size: 2rem !important;
+  }
+}
+</style>

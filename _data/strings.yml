@@ -1,0 +1,17 @@
+zh:
+  title: "COMPSCI 0.10"
+  course_overview: "课程概述"
+  course_outline: "课程大纲"
+  welcome: "欢迎来到COMPSCI 0.10！"
+  description: "专为4~6年级小学生设计的计算机科学入门课程"
+  course_description: "本课程共有15节课，每次课的时长为60分钟，其中20~30分钟用于讲解新知识，剩余时间用于实践练习和问题讨论。课程旨在通过丰富的活动和项目，使学生了解计算机和编程的基础概念，并学会将这些概念运用到现实问题中。"
+  lessons: "课程资料"
+
+en:
+  title: "COMPSCI 0.10"
+  course_overview: "Course Overview"
+  course_outline: "Course Outline"
+  welcome: "Welcome to COMPSCI 0.10!"
+  description: "An Introduction to Computer Science Course for Elementary Students (Grades 4-6)"
+  course_description: "This course consists of 15 lessons, each lasting 60 minutes, with 20-30 minutes dedicated to introducing new concepts and the remaining time for hands-on practice and discussion. The course aims to help students understand fundamental computer science and programming concepts through engaging activities and projects, and learn to apply these concepts to real-world problems."
+  lessons: "Course Materials"

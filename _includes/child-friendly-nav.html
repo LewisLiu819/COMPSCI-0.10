@@ -1,0 +1,298 @@
+<!-- Child-Friendly Navigation Enhancement -->
+<style>
+/* Enhanced Navigation Styles for Young Users */
+.site-nav {
+  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: 15px;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.nav-list {
+  font-size: 1.1rem;
+}
+
+.nav-list .nav-list-item {
+  margin: 0.75rem 0;
+}
+
+.nav-list .nav-list-link {
+  padding: 1rem 1.25rem !important;
+  border-radius: 12px !important;
+  font-size: 1.1rem !important;
+  font-weight: 600 !important;
+  transition: all 0.3s ease !important;
+  border: 2px solid transparent !important;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-list .nav-list-link:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
+  transition: left 0.5s;
+}
+
+.nav-list .nav-list-link:hover:before {
+  left: 100%;
+}
+
+.nav-list .nav-list-link:hover {
+  background: linear-gradient(135deg, #2E86AB 0%, #A23B72 100%) !important;
+  color: white !important;
+  transform: translateX(8px) !important;
+  border-color: #2E86AB !important;
+  box-shadow: 0 6px 20px rgba(46, 134, 171, 0.3) !important;
+}
+
+/* Active/current page styling */
+.nav-list .nav-list-link.active,
+.nav-list .nav-list-link[aria-current="page"] {
+  background: linear-gradient(135deg, #F18F01 0%, #FF6B35 100%) !important;
+  color: white !important;
+  border-color: #F18F01 !important;
+  box-shadow: 0 4px 15px rgba(241, 143, 1, 0.4) !important;
+}
+
+/* Add fun icons to navigation items */
+.nav-list .nav-list-link[href*="lesson1"]:before { content: "💻 "; }
+.nav-list .nav-list-link[href*="lesson2"]:before { content: "📱 "; }
+.nav-list .nav-list-link[href*="lesson3"]:before { content: "🧩 "; }
+.nav-list .nav-list-link[href*="lesson4"]:before { content: "🎨 "; }
+.nav-list .nav-list-link[href*="lesson5"]:before { content: "🔄 "; }
+.nav-list .nav-list-link[href*="lesson6"]:before { content: "📊 "; }
+.nav-list .nav-list-link[href*="lesson7"]:before { content: "🎮 "; }
+.nav-list .nav-list-link[href*="lesson8"]:before { content: "🔧 "; }
+.nav-list .nav-list-link[href*="lesson9"]:before { content: "🤖 "; }
+.nav-list .nav-list-link[href*="lesson10"]:before { content: "📈 "; }
+.nav-list .nav-list-link[href*="lesson11"]:before { content: "🌐 "; }
+.nav-list .nav-list-link[href*="lesson12"]:before { content: "🚗 "; }
+.nav-list .nav-list-link[href*="lesson13"]:before { content: "🎬 "; }
+.nav-list .nav-list-link[href*="lesson14"]:before { content: "🐛 "; }
+.nav-list .nav-list-link[href*="lesson15"]:before { content: "🚀 "; }
+
+/* Home page icon */
+.nav-list .nav-list-link[href="/"],
+.nav-list .nav-list-link[href="/en/"] {
+  position: relative;
+}
+
+.nav-list .nav-list-link[href="/"]:before,
+.nav-list .nav-list-link[href="/en/"]:before {
+  content: "🏠 ";
+  position: static;
+}
+
+/* Course Materials/Lessons section */
+.nav-list .nav-list-link[href*="lessons"]:not([href*="lesson"]):before {
+  content: "📚 ";
+}
+
+/* Main site header enhancements */
+.site-header {
+  background: linear-gradient(135deg, #2E86AB 0%, #A23B72 50%, #F18F01 100%);
+  border-bottom: none;
+  padding: 1rem 0;
+}
+
+.site-title {
+  color: white !important;
+  font-weight: 800 !important;
+  font-size: 1.8rem !important;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.site-title:hover {
+  color: #FFE082 !important;
+}
+
+/* Search box enhancements */
+.search {
+  margin: 1rem 0;
+}
+
+.search-input-wrap {
+  border-radius: 25px !important;
+  overflow: hidden;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+.search-input {
+  border: none !important;
+  padding: 1rem 1.5rem !important;
+  font-size: 1.1rem !important;
+  border-radius: 25px !important;
+}
+
+.search-input:focus {
+  box-shadow: 0 0 0 3px rgba(46, 134, 171, 0.3) !important;
+}
+
+/* Mobile navigation improvements */
+@media (max-width: 768px) {
+  .nav-list .nav-list-link {
+    font-size: 1.2rem !important;
+    padding: 1.25rem 1.5rem !important;
+  }
+
+  .site-nav {
+    margin: 0.5rem;
+    border-radius: 12px;
+  }
+
+  .nav-list .nav-list-item {
+    margin: 1rem 0;
+  }
+}
+
+/* Add breathing room and visual separation */
+.nav-list .nav-list-item + .nav-list-item {
+  border-top: 1px solid rgba(46, 134, 171, 0.1);
+  padding-top: 0.75rem;
+}
+
+/* Progress indicator for navigation */
+.nav-progress {
+  background: linear-gradient(90deg, #2E86AB 0%, #F18F01 100%);
+  height: 4px;
+  border-radius: 2px;
+  margin: 1rem 0;
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-progress::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 30%; /* This would be dynamic based on actual progress */
+  background: rgba(255, 255, 255, 0.8);
+  border-radius: 2px;
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+/* Fun hover effects for child engagement */
+.nav-list .nav-list-link {
+  position: relative;
+  overflow: hidden;
+}
+
+.nav-list .nav-list-link:hover {
+  animation: gentle-bounce 0.6s ease;
+}
+
+@keyframes gentle-bounce {
+  0%, 100% { transform: translateX(8px) translateY(0); }
+  50% { transform: translateX(8px) translateY(-3px); }
+}
+
+/* Accessibility improvements */
+.nav-list .nav-list-link:focus {
+  outline: 3px solid #F18F01;
+  outline-offset: 2px;
+}
+
+/* Loading animation for page transitions */
+.nav-list .nav-list-link.loading {
+  position: relative;
+}
+
+.nav-list .nav-list-link.loading::after {
+  content: '';
+  position: absolute;
+  top: 50%;
+  right: 1rem;
+  width: 20px;
+  height: 20px;
+  border: 2px solid transparent;
+  border-top: 2px solid currentColor;
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+</style>
+
+<!-- Navigation Progress Indicator -->
+<div class="nav-progress" title="Course Progress"></div>
+
+<!-- JavaScript for enhanced navigation interactions -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add active state to current page
+  const currentPath = window.location.pathname;
+  const navLinks = document.querySelectorAll('.nav-list-link');
+
+  navLinks.forEach(link => {
+    if (link.getAttribute('href') === currentPath) {
+      link.classList.add('active');
+    }
+  });
+
+  // Add loading state on navigation clicks
+  navLinks.forEach(link => {
+    link.addEventListener('click', function() {
+      this.classList.add('loading');
+    });
+  });
+
+  // Add keyboard navigation support
+  navLinks.forEach((link, index) => {
+    link.addEventListener('keydown', function(e) {
+      if (e.key === 'ArrowDown' && navLinks[index + 1]) {
+        e.preventDefault();
+        navLinks[index + 1].focus();
+      } else if (e.key === 'ArrowUp' && navLinks[index - 1]) {
+        e.preventDefault();
+        navLinks[index - 1].focus();
+      }
+    });
+  });
+
+  // Add fun click effects
+  navLinks.forEach(link => {
+    link.addEventListener('click', function(e) {
+      // Create ripple effect
+      const ripple = document.createElement('span');
+      ripple.style.position = 'absolute';
+      ripple.style.borderRadius = '50%';
+      ripple.style.background = 'rgba(255,255,255,0.6)';
+      ripple.style.transform = 'scale(0)';
+      ripple.style.animation = 'ripple 0.6s linear';
+      ripple.style.left = (e.clientX - this.getBoundingClientRect().left - 10) + 'px';
+      ripple.style.top = (e.clientY - this.getBoundingClientRect().top - 10) + 'px';
+      ripple.style.width = '20px';
+      ripple.style.height = '20px';
+      ripple.style.pointerEvents = 'none';
+
+      this.appendChild(ripple);
+
+      setTimeout(() => {
+        ripple.remove();
+      }, 600);
+    });
+  });
+});
+
+// Add ripple animation
+const style = document.createElement('style');
+style.textContent = `
+  @keyframes ripple {
+    to {
+      transform: scale(4);
+      opacity: 0;
+    }
+  }
+`;
+document.head.appendChild(style);
+</script>

@@ -1,0 +1,421 @@
+<!-- Lesson Cards Grid -->
+<div class="lesson-cards-container" style="margin: 3rem 0;">
+  <h2 style="text-align: center; margin-bottom: 2rem; color: #2E86AB;">
+    {% if page.lang == 'en' %}
+      🎯 Course Outline
+    {% else %}
+      🎯 课程大纲
+    {% endif %}
+  </h2>
+
+  <div class="lesson-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin: 2rem 0;">
+
+    <!-- Lesson 1 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); border-left: 5px solid #2196F3;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">💻</div>
+      <h3 style="color: #1976D2; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 1: What is Computer Science?
+        {% else %}
+          第一课：什么是计算机科学？
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Learn the basic concepts of computer science and understand computer components.
+        {% else %}
+          了解计算机科学的基本概念，揭开计算机的神秘面纱。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #2196F3; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson1/{% else %}/lessons/lesson1/{% endif %}" class="lesson-link" style="color: #1976D2; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 2 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%); border-left: 5px solid #9C27B0;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">📱</div>
+      <h3 style="color: #7B1FA2; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 2: Computer History and Impact
+        {% else %}
+          第二课：计算机历史与影响
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          From huge old machines to smartphones, explore how technology changed our lives.
+        {% else %}
+          从巨大的老式机器到智能手机，感受科技如何改变生活。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #9C27B0; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson2/{% else %}/lessons/lesson2/{% endif %}" class="lesson-link" style="color: #7B1FA2; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 3 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #E8F5E8 0%, #C8E6C9 100%); border-left: 5px solid #4CAF50;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">🧩</div>
+      <h3 style="color: #388E3C; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 3: Programs and Algorithms
+        {% else %}
+          第三课：程序和算法
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Learn to break down complex problems into simple steps and understand algorithms.
+        {% else %}
+          学习将复杂问题分解为简单步骤，理解算法的概念。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #4CAF50; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson3/{% else %}/lessons/lesson3/{% endif %}" class="lesson-link" style="color: #388E3C; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 4 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #FFF3E0 0%, #FFCC02 100%); border-left: 5px solid #FF9800;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">🎨</div>
+      <h3 style="color: #F57C00; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 4: Introduction to Visual Programming
+        {% else %}
+          第四课：图形化编程入门
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Use Scratch or Snap! Create your own mini-games and animations by dragging code blocks.
+        {% else %}
+          使用Scratch创建小游戏或动画，感受编程的乐趣。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #FF9800; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson4/{% else %}/lessons/lesson4/{% endif %}" class="lesson-link" style="color: #F57C00; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 5 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #E1F5FE 0%, #B3E5FC 100%); border-left: 5px solid #00BCD4;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">🔄</div>
+      <h3 style="color: #0097A7; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 5: Sequence, Loops, and Conditionals
+        {% else %}
+          第五课：顺序、循环和条件语句
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Explore basic programming logic and learn how to control program execution.
+        {% else %}
+          探索编程中的基础逻辑，学习如何控制程序的执行顺序。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #00BCD4; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson5/{% else %}/lessons/lesson5/{% endif %}" class="lesson-link" style="color: #0097A7; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 6 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #FCE4EC 0%, #F8BBD9 100%); border-left: 5px solid #E91E63;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">📊</div>
+      <h3 style="color: #C2185B; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 6: Variables and Data
+        {% else %}
+          第六课：变量与数据
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Learn how to use variables to store data and understand simple data types.
+        {% else %}
+          学习如何使用变量存储数据，理解数字、文本等数据类型。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #E91E63; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson6/{% else %}/lessons/lesson6/{% endif %}" class="lesson-link" style="color: #C2185B; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 7 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #F1F8E9 0%, #DCEDC8 100%); border-left: 5px solid #8BC34A;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">🎮</div>
+      <h3 style="color: #689F38; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 7: Event-Driven Programming
+        {% else %}
+          第七课：事件驱动编程
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Understand events through interactive elements like mouse clicks and keyboard input.
+        {% else %}
+          通过添加互动元素来理解事件的概念，如鼠标点击和键盘输入。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #8BC34A; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson7/{% else %}/lessons/lesson7/{% endif %}" class="lesson-link" style="color: #689F38; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 8 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #EDE7F6 0%, #D1C4E9 100%); border-left: 5px solid #673AB7;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">🔧</div>
+      <h3 style="color: #512DA8; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 8: Functions and Modularity
+        {% else %}
+          第八课：函数与模块化
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Understand functions and divide complex code into small, reusable blocks.
+        {% else %}
+          理解函数的概念，将复杂的代码分成多个小块。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #673AB7; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson8/{% else %}/lessons/lesson8/{% endif %}" class="lesson-link" style="color: #512DA8; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 9 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #E8EAF6 0%, #C5CAE9 100%); border-left: 5px solid #3F51B5;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">🤖</div>
+      <h3 style="color: #303F9F; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 9: Introduction to Artificial Intelligence
+        {% else %}
+          第九课：人工智能基础
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Learn AI fundamentals, explore applications, and understand its impact on our lives.
+        {% else %}
+          学习AI的基础知识，探讨其应用场景，了解它如何影响我们的生活。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #3F51B5; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson9/{% else %}/lessons/lesson9/{% endif %}" class="lesson-link" style="color: #303F9F; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 10 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #E4F7FA 0%, #B2EBF2 100%); border-left: 5px solid #00ACC1;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">📈</div>
+      <h3 style="color: #00838F; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 10: Big Data and Data Analysis
+        {% else %}
+          第十课：大数据与数据分析入门
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Explore big data concepts, learn to analyze data and find interesting patterns.
+        {% else %}
+          初步接触大数据的概念，学习如何分析数据，寻找有趣的模式和趋势。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #00ACC1; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson10/{% else %}/lessons/lesson10/{% endif %}" class="lesson-link" style="color: #00838F; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 11 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #FFF8E1 0%, #FFECB3 100%); border-left: 5px solid #FFC107;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">🌐</div>
+      <h3 style="color: #FF8F00; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 11: Computer Networks and Internet
+        {% else %}
+          第十一课：计算机网络与互联网
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Explore how the Internet works and learn to surf the web safely.
+        {% else %}
+          探索互联网是如何运作的，学习如何安全地在网上冲浪。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #FFC107; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson11/{% else %}/lessons/lesson11/{% endif %}" class="lesson-link" style="color: #FF8F00; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 12 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #FFEBEE 0%, #FFCDD2 100%); border-left: 5px solid #F44336;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">🚗</div>
+      <h3 style="color: #D32F2F; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 12: Robot Programming Basics
+        {% else %}
+          第十二课：机器人编程基础
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Control simple robots to complete tasks and experience hardware-software integration.
+        {% else %}
+          通过控制简单的机器人完成任务，体验硬件与软件的结合。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #F44336; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson12/{% else %}/lessons/lesson12/{% endif %}" class="lesson-link" style="color: #D32F2F; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 13 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #E8F5E8 0%, #A5D6A7 100%); border-left: 5px solid #4CAF50;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">🎬</div>
+      <h3 style="color: #2E7D32; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 13: Image and Multimedia Programming
+        {% else %}
+          第十三课：图像与多媒体编程
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Use programming to process images, sounds, and create interactive stories.
+        {% else %}
+          使用编程来处理图像、声音等多媒体内容，制作互动故事和小游戏。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #4CAF50; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson13/{% else %}/lessons/lesson13/{% endif %}" class="lesson-link" style="color: #2E7D32; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 14 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%); border-left: 5px solid #FF9800;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">🐛</div>
+      <h3 style="color: #EF6C00; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 14: Debugging and Problem Solving
+        {% else %}
+          第十四课：编程中的调试与问题解决
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Learn how to find problems in code and solve them effectively.
+        {% else %}
+          教你如何找出代码中的问题，并有效地解决它们。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #FF9800; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson14/{% else %}/lessons/lesson14/{% endif %}" class="lesson-link" style="color: #EF6C00; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Lesson 15 -->
+    <div class="lesson-card" style="background: linear-gradient(135deg, #F3E5F5 0%, #CE93D8 100%); border-left: 5px solid #9C27B0;">
+      <div class="lesson-icon" style="font-size: 3rem; margin-bottom: 1rem;">🚀</div>
+      <h3 style="color: #6A1B9A; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Lesson 15: Final Project - Technology & Innovation
+        {% else %}
+          第十五课：综合项目：科技与创新
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Apply what you've learned! Design a technology project and solve a problem.
+        {% else %}
+          学以致用！自主设计一个科技项目，利用所学的知识解决一个小问题。
+        {% endif %}
+      </p>
+      <div class="lesson-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #9C27B0; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 60min</span>
+        <a href="{% if page.lang == 'en' %}/en/lessons/lesson15/{% else %}/lessons/lesson15/{% endif %}" class="lesson-link" style="color: #6A1B9A; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Lesson Cards Styles -->
+<style>
+.lesson-card {
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.lesson-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  border-color: rgba(46, 134, 171, 0.3);
+}
+
+.lesson-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #2E86AB, #A23B72, #F18F01);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.lesson-card:hover::before {
+  opacity: 1;
+}
+
+.lesson-icon {
+  text-align: center;
+  display: block;
+}
+
+.lesson-link:hover {
+  text-decoration: underline !important;
+}
+
+@media (max-width: 768px) {
+  .lesson-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  .lesson-card {
+    padding: 1.25rem !important;
+  }
+
+  .lesson-meta {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+    align-items: flex-start !important;
+  }
+}
+</style>

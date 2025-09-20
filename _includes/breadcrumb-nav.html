@@ -1,0 +1,291 @@
+<!-- Child-Friendly Breadcrumb Navigation -->
+<div class="breadcrumb-container" style="margin: 2rem 0; padding: 1.5rem; background: linear-gradient(135deg, #f8f9fa 0%, #e3f2fd 100%); border-radius: 20px; box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);">
+
+  <!-- Progress Trail -->
+  <div class="lesson-trail" style="display: flex; align-items: center; justify-content: center; flex-wrap: wrap; gap: 1rem; margin-bottom: 1rem;">
+
+    <!-- Home Link -->
+    <a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}"
+       class="trail-item home-item"
+       style="display: flex; align-items: center; padding: 0.75rem 1rem; background: #4CAF50; color: white; text-decoration: none; border-radius: 25px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 3px 10px rgba(76, 175, 80, 0.3);">
+      <span style="font-size: 1.2rem; margin-right: 0.5rem;">🏠</span>
+      {% if page.lang == 'en' %}Home{% else %}首页{% endif %}
+    </a>
+
+    <!-- Arrow -->
+    <span class="trail-arrow" style="font-size: 1.5rem; color: #2E86AB;">➤</span>
+
+    <!-- Course Section -->
+    <a href="{% if page.lang == 'en' %}/en/lessons/{% else %}/lessons/{% endif %}"
+       class="trail-item course-item"
+       style="display: flex; align-items: center; padding: 0.75rem 1rem; background: #2196F3; color: white; text-decoration: none; border-radius: 25px; font-weight: 600; transition: all 0.3s ease; box-shadow: 0 3px 10px rgba(33, 150, 243, 0.3);">
+      <span style="font-size: 1.2rem; margin-right: 0.5rem;">📚</span>
+      {% if page.lang == 'en' %}Course Materials{% else %}课程资料{% endif %}
+    </a>
+
+    <!-- Current Lesson (only show if we're on a lesson page) -->
+    {% assign current_url = page.url %}
+    {% if current_url contains 'lesson' %}
+      <!-- Arrow -->
+      <span class="trail-arrow" style="font-size: 1.5rem; color: #2E86AB;">➤</span>
+
+      <!-- Extract lesson number from URL -->
+      {% assign lesson_number = current_url | split: 'lesson' | last | split: '/' | first %}
+
+      <!-- Current Lesson Badge -->
+      <div class="trail-item current-lesson"
+           style="display: flex; align-items: center; padding: 0.75rem 1rem; background: linear-gradient(135deg, #F18F01 0%, #FF6B35 100%); color: white; border-radius: 25px; font-weight: 600; box-shadow: 0 3px 10px rgba(241, 143, 1, 0.4); position: relative;">
+
+        {% comment %} Add appropriate emoji for each lesson {% endcomment %}
+        {% case lesson_number %}
+          {% when '1' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">💻</span>
+          {% when '2' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">📱</span>
+          {% when '3' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">🧩</span>
+          {% when '4' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">🎨</span>
+          {% when '5' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">🔄</span>
+          {% when '6' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">📊</span>
+          {% when '7' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">🎮</span>
+          {% when '8' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">🔧</span>
+          {% when '9' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">🤖</span>
+          {% when '10' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">📈</span>
+          {% when '11' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">🌐</span>
+          {% when '12' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">🚗</span>
+          {% when '13' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">🎬</span>
+          {% when '14' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">🐛</span>
+          {% when '15' %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">🚀</span>
+          {% else %}<span style="font-size: 1.2rem; margin-right: 0.5rem;">📖</span>
+        {% endcase %}
+
+        {% if page.lang == 'en' %}
+          Lesson {{ lesson_number }}
+        {% else %}
+          第{{ lesson_number }}课
+        {% endif %}
+
+        <!-- Sparkle animation for current lesson -->
+        <span class="sparkle" style="position: absolute; top: -5px; right: -5px; font-size: 1rem; animation: sparkle 2s infinite;">✨</span>
+      </div>
+    {% endif %}
+  </div>
+
+  <!-- Lesson Progress Bar -->
+  {% if current_url contains 'lesson' %}
+    <div class="lesson-progress-container" style="margin-top: 1.5rem;">
+      <div style="display: flex; justify-content: space-between; align-items: center; margin-bottom: 0.5rem;">
+        <span style="font-size: 0.9rem; color: #666; font-weight: 600;">
+          {% if page.lang == 'en' %}Your Progress{% else %}您的进度{% endif %}
+        </span>
+        <span style="font-size: 0.9rem; color: #666; font-weight: 600;">
+          {{ lesson_number }}/15
+        </span>
+      </div>
+
+      <div class="progress-track" style="width: 100%; height: 12px; background: #E5E7EB; border-radius: 6px; overflow: hidden; position: relative;">
+        {% assign lesson_num = lesson_number | plus: 0 %}
+        {% assign progress_percent = lesson_num | times: 100 | divided_by: 15 %}
+        <div class="progress-fill"
+             style="width: {{ progress_percent }}%; height: 100%; background: linear-gradient(90deg, #4CAF50 0%, #2196F3 50%, #F18F01 100%); border-radius: 6px; position: relative; overflow: hidden;">
+          <!-- Animated shine effect -->
+          <div class="progress-shine" style="position: absolute; top: 0; left: -100%; width: 100%; height: 100%; background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent); animation: shine 2s infinite;"></div>
+        </div>
+      </div>
+
+      <!-- Milestone markers -->
+      <div class="milestone-markers" style="display: flex; justify-content: space-between; margin-top: 0.5rem; padding: 0 2px;">
+        {% assign lesson_num = lesson_number | plus: 0 %}
+        {% for i in (1..15) %}
+          {% assign milestone_class = "" %}
+          {% if i <= lesson_num %}
+            {% assign milestone_class = "completed" %}
+          {% elsif i == lesson_num %}
+            {% assign milestone_class = "current" %}
+          {% endif %}
+
+          <div class="milestone {{ milestone_class }}"
+               style="width: 8px; height: 8px; border-radius: 50%; background: {% if i <= lesson_num %}#4CAF50{% else %}#E5E7EB{% endif %}; transition: all 0.3s ease;"
+               title="{% if page.lang == 'en' %}Lesson {{ i }}{% else %}第{{ i }}课{% endif %}">
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  {% endif %}
+</div>
+
+<!-- Breadcrumb Styles and Animations -->
+<style>
+.trail-item:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0, 0, 0, 0.2) !important;
+}
+
+.trail-arrow {
+  animation: pulse 2s infinite;
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.7; transform: scale(1.1); }
+}
+
+@keyframes sparkle {
+  0%, 100% { opacity: 1; transform: rotate(0deg) scale(1); }
+  50% { opacity: 0.5; transform: rotate(180deg) scale(1.2); }
+}
+
+@keyframes shine {
+  0% { left: -100%; }
+  100% { left: 100%; }
+}
+
+.milestone.completed {
+  animation: pop 0.3s ease;
+}
+
+.milestone:hover {
+  transform: scale(1.5);
+  background: #2196F3 !important;
+}
+
+@keyframes pop {
+  0% { transform: scale(0); }
+  50% { transform: scale(1.3); }
+  100% { transform: scale(1); }
+}
+
+/* Mobile responsiveness */
+@media (max-width: 768px) {
+  .lesson-trail {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+  }
+
+  .trail-arrow {
+    transform: rotate(90deg);
+    font-size: 1.2rem !important;
+  }
+
+  .trail-item {
+    font-size: 0.95rem !important;
+    padding: 0.6rem 0.8rem !important;
+  }
+
+  .milestone-markers {
+    flex-wrap: wrap !important;
+    gap: 0.25rem !important;
+  }
+
+  .milestone {
+    width: 6px !important;
+    height: 6px !important;
+  }
+}
+
+/* Fun hover effects for engagement */
+.breadcrumb-container:hover .trail-arrow {
+  color: #F18F01;
+  animation: bounce 0.5s ease;
+}
+
+@keyframes bounce {
+  0%, 100% { transform: translateY(0); }
+  50% { transform: translateY(-5px); }
+}
+
+/* Accessibility improvements */
+.trail-item:focus {
+  outline: 3px solid #F18F01;
+  outline-offset: 2px;
+}
+
+/* Add celebration effect for lesson completion */
+.celebration {
+  position: relative;
+}
+
+.celebration::after {
+  content: "🎉";
+  position: absolute;
+  top: -20px;
+  left: 50%;
+  transform: translateX(-50%);
+  font-size: 1.5rem;
+  animation: celebrate 1s ease;
+}
+
+@keyframes celebrate {
+  0% { opacity: 0; transform: translateX(-50%) translateY(10px) scale(0); }
+  50% { opacity: 1; transform: translateX(-50%) translateY(-10px) scale(1.2); }
+  100% { opacity: 0; transform: translateX(-50%) translateY(-20px) scale(1); }
+}
+</style>
+
+<!-- JavaScript for breadcrumb interactions -->
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+  // Add celebration effect when lesson is completed
+  window.celebrateLessonCompletion = function() {
+    const currentLessonBadge = document.querySelector('.current-lesson');
+    if (currentLessonBadge) {
+      currentLessonBadge.classList.add('celebration');
+      setTimeout(() => {
+        currentLessonBadge.classList.remove('celebration');
+      }, 1000);
+    }
+  };
+
+  // Update milestone markers based on completion status
+  const completedLessons = JSON.parse(localStorage.getItem('completedLessons') || '[]');
+  const milestones = document.querySelectorAll('.milestone');
+
+  milestones.forEach((milestone, index) => {
+    const lessonNumber = index + 1;
+    if (completedLessons.includes(lessonNumber)) {
+      milestone.classList.add('completed');
+      milestone.style.background = '#4CAF50';
+    }
+  });
+
+  // Add tooltips to milestones
+  milestones.forEach((milestone, index) => {
+    const lessonNumber = index + 1;
+    const isCompleted = completedLessons.includes(lessonNumber);
+    const lang = document.documentElement.lang || 'zh';
+
+    milestone.addEventListener('mouseenter', function() {
+      const tooltip = document.createElement('div');
+      tooltip.className = 'milestone-tooltip';
+      tooltip.style.cssText = `
+        position: absolute;
+        bottom: 20px;
+        left: 50%;
+        transform: translateX(-50%);
+        background: #333;
+        color: white;
+        padding: 0.5rem;
+        border-radius: 8px;
+        font-size: 0.8rem;
+        white-space: nowrap;
+        z-index: 1000;
+        box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+      `;
+
+      const lessonText = lang === 'en' ? `Lesson ${lessonNumber}` : `第${lessonNumber}课`;
+      const statusText = isCompleted ?
+        (lang === 'en' ? ' - Completed ✓' : ' - 已完成 ✓') :
+        (lang === 'en' ? ' - Not started' : ' - 未开始');
+
+      tooltip.textContent = lessonText + statusText;
+
+      this.style.position = 'relative';
+      this.appendChild(tooltip);
+    });
+
+    milestone.addEventListener('mouseleave', function() {
+      const tooltip = this.querySelector('.milestone-tooltip');
+      if (tooltip) {
+        tooltip.remove();
+      }
+    });
+  });
+});
+</script>
