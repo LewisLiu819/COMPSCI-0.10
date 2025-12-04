@@ -5,27 +5,28 @@
 
 <div class="language-toggle" style="position: fixed; top: 20px; right: 20px; z-index: 1000; background: white; border: 1px solid #ddd; border-radius: 6px; padding: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
   {% if current_lang == 'zh' %}
-    {% assign en_url = current_path | replace: '/lessons/', '/en/lessons/' %}
+    {% comment %} Convert Chinese path to English path {% endcomment %}
     {% if current_path == '/' %}
-      {% assign en_url = '/en/' %}
-    {% elsif current_path contains '/lessons/lesson' %}
-      {% assign lesson_num = current_path | split: 'lesson' | last | split: '/' | first %}
-      {% assign en_url = '/en/lessons/lesson' | append: lesson_num | append: '/' %}
+      {% assign target_url = '/en/' %}
+    {% elsif current_path contains '/zh/' %}
+      {% assign target_url = current_path | replace: '/zh/', '/en/' %}
     {% elsif current_path contains '/lessons/' %}
-      {% assign en_url = '/en/lessons/' %}
+      {% comment %} Old lessons path - redirect to English home {% endcomment %}
+      {% assign target_url = '/en/' %}
+    {% else %}
+      {% assign target_url = '/en/' %}
     {% endif %}
-    <a href="{{ en_url }}" style="text-decoration: none; color: #333; font-size: 14px;">🇺🇸 English</a>
+    <a href="{{ target_url }}" style="text-decoration: none; color: #333; font-size: 14px;">English</a>
   {% else %}
-    {% assign zh_url = current_path | replace: '/en/lessons/', '/lessons/' | replace: '/en/', '/' %}
+    {% comment %} Convert English path to Chinese path {% endcomment %}
     {% if current_path == '/en/' %}
-      {% assign zh_url = '/' %}
-    {% elsif current_path contains '/en/lessons/lesson' %}
-      {% assign lesson_num = current_path | split: 'lesson' | last | split: '/' | first %}
-      {% assign zh_url = '/lessons/lesson' | append: lesson_num | append: '/' %}
-    {% elsif current_path contains '/en/lessons/' %}
-      {% assign zh_url = '/lessons/' %}
+      {% assign target_url = '/' %}
+    {% elsif current_path contains '/en/' %}
+      {% assign target_url = current_path | replace: '/en/', '/zh/' %}
+    {% else %}
+      {% assign target_url = '/' %}
     {% endif %}
-    <a href="{{ zh_url }}" style="text-decoration: none; color: #333; font-size: 14px;">🇨🇳 中文</a>
+    <a href="{{ target_url }}" style="text-decoration: none; color: #333; font-size: 14px;">中文</a>
   {% endif %}
 </div>
 
@@ -49,6 +50,7 @@ document.addEventListener('DOMContentLoaded', function() {
       if (!href || href.startsWith('http') || href.startsWith('#')) return;
 
       const isEnglish = href.startsWith('/en/');
+      const isChinese = href.startsWith('/zh/') || href.startsWith('/lessons/') || href === '/';
       const isInternal = href.startsWith('/');
 
       if (!isInternal) return;
