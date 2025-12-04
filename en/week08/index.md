@@ -1,49 +1,54 @@
-# Week 8: Data Organization and Digital Projects
+---
+title: "Week 8: Data Organization and Digital Projects"
+nav_order: 9
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
+# Week 8: Become a Data Superhero!
 
 **Unit:** Problem Solving and Logic (Weeks 6-8)
-**Duration:** 2 lessons, 50 minutes each
 
-## Week Overview
+## What's in Store This Week?
 
-Week 8 concludes Unit 3 by introducing students to data organization and creating comprehensive digital projects. Students learn how computers organize information, explore data collection and analysis, and create personalized digital scrapbooks that demonstrate their growing programming skills.
+This week, you'll gain a new superpower: understanding **data**! Data is just a fancy word for information. You'll become a "Data Detective," learning how computers organize information to make it useful. We'll collect fun facts about our class and learn how to sort them into organized lists. Then, you'll use everything you've learned to build an amazing **Digital Scrapbook** all about YOU—your hobbies, your favorite things, and your family—to show off your personality and your awesome new programming skills!
 
-## Learning Goals
+## What You'll Be Able to Do!
 
-By the end of Week 8, students will be able to:
-- Understand how computers organize information in lists and databases
-- Collect and categorize data systematically
-- Create multimedia presentations combining multiple programming elements
-- Apply programming skills to personal expression and information organization
+By the end of this week, you'll be able to:
+- Explain how computers sort and organize information.
+- Collect fun facts (data) and sort them into neat categories.
+- Create a cool multimedia project about yourself with different pages and interactive buttons.
+- Use your coding skills to express your unique personality!
 
 ## Lessons This Week
 
-### [Lesson 8.1: Data Detectives - Lists and Organization](lesson8.1.md)
-**Format:** Data Collection + Organizational Thinking
+### [Lesson 8.1: Data Detectives!](lesson8.1.md)
+**Get Ready To:** Put on your detective hat again! You'll investigate how the world organizes information (like in a library) and then collect and sort fun data about our own class.
 
-Students become data detectives, exploring how information is organized in their daily lives and learning to create simple databases and organized lists using programming.
-
-**Key Activities:**
-- Data exploration in daily life (libraries, stores, schools)
-- Classroom data collection and categorization
-- Digital list creation using programming tools
-- Pattern discovery and data analysis
-
-**Vocabulary:** Data, List, Organization, Category, Pattern, Database
+### [Lesson 8.2: Build Your Digital Scrapbook!](lesson8.2.md)
+**Get Ready To:** Create a project that's all about you! You'll design and build an interactive scrapbook with different pages for your hobbies, family, favorite foods, and more.
 
 ---
 
-### [Lesson 8.2: Digital Scrapbook Creation](lesson8.2.md)
-**Format:** Personal Project + Information Organization
+## How We'll See Our Skills Grow
 
-Students create comprehensive digital scrapbooks that showcase their personal information, interests, and programming skills through multimedia presentations.
+- **Data Sorting Skills:** We'll see how you collect and organize the fun facts we gather about our class.
+- **The Ultimate Creation:** Your digital scrapbook will be the star of the show! It will combine all the skills you've learned: movement, sound, loops, and logic.
+- **Show and Tell:** You'll proudly share your finished scrapbook with your friends.
 
-**Key Activities:**
-- Personal digital scrapbook planning
-- Multi-scene programming with navigation
-- Integration of text, images, and interactive elements
-- Peer sharing and feedback
+## Connecting to Other Subjects
 
-**Vocabulary:** Organization, Navigation, Scene, Interactive, Multimedia, Digital identity
+- **Math:** You'll be a real data scientist, collecting, sorting, and analyzing information.
+- **Social Studies:** This project is all about identity, culture, and what makes you unique.
+- **Language Arts:** You'll practice organizing your thoughts and presenting information clearly, just like in a real report.
+
+## Your Creator's Toolkit
+- Clipboards for your "Data Detective" mission
+- Worksheets to help you plan the pages of your digital scrapbook
+- Your device with Scratch Jr., ready for you to build your masterpiece
+- Fun idea cards to help you brainstorm what to put in your scrapbook
 
 ## Assessment Highlights
 

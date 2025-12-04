@@ -1,91 +1,66 @@
+---
+title: "Lesson 7.1: Bug Busters - Debugging Workshop"
+parent: "Week 7: Boolean Logic and Decision Making"
+nav_order: 1
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 7.1: Bug Busters - Debugging Workshop
 
-**Duration:** 50 minutes
-**Format:** Problem-Solving Skills + Systematic Debugging
-**Unit:** Problem Solving and Logic (Week 6-8)
+Welcome, Bug Busters! Every programmer, from beginner to expert, runs into "bugs"—unexpected problems in their code. Today, you'll learn that bugs aren't scary; they're just puzzles waiting to be solved. Let's learn the secret strategies to squash any bug!
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Identify common programming errors systematically
-- Apply debugging strategies independently
-- Demonstrate persistence when facing programming challenges
-- Help others debug their programs effectively
+## What You'll Learn
 
-## Lesson Structure
+By the end of your training, you'll be able to:
+- Calmly identify when your program has a bug.
+- Use a four-step secret strategy to find and fix bugs.
+- Not give up when you face a tricky programming problem.
+- Help your friends find and fix bugs in their code, too!
 
-### Introduction to Bugs and Debugging (12 minutes)
-- Share the history of the term "bug" in computing (Grace Hopper story)
-- Discuss how bugs are normal and expected in programming
-- Introduce debugging as detective work
-- Emphasize growth mindset: bugs are learning opportunities
+## Your Bug Busting Mission
 
-### Debugging Strategy Training (18 minutes)
-- Teach systematic debugging approach: Stop, Look, Think, Try
-- Practice with intentionally broken programs
-- Demonstrate reading code step-by-step
-- Practice asking good debugging questions
+### What's a "Bug"? (12 minutes)
+- Let's learn the funny true story of the first-ever computer "bug" (it was a real moth!).
+- We'll talk about how finding bugs is a normal, everyday part of being a programmer.
+- Most importantly, we'll learn a programmer's most important belief: **Bugs are learning opportunities, not failures!**
 
-### Bug Hunt Challenge (15 minutes)
-- Students work with pre-made buggy programs
-- Apply debugging strategies to fix various types of errors
-- Categories: sequence errors, missing blocks, wrong parameters
-- Celebrate successful fixes and learning from failures
+### Secret Strategy Training (18 minutes)
+- It's time to learn the secret four-step bug-squashing method: **Stop, Look, Think, Try.**
+- We'll practice this method together on some programs that have obvious bugs.
+- You'll learn how to read code one step at a time, just like a detective looking for clues.
 
-### Peer Debugging Support (5 minutes)
-- Students help classmates debug their own projects
-- Practice giving helpful feedback without just fixing for others
-- Develop vocabulary for describing programming problems
+### The Bug Hunt Challenge (15 minutes)
+- Now it's your turn! We have some pre-made programs that are full of sneaky bugs.
+- Your mission is to use the four-step strategy to find and fix different kinds of bugs (like blocks in the wrong order or missing pieces).
+- Let's celebrate every bug we squash!
 
-## Materials Needed
-- Collection of intentionally buggy Scratch Jr. programs
-- Debugging strategy posters and reference cards
-- Devices with pre-loaded broken programs
-- Debugging log sheets for tracking problem-solving
-- Growth mindset posters and encouragement
+### Be a Bug Buddy! (5 minutes)
+- Now, let's practice helping our friends.
+- You'll get to look at a classmate's project and help them find a bug.
+- Remember the Bug Buster rule: give helpful clues, don't just fix it for them!
 
-## Assessment
+## Your Bug Busting Toolkit
+- A collection of Scratch Jr. programs with sneaky bugs hidden inside
+- A poster of our secret **Stop, Look, Think, Try** strategy
+- A "bug log" worksheet to keep track of the bugs you find and how you fixed them
 
-### Formative
-- Application of systematic debugging strategies
-- Persistence and positive attitude toward challenges
-- Quality of help provided to classmates
-- Improvement in independent problem-solving
+---
 
-## Growth Mindset Focus
-- Mistakes as learning opportunities
-- Value of persistence and effort
-- Celebrating progress and improvement
-- Building confidence through successful problem-solving
+## How to Become a Master Bug Buster
+- We'll see you using the four-step strategy when you get stuck.
+- **Persistence Power:** Do you keep trying even when a bug is tricky? That's the mark of a real programmer!
+- How good are you at giving helpful clues to your Bug Buddy?
 
-## Real-World Problem-Solving Skills
-- Systematic approach to any type of problem
-- Breaking complex problems into smaller parts
-- Testing solutions and learning from results
-- Collaborative problem-solving and help-seeking
+## The Secret Strategy:
+- **1. Stop:** Take a breath! Don't just click everywhere.
+- **2. Look:** Read your code carefully, one block at a time.
+- **3. Think:** What did you EXPECT to happen? What is ACTUALLY happening?
+- **4. Try:** Make ONE small change and test it again.
 
-## Debugging Strategies Taught
-
-### 1. Stop
-Don't keep clicking randomly - pause and think
-
-### 2. Look
-Examine the code carefully and systematically
-
-### 3. Think
-What should happen vs. what is happening?
-
-### 4. Try
-Make one change at a time and test
-
-## Extension Activities
-- Create debugging challenges for other students
-- Document common bugs and solutions
-- Practice debugging in other areas (math problems, puzzles)
-- Interview programmers about their debugging experiences
-
-## Vocabulary Introduced
-- Bug
-- Debugging
-- Systematic
-- Persistence
-- Troubleshooting
+## New Tech Words to Master
+- **Bug:** An error in a program that stops it from working the way you want.
+- **Debugging:** The process of finding and fixing bugs. It's like being a detective for your code!
+- **Systematic:** Having a step-by-step plan to solve a problem.
+- **Persistence:** Not giving up, even when something is hard. It's a programmer's superpower!

@@ -1,3 +1,12 @@
+---
+title: "Lesson 14.1: Capstone Project Planning"
+parent: "Week 14: Capstone Project Planning and Development"
+nav_order: 1
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 14.1: Capstone Project Planning
 
 **Duration:** 50 minutes

@@ -4,6 +4,7 @@ nav_order: 2
 has_children: true
 lang: en
 nav_exclude_if_lang: zh
+nav_exclude: true
 ---
 
 {% include simple-language-toggle.html %}

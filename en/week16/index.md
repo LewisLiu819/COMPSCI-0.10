@@ -1,3 +1,11 @@
+---
+title: "Week 16: Showcase Event and Course Reflection"
+nav_order: 17
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
 # Week 16: Showcase Event and Course Reflection
 
 **Unit:** Final Projects and Assessment (Weeks 14-16)

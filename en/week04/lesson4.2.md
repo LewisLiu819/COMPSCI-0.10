@@ -1,80 +1,62 @@
+---
+title: "Lesson 4.2: Magic 8-Ball Fortune Teller"
+parent: "Week 4: Conditionals and Interactive Programming"
+nav_order: 2
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 4.2: Magic 8-Ball Fortune Teller
 
-**Duration:** 50 minutes
-**Format:** Project-Based Learning + Logic Programming
-**Unit:** Building Blocks of Programming (Week 3-5)
+Welcome, mystics and programmers! Today, you're going to create a program that can tell the future. We'll build our very own digital Magic 8-Ball that gives a mysterious, random answer every time you ask it a question.
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Program random responses to user input
-- Understand how computers can simulate decision-making
-- Create a complete interactive program from start to finish
-- Debug programs that don't work as expected
+## What You'll Learn
 
-## Lesson Structure
+By the end of this magical lesson, you'll be able to:
+- Program your sprites to give random responses when you tap them.
+- Understand how computers can pretend to make random choices.
+- Build a complete, interactive program from a plan to a final product.
+- Find and fix bugs when your program doesn't work the way you expect.
 
-### Introduction to Randomness (10 minutes)
-- Examine real Magic 8-Ball (if available) or show video
-- Discuss how it creates different answers each time
-- Brainstorm other examples of randomness in games and life
-- Introduce the programming challenge
+## Your Magical Creation Plan
 
-### Planning and Design (15 minutes)
-- Students design their fortune teller appearance
-- Choose 6-8 different responses (positive, negative, neutral)
-- Plan the user interaction (touch to get fortune)
-- Sketch their design on paper first
+### The Mystery of Randomness (10 minutes)
+- Let's look at a real Magic 8-Ball. How does it give a different answer every time? It's a mystery!
+- Let's brainstorm other things that are random. (Rolling dice, flipping a coin, rock-paper-scissors).
+- Today's challenge is announced: Can you program your own fortune teller?
 
-### Programming Implementation (20 minutes)
-- Step-by-step programming of the Magic 8-Ball
-- Use broadcast blocks for random responses
-- Add visual and sound effects
-- Teacher demonstrates, students follow with modifications
+### Designing Your Fortune Teller (15 minutes)
+- First, be an artist! On paper, sketch out what your fortune teller will look like. Will it be a classic 8-ball, a crystal ball, or something totally new?
+- Next, be a writer! Come up with 6-8 different fortunes your program can give. Make them a mix of "yes," "no," and "maybe" answers.
+- Finally, be a designer! Plan how the user will interact with it. (Hint: They'll tap it to get a fortune!)
+
+### Programming the Magic (20 minutes)
+- Now, let's build it in Scratch Jr.!
+- We'll learn a new trick using "broadcast" messages (the orange blocks) to help us create a random response.
+- Your teacher will show you the basic steps, and you can add your own creative flair with cool sounds and visual effects.
 
 ### Testing and Debugging (5 minutes)
-- Students test their programs extensively
-- Partner testing for feedback
-- Fix any problems discovered
-- Celebrate working programs
+- Time to test your creation! Does it give a different answer each time?
+- Let a partner test your program and give you feedback.
+- If you find any bugs, now is the time to be a detective and fix them.
+- Let's celebrate all the working fortune tellers!
 
-## Materials Needed
-- Real Magic 8-Ball for demonstration (optional)
-- Design planning sheets
-- Devices with Scratch Jr.
-- List of sample fortune responses
-- Debugging checklist for students
+## Your Mystic's Toolkit
+- A real Magic 8-Ball to examine (if we have one!)
+- Design worksheets for planning your creation
+- Your device with Scratch Jr.
+- A list of example fortunes to get you started
+- A simple "bug-squashing" checklist to help you test
 
-## Assessment
+---
 
-### Formative
-- Quality of planning and design
-- Successful implementation of random responses
-- Persistence in debugging
-- Creativity in personalizing the project
+## How to Become a Master Mystic
+- We'll look at your awesome design plans.
+- **The Random Test:** Does your final program successfully give random answers when you tap it?
+- Your creativity in making the project your own is a huge part of the magic!
 
-### Summative
-Completed, working Magic 8-Ball program that responds to user input with random messages.
-
-## Math Connection
-- Basic probability concepts
-- Understanding of random vs. predictable
-- Counting and organizing response options
-
-## Extension Activities
-- Add more sophisticated visual effects
-- Create themed fortune tellers (sports, school, friendship)
-- Program fortune tellers in different languages
-- Create instruction cards for younger students
-
-## Debugging Skills Focus
-- Check connections between blocks
-- Test individual parts of the program
-- Compare working and non-working versions
-- Ask for help when stuck
-
-## Vocabulary Reinforced
-- Random
-- Broadcast
-- Debug
-- Test
-- User input
+## New Tech Words to Master
+- **Random:** Unpredictable; without a pattern. Computers are great at pretending to be random!
+- **Broadcast:** A special message that one sprite can send to another to trigger an action.
+- **User Input:** The action the user takes to interact with the program, like tapping the screen.

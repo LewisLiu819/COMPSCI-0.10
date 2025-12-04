@@ -1,77 +1,63 @@
+---
+title: "Lesson 11.1: Digital Art Gallery Programming"
+parent: "Week 11: Digital Art and Music Programming"
+nav_order: 1
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 11.1: Digital Art Gallery Programming
 
-**Duration:** 50 minutes
-**Format:** Art Creation + Programming Integration
-**Unit:** Creative Computing (Week 9-11)
+Welcome, digital artists! Today, you're not just going to draw a picture—you're going to create a piece of art that is alive. You'll use your coding skills to make interactive art that moves, changes, and responds to the viewer. Let's open our own digital art studio!
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Create digital artwork using programming tools
-- Understand how technology enhances artistic expression
-- Program interactive art experiences
-- Combine artistic principles with computational thinking
+## What You'll Learn
 
-## Lesson Structure
+By the end of this art class, you'll be able to:
+- Use code to create a piece of digital art.
+- Make your art interactive, so it responds when someone touches it.
+- Explain how you used programming as your new favorite art supply.
+- Combine the principles of art with the logic of code.
 
-### Digital Art Exploration (12 minutes)
-- Examine examples of digital art and computer-generated artwork
-- Discuss how artists use technology as a creative medium
-- Explore drawing and design tools in programming environment
-- Plan artistic projects that incorporate programming elements
+## Your Art Studio Plan
 
-### Interactive Art Creation (25 minutes)
-- Students create digital artwork with interactive elements
-- Focus on color, pattern, movement, and user interaction
-- Combine visual design with programming logic
-- Experiment with different artistic styles and techniques
+### What is Digital Art? (12 minutes)
+- Let's look at some amazing examples of digital art. How did the artists use computers to create them?
+- We'll brainstorm all the cool things we can do with our programming tools to make art. (Think: changing colors, repeating shapes, moving sprites).
+- On paper, you'll sketch a simple idea for an interactive artwork you want to create.
 
-### Virtual Gallery Setup (10 minutes)
-- Organize student artwork for sharing and display
-- Add descriptions and artist statements to projects
-- Practice presenting and discussing artistic choices
-- Prepare for gallery walk experience
+### Creating Your "Living" Artwork (25 minutes)
+- Time to bring your artistic vision to life!
+- Your mission is to create a piece of digital art that has at least one interactive element.
+- Ideas for your art:
+  - A beautiful, repeating pattern that changes colors when you tap it.
+  - A character that does a funny dance when you tap it.
+  - A self-portrait where you can tap on your eyes to make them wink!
+- This is your chance to experiment and be creative!
 
-### Gallery Walk and Appreciation (3 minutes)
-- Students view and appreciate classmates' digital artwork
-- Practice giving constructive feedback and artistic appreciation
-- Celebrate diversity of artistic expression and creativity
+### Setting Up the Gallery (10 minutes)
+- Every great artwork needs a title and a description! We'll learn how to write a simple "artist statement" that explains your piece.
+- We'll get our projects ready for our class's "Living Art Gallery" walk.
 
-## Materials Needed
-- Devices with Scratch Jr. and drawing capabilities
-- Digital art examples for inspiration
-- Art planning and reflection worksheets
-- Gallery display method (projection or device sharing)
-- Artist statement templates
+### The Gallery Walk (3 minutes)
+- It's time to admire the masterpieces!
+- We'll walk around and explore each other's interactive art.
+- Let's practice being a great audience by sharing one positive thing we like about each artwork.
 
-## Assessment
+## Your Artist's Toolkit
+- Your device with Scratch Jr.
+- Examples of cool digital art for inspiration
+- Worksheets to help you plan your artwork and write your artist statement
 
-### Formative
-- Creativity and artistic expression in digital medium
-- Successful integration of programming with art creation
-- Quality of interactive elements and user experience
-- Thoughtfulness in artistic choices and reflection
+---
 
-## Arts Integration
-- Elements of art: color, line, shape, texture, pattern
-- Principles of design: balance, contrast, emphasis, unity
-- Art history and contemporary digital art movement
-- Creative expression and personal artistic voice
+## How to Be a Master Artist
+- We'll look at your plan. How did you decide to combine art and code?
+- **The Interactivity Test:** Does your artwork respond in a cool way when someone touches it?
+- Your final creation will be a masterpiece that shows off both your artistic talent and your programming skills!
 
-## Technology as Creative Medium
-- Understanding of digital tools for artistic creation
-- Exploration of new possibilities in art-making
-- Integration of traditional art concepts with modern technology
-- Preparation for future digital art and design opportunities
-
-## Extension Activities
-- Create art inspired by famous artists using programming
-- Develop interactive museum exhibits about art history
-- Collaborate on large-scale digital art installations
-- Connect with local digital artists or designers
-
-## Vocabulary Introduced
-- Digital art
-- Interactive art
-- Artist statement
-- Creative medium
-- Visual design
+## New Tech Words to Master
+- **Digital Art:** Art that is made using a computer.
+- **Interactive Art:** Art that the viewer can play with or change in some way.
+- **Artist Statement:** A short sentence where the artist explains what their art is about.
+- **Creative Medium:** The material an artist uses. Your creative medium today is code!

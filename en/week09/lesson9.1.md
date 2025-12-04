@@ -1,77 +1,65 @@
+---
+title: "Lesson 9.1: Digital Storytelling - Adapting Fairy Tales"
+parent: "Week 9: Digital Storytelling and Character Development"
+nav_order: 1
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 9.1: Digital Storytelling - Adapting Fairy Tales
 
-**Duration:** 50 minutes
-**Format:** Creative Programming + Literature Integration
-**Unit:** Creative Computing (Week 9-11)
+Welcome, digital directors! Today, you'll take a classic story and become the director of its brand-new animated movie. We'll learn the secret of all great stories—the three-part structure—and use it to plan and build our own digital fairy tales.
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Adapt traditional stories for digital medium
-- Combine programming skills with creative storytelling
-- Create multi-scene narrative programs
-- Analyze story structure and translate to programming logic
+## What You'll Learn
 
-## Lesson Structure
+By the end of this lesson, you'll be able to:
+- Break down a story into its three main parts: beginning, middle, and end.
+- Plan your own three-scene story using a storyboard.
+- Program a story with different scenes that connect to each other.
+- Combine your amazing programming skills with your creativity as a storyteller.
 
-### Story Structure Analysis (15 minutes)
-- Review classic fairy tale structure (beginning, middle, end)
-- Identify key story elements: characters, setting, problem, solution
-- Discuss how to adapt stories for interactive digital format
-- Choose fairy tales for adaptation (or create original stories)
+## Your Director's Plan
 
-### Storyboard Planning (15 minutes)
-- Create digital storyboards showing key scenes
-- Plan character movements, dialogue, and scene transitions
-- Consider how user interaction can enhance storytelling
-- Map out programming requirements for each scene
+### The Secret of a Great Story (15 minutes)
+- Let's look at a classic fairy tale, like "The Three Little Pigs." We'll find the three main parts:
+  - **The Beginning:** We meet the characters and learn the setting.
+  - **The Middle:** The characters face a problem or go on an adventure.
+  - **The End:** The problem is solved!
+- We'll choose a simple fairy tale to adapt for our project. The goal is to retell it in three simple scenes.
 
-### Digital Story Programming (15 minutes)
-- Begin programming adapted fairy tale
-- Focus on character development and scene creation
-- Add dialogue using speech bubbles or sound recording
-- Practice scene transitions and story flow
+### Your Director's Storyboard (15 minutes)
+- Every great director uses a storyboard to plan their movie. It's like a comic strip that shows what will happen in each scene.
+- On your storyboard template, you'll sketch out your three scenes:
+  - **Scene 1 (Beginning):** Who are your characters? Where are they?
+  - **Scene 2 (Middle):** What is the main action or problem?
+  - **Scene 3 (End):** How does it all wrap up?
+- Think about how your characters will move and how you'll switch from one scene to the next.
 
-### Story Sharing Preview (5 minutes)
-- Quick sharing of story beginnings
-- Peer feedback on story concepts and initial programming
-- Preview next lesson's continued development
+### Lights, Camera, Action! (15 minutes)
+- Time to start programming your story in Scratch Jr.!
+- Your first goal is to build your three scenes and add your characters.
+- Program the main action for each scene and think about how to make your characters move.
+- We'll learn how to make the story automatically go from scene 1 to scene 2, and then to scene 3.
 
-## Materials Needed
-- Collection of classic fairy tales for reference
-- Digital storyboard templates
-- Devices with Scratch Jr.
-- Character design planning sheets
-- Recording capabilities for dialogue (if available)
+### Sneak Peek! (5 minutes)
+- Let's share the first scene of our stories.
+- Get some feedback from your friends. Does it look interesting? Do they want to see what happens next?
 
-## Assessment
+## Your Director's Toolkit
+- A few simple fairy tale books to choose from
+- Storyboard templates for planning your three scenes
+- Your device with Scratch Jr.
 
-### Formative
-- Quality of story structure analysis
-- Creativity and thoughtfulness in story adaptation
-- Successful implementation of multi-scene programming
-- Integration of programming skills with storytelling
+---
 
-## Literature Integration
-- Classic fairy tale analysis and comparison
-- Story structure and narrative elements
-- Character development and motivation
-- Cultural variations in traditional stories
+## How to Be a Great Director
+- Your storyboard will show how well you can plan a simple, three-part story.
+- **The Scene Test:** Can you successfully create three different scenes and make them connect in the right order?
+- Your creativity in retelling a classic story in your own style is what will make it shine!
 
-## Creative Expression
-- Adaptation and interpretation of existing works
-- Original character design and development
-- Visual storytelling and scene composition
-- Integration of technology with traditional art forms
-
-## Extension Activities
-- Create stories from different cultural traditions
-- Develop original characters and settings
-- Add interactive choices within traditional story structures
-- Create story series with recurring characters
-
-## Vocabulary Introduced
-- Adaptation
-- Storyboard
-- Scene transition
-- Digital storytelling
-- Narrative structure
+## New Tech Words to Master
+- **Adaptation:** Taking an existing story and changing it to fit a new style (like turning a book into a movie!).
+- **Storyboard:** A series of drawings that shows the plan for each scene in a movie or animation.
+- **Scene Transition:** The way you move from one scene to the next.
+- **Narrative Structure:** The basic plan of a story (for us, it's a beginning, middle, and end).

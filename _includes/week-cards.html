@@ -1,0 +1,444 @@
+<!-- Week Cards Grid -->
+<div class="week-cards-container" style="margin: 3rem 0;">
+  <h2 style="text-align: center; margin-bottom: 2rem; color: #2E86AB;">
+    {% if page.lang == 'en' %}
+      🎯 Course Outline - 16 Weeks
+    {% else %}
+      🎯 课程大纲 - 16周课程
+    {% endif %}
+  </h2>
+
+  <div class="week-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(350px, 1fr)); gap: 2rem; margin: 2rem 0;">
+
+    <!-- Week 1 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #E3F2FD 0%, #BBDEFB 100%); border-left: 5px solid #2196F3;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">💻</div>
+      <h3 style="color: #1976D2; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 1: Welcome to the Digital World
+        {% else %}
+          第一周：欢迎来到数字世界
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Introduction to computers and digital world exploration. Computer detective hunt and basic input-output concepts.
+        {% else %}
+          计算机科学入门，数字世界探索。计算机侦探活动和基本输入输出概念。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #2196F3; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week01/{% else %}/week01/{% endif %}" class="week-link" style="color: #1976D2; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 2 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #F3E5F5 0%, #E1BEE7 100%); border-left: 5px solid #9C27B0;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">🧠</div>
+      <h3 style="color: #7B1FA2; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 2: Thinking Like a Computer
+        {% else %}
+          第二周：像计算机一样思考
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Introduction to algorithms and step-by-step instructions. Peanut butter sandwich challenge and human robot activities.
+        {% else %}
+          算法入门和分步指令。花生酱三明治挑战和人类机器人活动。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #9C27B0; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week02/{% else %}/week02/{% endif %}" class="week-link" style="color: #7B1FA2; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 3 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #E8F5E8 0%, #C8E6C9 100%); border-left: 5px solid #4CAF50;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">🎨</div>
+      <h3 style="color: #388E3C; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 3: Meet Scratch Jr.
+        {% else %}
+          第三周：认识Scratch Jr.
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Introduction to Scratch Jr. programming playground. Make characters dance and create your first programs.
+        {% else %}
+          Scratch Jr.编程乐园入门。让角色跳舞，创建您的第一个程序。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #4CAF50; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week03/{% else %}/week03/{% endif %}" class="week-link" style="color: #388E3C; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 4 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #FFF3E0 0%, #FFCC02 100%); border-left: 5px solid #FF9800;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">🎮</div>
+      <h3 style="color: #F57C00; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 4: Choose Your Own Adventure
+        {% else %}
+          第四周：选择你自己的冒险
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Introduction to conditionals and interactive programming. Create Magic 8-Ball fortune teller programs.
+        {% else %}
+          条件语句和互动编程入门。创建魔术8球算命程序。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #FF9800; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week04/{% else %}/week04/{% endif %}" class="week-link" style="color: #F57C00; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 5 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #E1F5FE 0%, #B3E5FC 100%); border-left: 5px solid #00BCD4;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">🔄</div>
+      <h3 style="color: #0097A7; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 5: Loop-de-Loop Patterns
+        {% else %}
+          第五周：循环模式
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Explore loops and repetition programming. Create musical loops and sound sequences with patterns.
+        {% else %}
+          探索循环和重复编程。用模式创建音乐循环和声音序列。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #00BCD4; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week05/{% else %}/week05/{% endif %}" class="week-link" style="color: #0097A7; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 6 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #FCE4EC 0%, #F8BBD9 100%); border-left: 5px solid #E91E63;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">🕵️</div>
+      <h3 style="color: #C2185B; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 6: True or False Detective
+        {% else %}
+          第六周：真假侦探
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Boolean logic and decision making. Create Yes/No adventure programming with interactive stories.
+        {% else %}
+          布尔逻辑和决策制定。创建带有互动故事的是/否冒险编程。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #E91E63; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week06/{% else %}/week06/{% endif %}" class="week-link" style="color: #C2185B; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 7 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #F1F8E9 0%, #DCEDC8 100%); border-left: 5px solid #8BC34A;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">🐛</div>
+      <h3 style="color: #689F38; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 7: Bug Busters
+        {% else %}
+          第七周：错误猎手
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Debugging workshop and pair programming partnership. Learn systematic problem-solving techniques.
+        {% else %}
+          调试工作坊和配对编程合作。学习系统化的问题解决技巧。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #8BC34A; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week07/{% else %}/week07/{% endif %}" class="week-link" style="color: #689F38; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 8 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #EDE7F6 0%, #D1C4E9 100%); border-left: 5px solid #673AB7;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">📊</div>
+      <h3 style="color: #512DA8; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 8: Data Detectives
+        {% else %}
+          第八周：数据侦探
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Lists and data organization. Create digital scrapbooks and learn information management.
+        {% else %}
+          列表和数据组织。创建数字剪贴簿并学习信息管理。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #673AB7; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week08/{% else %}/week08/{% endif %}" class="week-link" style="color: #512DA8; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 9 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #E8EAF6 0%, #C5CAE9 100%); border-left: 5px solid #3F51B5;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">📚</div>
+      <h3 style="color: #303F9F; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 9: Digital Storytelling
+        {% else %}
+          第九周：数字故事
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Adapting fairy tales and character development. Voice acting and interactive storytelling.
+        {% else %}
+          改编童话故事和角色发展。配音和互动故事讲述。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #3F51B5; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week09/{% else %}/week09/{% endif %}" class="week-link" style="color: #303F9F; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 10 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #E4F7FA 0%, #B2EBF2 100%); border-left: 5px solid #00ACC1;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">🎮</div>
+      <h3 style="color: #00838F; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 10: Game Design Basics
+        {% else %}
+          第十周：游戏设计基础
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          What makes games fun? Create simple interactive games with clear goals and user interaction.
+        {% else %}
+          什么让游戏变得有趣？创建具有明确目标和用户交互的简单互动游戏。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #00ACC1; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week10/{% else %}/week10/{% endif %}" class="week-link" style="color: #00838F; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 11 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #FFF8E1 0%, #FFECB3 100%); border-left: 5px solid #FFC107;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">🎨</div>
+      <h3 style="color: #FF8F00; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 11: Digital Art Gallery
+        {% else %}
+          第十一周：数字艺术画廊
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Art creation with programming and music composition with code. Interactive art experiences.
+        {% else %}
+          用编程创作艺术和用代码作曲。互动艺术体验。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #FFC107; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week11/{% else %}/week11/{% endif %}" class="week-link" style="color: #FF8F00; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 12 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #FFEBEE 0%, #FFCDD2 100%); border-left: 5px solid #F44336;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">👷</div>
+      <h3 style="color: #D32F2F; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 12: Community Helpers
+        {% else %}
+          第十二周：社区帮手
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Technology careers and designing apps for good. Understanding social impact of technology.
+        {% else %}
+          科技职业和设计有益的应用程序。了解技术的社会影响。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #F44336; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week12/{% else %}/week12/{% endif %}" class="week-link" style="color: #D32F2F; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 13 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #E8F5E8 0%, #A5D6A7 100%); border-left: 5px solid #4CAF50;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">🌐</div>
+      <h3 style="color: #2E7D32; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 13: Digital Citizenship
+        {% else %}
+          第十三周：数字公民
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Online safety and global connections. Technology for connecting people worldwide.
+        {% else %}
+          在线安全和全球连接。连接全世界人民的技术。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #4CAF50; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week13/{% else %}/week13/{% endif %}" class="week-link" style="color: #2E7D32; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 14 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #FFF3E0 0%, #FFE0B2 100%); border-left: 5px solid #FF9800;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">🚀</div>
+      <h3 style="color: #EF6C00; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 14: Capstone Project Planning
+        {% else %}
+          第十四周：顶点项目规划
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Project planning and development workshop. Choose and develop comprehensive final projects.
+        {% else %}
+          项目规划和开发工作坊。选择和开发综合性最终项目。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #FF9800; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week14/{% else %}/week14/{% endif %}" class="week-link" style="color: #EF6C00; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 15 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #F3E5F5 0%, #CE93D8 100%); border-left: 5px solid #9C27B0;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">🎤</div>
+      <h3 style="color: #6A1B9A; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 15: Project Presentations
+        {% else %}
+          第十五周：项目演示
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Project completion, testing, and presentations. Peer feedback and final improvements.
+        {% else %}
+          项目完成、测试和演示。同伴反馈和最终改进。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #9C27B0; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week15/{% else %}/week15/{% endif %}" class="week-link" style="color: #6A1B9A; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+    <!-- Week 16 -->
+    <div class="week-card" style="background: linear-gradient(135deg, #E1F5FE 0%, #B3E5FC 100%); border-left: 5px solid #00BCD4;">
+      <div class="week-icon" style="font-size: 3rem; margin-bottom: 1rem;">🏆</div>
+      <h3 style="color: #0097A7; margin-bottom: 0.5rem;">
+        {% if page.lang == 'en' %}
+          Week 16: Showcase Event
+        {% else %}
+          第十六周：展示活动
+        {% endif %}
+      </h3>
+      <p style="font-size: 0.95rem; color: #424242; margin-bottom: 1rem;">
+        {% if page.lang == 'en' %}
+          Final showcase event and course reflection. Celebrate achievements and plan future learning.
+        {% else %}
+          最终展示活动和课程反思。庆祝成就并规划未来学习。
+        {% endif %}
+      </p>
+      <div class="week-meta" style="display: flex; justify-content: space-between; align-items: center; margin-top: 1rem;">
+        <span style="background: #00BCD4; color: white; padding: 0.3rem 0.8rem; border-radius: 15px; font-size: 0.8rem;">⏱️ 2 lessons</span>
+        <a href="{% if page.lang == 'en' %}/en/week16/{% else %}/week16/{% endif %}" class="week-link" style="color: #0097A7; text-decoration: none; font-weight: 600;">开始学习 →</a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Week Cards Styles -->
+<style>
+.week-card {
+  border-radius: 16px;
+  padding: 1.5rem;
+  margin: 1rem 0;
+  border: 2px solid transparent;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+  position: relative;
+  overflow: hidden;
+}
+
+.week-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+  border-color: rgba(46, 134, 171, 0.3);
+}
+
+.week-card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 4px;
+  background: linear-gradient(90deg, #2E86AB, #A23B72, #F18F01);
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.week-card:hover::before {
+  opacity: 1;
+}
+
+.week-icon {
+  text-align: center;
+  display: block;
+}
+
+.week-link:hover {
+  text-decoration: underline !important;
+}
+
+@media (max-width: 768px) {
+  .week-grid {
+    grid-template-columns: 1fr !important;
+    gap: 1.5rem !important;
+  }
+
+  .week-card {
+    padding: 1.25rem !important;
+  }
+
+  .week-meta {
+    flex-direction: column !important;
+    gap: 0.75rem !important;
+    align-items: flex-start !important;
+  }
+}
+</style>

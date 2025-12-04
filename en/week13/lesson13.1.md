@@ -1,83 +1,60 @@
+---
+title: "Lesson 13.1: Digital Citizenship and Online Safety"
+parent: "Week 13: Digital Citizenship and Global Connections"
+nav_order: 1
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 13.1: Digital Citizenship and Online Safety
 
-**Duration:** 50 minutes
-**Format:** Safety Education + Responsible Technology Use
-**Unit:** Computers and Society (Week 12-13)
+Welcome, superheroes! To be a true hero of the digital world, you need a special toolkit to help you stay safe and be a positive force for good. Today, we'll build that toolkit together.
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Understand basic principles of online safety and security
-- Demonstrate responsible behavior when using technology
-- Recognize and respond appropriately to online challenges
-- Create strong passwords and understand privacy basics
+## What You'll Learn
 
-## Lesson Structure
+By the end of your training, you'll be able to:
+- Explain what a "digital footprint" is and why it's important to be thoughtful online.
+- Create a super-strong, easy-to-remember password.
+- Know the #1 rule for what to do if you see something online that makes you feel weird or uncomfortable.
+- Help create a class promise to always be kind and safe online.
 
-### Digital Footprint Investigation (15 minutes)
-- Understand that actions online leave permanent traces
-- Explore what digital footprints are and why they matter
-- Practice thinking before posting or sharing online
-- Connect to real-world consequences of digital actions
+## Your Superhero Training Plan
 
-### Password Security Workshop (15 minutes)
-- Learn what makes passwords strong vs. weak
-- Practice creating memorable but secure passwords
-- Understand why passwords should be kept private
-- Role-play scenarios about password sharing and security
+### Your Digital Footprint (15 minutes)
+- Let's imagine we're walking on a muddy path. We'd leave footprints, right? The internet is similar! Everything we do online leaves a **digital footprint**.
+- We'll talk about why we want our footprints to be positive and kind. The key is to **THINK before you click!**
+- Let's brainstorm: What are some examples of positive footprints we can leave online?
 
-### Online Interaction Scenarios (15 minutes)
-- Discuss appropriate and inappropriate online communication
-- Practice responses to cyberbullying or uncomfortable situations
-- Learn about trusted adults and when to ask for help
-- Emphasize kindness and respect in digital spaces
+### The Secret Password Workshop (15 minutes)
+- Your secret identity is important! A strong password is like a lock on the door to your superhero hideout.
+- We'll learn the secret recipe for a strong password: make it long, mix it up (letters, numbers!), and make it something you can remember but is hard for others to guess.
+- Your mission: Create your own new, super-strong password on our practice worksheet. (Don't share it!)
 
-### Digital Citizenship Pledge (5 minutes)
-- Create class agreement about responsible technology use
-- Commit to being positive digital citizens
-- Discuss ongoing learning and growth in digital citizenship
+### The Most Important Rule (15 minutes)
+- We'll look at some simple online situations. Some are fun, but some might feel a little weird.
+- We'll learn the most important superhero rule of the internet: **If you're not sure, or if something makes you feel uncomfortable, STOP and ask a trusted adult for help.**
+- We will practice what to say and who our trusted adults are (parents, teachers, family members).
 
-## Materials Needed
-- Digital footprint demonstration materials
-- Password creation worksheets and examples
-- Scenario cards for role-playing activities
-- Digital citizenship pledge template
-- Parent/guardian information sheets
+### Our Superhero Pledge (5 minutes)
+- Let's work together to create a simple promise for our class.
+- This will be our **Digital Citizenship Pledge**, a list of rules we all agree to follow to keep our online community safe and fun for everyone.
 
-## Assessment
+## Your Superhero Toolkit
+- A fun way to show a "digital footprint" (maybe with paint or chalk!)
+- Worksheets to practice creating super-strong passwords
+- Simple "what would you do?" scenario cards
+- A big poster for our class's Digital Citizenship Pledge
 
-### Formative
-- Understanding demonstrated in scenario responses
-- Quality of password creation and security awareness
-- Participation in discussions about appropriate online behavior
-- Commitment shown in digital citizenship pledge
+---
 
-## Safety and Security Education
-- Personal information protection
-- Recognition of trustworthy vs. untrustworthy online content
-- Appropriate responses to online challenges
-- Understanding of privacy settings and controls
+## How to Earn Your Cape
+- How you participate in our discussions about making safe and kind choices online.
+- **Password Power:** Can you explain the recipe for a strong password? (Don't share yours, though!)
+- Your signature on our class pledge will show you're ready to be a superhero digital citizen!
 
-## Character Education
-- Empathy and kindness in digital interactions
-- Responsibility for personal actions and their consequences
-- Respect for others in online spaces
-- Integrity in digital communication and sharing
-
-## Parent and Family Engagement
-- Information sharing about digital citizenship education
-- Resources for continuing conversations at home
-- Guidelines for family technology use and safety
-- Support for ongoing learning and growth
-
-## Extension Activities
-- Create digital citizenship presentations for younger students
-- Research and report on positive uses of technology
-- Practice digital citizenship skills in classroom technology use
-- Connect with families about home technology agreements
-
-## Vocabulary Introduced
-- Digital citizenship
-- Digital footprint
-- Password security
-- Privacy
-- Cyberbullying
+## New Tech Words to Master
+- **Digital Citizenship:** Being a responsible, respectful, and safe member of the online community.
+- **Digital Footprint:** The trail of "footprints" you leave behind online with your posts, comments, and clicks.
+- **Password Security:** The practice of creating strong passwords and keeping them secret to protect your information.
+- **Privacy:** Controlling what information you share about yourself online.

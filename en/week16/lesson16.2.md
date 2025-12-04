@@ -1,3 +1,12 @@
+---
+title: "Lesson 16.2: Showcase Event and Course Reflection"
+parent: "Week 16: Showcase Event and Course Reflection"
+nav_order: 2
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 16.2: Showcase Event and Course Reflection
 
 **Duration:** 50 minutes

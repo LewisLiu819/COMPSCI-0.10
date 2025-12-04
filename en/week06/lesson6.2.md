@@ -1,81 +1,61 @@
+---
+title: "Lesson 6.2: Yes/No Adventure Programming"
+parent: "Week 6: Boolean Logic and Decision Making"
+nav_order: 2
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 6.2: Yes/No Adventure Programming
 
-**Duration:** 50 minutes
-**Format:** Interactive Story Creation + Advanced Conditionals
-**Unit:** Problem Solving and Logic (Week 6-8)
+Welcome back, authors and programmers! You've learned how to create stories with simple choices. Now, it's time to level up and build a truly complex adventure with many branching paths, all powered by your new logic skills.
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Create branching narratives with multiple pathways
-- Program complex conditional statements
-- Design user-friendly interactive experiences
-- Plan and organize multi-step programming projects
+## What You'll Learn
 
-## Lesson Structure
+By the end of this master class, you'll be able to:
+- Design a story with multiple choices that lead to different endings.
+- Use advanced programming blocks (like message broadcasting) to create different scenes.
+- Create an interactive experience that's easy and fun for your friends to play.
+- Plan a big programming project from start to finish.
 
-### Story Structure Analysis (10 minutes)
-- Review choose-your-own-adventure book structure
-- Map out decision trees on the board
-- Identify how Boolean (yes/no) choices create different story paths
-- Plan story with 3-4 decision points
+## Your Adventure Creation Plan
 
-### Advanced Programming Techniques (15 minutes)
-- Learn to use message broadcasting for story branching
-- Practice programming multiple scenes or pages
-- Demonstrate how to create smooth transitions between story parts
-- Introduce background changes and character costume changes
+### Mapping the Adventure (10 minutes)
+- Let's look at the structure of a "Choose Your Own Adventure" book again.
+- This time, we'll map it out like a programmer, using a **decision tree**. This chart will show how every "yes/no" choice creates a new branch of the story.
+- It's your turn to plan! On paper, map out an adventure with at least 3 big decision points.
 
-### Interactive Story Creation (20 minutes)
-- Students create their adventure stories with multiple choices
-- Focus on logical story flow and clear user instructions
-- Implement at least 3 decision points with different outcomes
-- Add visual and audio elements to enhance storytelling
+### Advanced Programming Secrets (15 minutes)
+- How do you make a story jump from one page to another? We'll learn the secret of **message broadcasting** (the orange blocks).
+- These blocks let you create different scenes or "pages" for your story and jump between them smoothly.
+- We'll also see how to make characters or backgrounds change to match the story's path.
 
-### User Testing and Feedback (5 minutes)
-- Partner testing of interactive stories
-- Feedback on clarity of choices and story logic
-- Quick improvements based on user experience
-- Save projects for continued work
+### Build Your Epic Story! (20 minutes)
+- Time to bring your decision tree to life in Scratch Jr.!
+- Your main goal is to create a story with at least 3 different choices for the user.
+- Make sure your instructions are super clear so the player knows what to do.
+- Add cool sounds and visuals to make your story even more exciting!
 
-## Materials Needed
-- Story planning templates with decision tree diagrams
-- Devices with Scratch Jr.
-- Example interactive story for demonstration
-- User testing feedback forms
-- Timer for activity transitions
+### The "Play-Testing" Phase (5 minutes)
+- Let's test each other's stories! Swap devices with a partner.
+- As a tester, think about: Are the choices clear? Does the story make sense? Is it fun to play?
+- As the creator, listen to the feedback and make quick improvements to your adventure.
 
-## Assessment
+## Your Author's Toolkit
+- Story planning worksheets with a decision tree to map your ideas
+- Your device with Scratch Jr.
+- A simple feedback form for our play-testing session
 
-### Formative
-- Quality of story planning and organization
-- Successful implementation of branching logic
-- User-friendly design and clear instructions
-- Responsiveness to feedback during testing
+---
 
-### Summative
-Complete interactive story with at least 3 functional choice points and logical narrative flow.
+## How to Become a Master Author
+- We'll look at your decision tree plan. Is it well-organized and easy to follow?
+- **The Branching Test:** Does your final program have at least 3 working choices that lead to different outcomes?
+- Is your story fun and easy for another person to play? That's the sign of a great user experience!
 
-## Language Arts Integration
-- Narrative structure and story elements
-- Character development and motivation
-- Cause and effect relationships
-- Creative writing and storytelling
-
-## User Experience Design
-- Clear instructions and navigation
-- Logical flow and organization
-- Visual appeal and engagement
-- Testing and improvement based on feedback
-
-## Extension Activities
-- Create stories with more complex branching
-- Add character dialogue and sound effects
-- Design stories that teach academic content
-- Create story templates for younger students
-
-## Vocabulary Reinforced/Introduced
-- Branching
-- Decision tree
-- User experience
-- Navigation
-- Message broadcasting
+## New Tech Words to Master
+- **Branching:** Creating different paths or choices in a program.
+- **Decision Tree:** A map that shows all the possible choices and outcomes in a story or program.
+- **User Experience (UX):** Thinking about how easy and fun your program is for the person playing it.
+- **Message Broadcasting:** A way to send secret messages between your sprites and pages to trigger actions.

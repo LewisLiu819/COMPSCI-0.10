@@ -15,19 +15,19 @@
     <!-- Main Hero Text -->
     <h1 class="hero-title" style="font-size: 3.5rem; font-weight: 800; margin-bottom: 1rem; text-shadow: 2px 2px 4px rgba(0,0,0,0.3);">
       {% if page.lang == 'en' %}
-        Welcome to COMPSCI 0.10!
+        Welcome to COMPSCI 0.10 (CS 0.10)!
       {% else %}
-        欢迎来到COMPSCI 0.10！
+        欢迎来到 COMPSCI 0.10 (CS 0.10)！
       {% endif %}
     </h1>
 
-    <p class="hero-subtitle" style="font-size: 1.5rem; margin-bottom: 2rem; opacity: 0.95; max-width: 600px; margin-left: auto; margin-right: auto;">
+    <p class="hero-subtitle" style="font-size: 1.5rem; margin-bottom: 2rem; opacity: 0.95; max-width: 700px; margin-left: auto; margin-right: auto;">
       {% if page.lang == 'en' %}
-        🌟 An exciting journey into Computer Science for young explorers! 🌟<br>
-        <span style="font-size: 1.2rem;">Perfect for students in grades 4-6</span>
+        <strong>CS 010 | COMPSCI 010</strong> - An exciting journey into Computer Science for young explorers!<br>
+        <span style="font-size: 1.2rem;">Free elementary programming course for grades 4-6</span>
       {% else %}
-        🌟 专为小探索者设计的计算机科学精彩之旅！🌟<br>
-        <span style="font-size: 1.2rem;">完美适合4~6年级学生</span>
+        <strong>CS 010 | COMPSCI 010</strong> - 专为小探索者设计的计算机科学精彩之旅！<br>
+        <span style="font-size: 1.2rem;">专为4~6年级学生设计的免费编程课程</span>
       {% endif %}
     </p>
 
@@ -53,13 +53,19 @@
     <!-- Course Stats -->
     <div class="hero-stats" style="display: flex; justify-content: center; gap: 3rem; flex-wrap: wrap; margin-top: 2rem;">
       <div class="stat-item" style="text-align: center;">
-        <div style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">15</div>
+        <div style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">16</div>
+        <div style="font-size: 1rem; opacity: 0.9;">
+          {% if page.lang == 'en' %}Weeks{% else %}周课程{% endif %}
+        </div>
+      </div>
+      <div class="stat-item" style="text-align: center;">
+        <div style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">32</div>
         <div style="font-size: 1rem; opacity: 0.9;">
           {% if page.lang == 'en' %}Lessons{% else %}节课程{% endif %}
         </div>
       </div>
       <div class="stat-item" style="text-align: center;">
-        <div style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">60</div>
+        <div style="font-size: 2.5rem; font-weight: 800; margin-bottom: 0.5rem;">50</div>
         <div style="font-size: 1rem; opacity: 0.9;">
           {% if page.lang == 'en' %}Minutes Each{% else %}分钟每节{% endif %}
         </div>

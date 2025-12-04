@@ -1,77 +1,56 @@
-# Week 3: Introduction to Scratch Jr.
+---
+title: "Week 3: Introduction to Scratch Jr."
+nav_order: 4
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
+# Week 3: Your First Steps into Programming!
 
 **Unit:** Building Blocks of Programming (Weeks 3-5)
-**Duration:** 2 lessons, 50 minutes each
 
-## Week Overview
+## What's in Store This Week?
 
-Week 3 marks students' first introduction to actual programming using Scratch Jr. Students learn to navigate the programming environment, create simple programs with motion and sound, and begin to understand the creative possibilities of programming.
+The moment you've been waiting for is here! This week, you'll dive into the world of real programming with a super fun tool called **Scratch Jr.** Think of it as your own digital playground where you are the creator. You'll learn how to bring characters to life by snapping together colorful blocks that make them move, talk, and interact. Get ready to unleash your creativity and build your very first interactive stories and games!
 
-## Learning Goals
+## What You'll Be Able to Do!
 
-By the end of Week 3, students will be able to:
-- Navigate the Scratch Jr. interface confidently
-- Create simple programs using motion and sound blocks
-- Understand basic programming concepts like sprites and scripts
-- Combine multiple programming elements for creative projects
+By the end of this week, you'll be able to:
+- Find your way around the Scratch Jr. app like a pro.
+- Snap together motion and sound blocks to create your first simple programs.
+- Understand the secret language of programming, like what "sprites" and "scripts" are.
+- Mix different blocks together to build your own unique creations.
 
 ## Lessons This Week
 
-### [Lesson 3.1: Meet Scratch Jr. - Our Programming Playground](lesson3.1.md)
-**Format:** Technology Introduction + Guided Exploration
+### [Lesson 3.1: Welcome to the Programming Playground!](lesson3.1.md)
+**Get Ready To:** Jump into Scratch Jr. for the first time! We'll take a guided tour of your new creative playground and program a character to move across the screen.
 
-Students get their first hands-on experience with Scratch Jr., learning to navigate the interface and create their first simple programs.
-
-**Key Activities:**
-- Guided interface tour
-- First programming: making sprites move
-- Device management and basic navigation
-- Technology setup and troubleshooting
-
-**Vocabulary:** Sprite, Block, Script, Stage, Drag, Programming
+### [Lesson 3.2: Let's Have a Dance Party!](lesson3.2.md)
+**Get Ready To:** Become a digital choreographer! You'll combine movement, sound, and even repeat blocks to make your characters perform amazing dance routines.
 
 ---
 
-### [Lesson 3.2: Making Characters Dance](lesson3.2.md)
-**Format:** Creative Programming + Performance
+## How We'll See Our Skills Grow
 
-Students combine motion, sound, and repeat blocks to create entertaining dance sequences, celebrating creativity while learning programming fundamentals.
+- **Show What You Know:** We'll see how easily you can find your way around Scratch Jr. and snap blocks together.
+- **Creative Showcase:** You'll get to show off the amazing dance parties you programmed!
+- **Your First Portfolio Piece:** We'll save your first Scratch Jr. projects so you can see how much you grow as a programmer over the next few weeks.
 
-**Key Activities:**
-- Dance choreography planning
-- Programming dance sequences
-- Adding music and sound effects
-- Performance showcase and sharing
+## Connecting to Other Subjects
 
-**Vocabulary:** Sequence, Repeat, Sound blocks, Choreography
+- **Art & Music:** You'll be the artist and composer, creating digital dances with your own choreography and sound.
+- **Physical Education:** You'll think about movement and coordination, just like in a dance or sports class.
+- **Math:** You'll use sequencing and pattern-making skills, which are a big part of math!
 
-## Assessment Highlights
-
-- **Formative:** Interface navigation skills, successful block connection
-- **Performance:** Dance creation and presentation
-- **Portfolio:** First programming projects saved for growth documentation
-
-## Cross-Curricular Connections
-
-- **Arts:** Creative expression through digital choreography
-- **Music:** Rhythm, beat, and musical composition
-- **Physical Education:** Movement and coordination concepts
-- **Mathematics:** Sequencing and pattern recognition
-
-## Technology Skills Developed
-
-- Basic device management and care
-- File saving and project organization
-- User interface navigation
-- Problem-solving with technology tools
-
-## Materials Needed
-
-- Tablets or computers with Scratch Jr. installed
-- Projector for demonstrations
-- Dance planning worksheets
-- Portfolio folders for project storage
-- Device management system
+## Your Programmer's Toolkit
+- Tablets or computers with Scratch Jr. ready to go
+- A projector for our group demonstrations
+- Worksheets to help you plan your amazing dance moves
+- A special folder to save and keep track of all your projects
 
 ---
 

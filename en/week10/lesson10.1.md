@@ -1,85 +1,65 @@
+---
+title: "Lesson 10.1: Game Design Basics - What Makes Games Fun?"
+parent: "Week 10: Game Design and Interactive Experiences"
+nav_order: 1
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 10.1: Game Design Basics - What Makes Games Fun?
 
-**Duration:** 50 minutes
-**Format:** Game Analysis + Design Thinking
-**Unit:** Creative Computing (Week 9-11)
+Welcome, game designers! Before we can build a game, we need to figure out the secret ingredients that make games fun. Today, we'll be game analysts, investigating our favorite games to uncover the recipe for a great interactive experience.
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Analyze what elements make games engaging and fun
-- Identify basic game mechanics and rules
-- Apply design thinking to game creation
-- Plan original games using programming concepts
+## What You'll Learn
 
-## Lesson Structure
+By the end of this design session, you'll be able to:
+- Name the four secret ingredients of any game: goals, rules, challenges, and rewards.
+- Analyze your favorite games to see how they use these ingredients.
+- Brainstorm your own unique game idea.
+- Create a simple, clear plan for the game you want to build.
 
-### Favorite Games Analysis (15 minutes)
-- Students share favorite games (digital and non-digital)
-- Identify common elements that make games fun
-- Categorize game types and mechanics
-- Create class list of "ingredients for fun games"
+## Your Design Workshop Plan
 
-### Game Mechanics Exploration (15 minutes)
-- Learn about basic game mechanics: goals, obstacles, rewards, rules
-- Analyze simple games for these elements
-- Physical games practice: demonstrate mechanics with classroom games
-- Connect game mechanics to programming concepts
+### What's the Recipe for Fun? (15 minutes)
+- Let's talk about our favorite games (board games, sports, video games). What makes them so much fun to play?
+- We'll discover that all great games have the same four "secret ingredients."
+- Together, we'll create a class list of what every fun game needs.
 
-### Game Design Planning (15 minutes)
-- Introduce game design process: idea, plan, create, test, improve
-- Students brainstorm original game ideas
-- Plan basic game mechanics and rules
-- Consider how to implement games using programming skills
+### The Four Secret Ingredients (15 minutes)
+- Let's break down the recipe for a great game:
+  - **Goals:** What is the player trying to achieve? (e.g., reach the finish line, get the most points)
+  - **Rules:** What can the player do or not do? (e.g., you can only move one space at a time)
+  - **Challenges:** What makes it tricky? (e.g., obstacles, a timer, an opponent)
+  - **Rewards:** What happens when you do well? (e.g., points, winning, a fun sound)
+- We'll look at a simple game, like Tag, and find all four ingredients.
 
-### Design Sharing and Feedback (5 minutes)
-- Partner sharing of game ideas
-- Constructive feedback on game concepts
-- Refinement of ideas based on peer input
+### Brainstorm Your Game Idea! (15 minutes)
+- Now it's your turn to be the inventor! On your design worksheet, you'll start planning your own game.
+- Keep it simple and achievable! Think about fun, easy game types like:
+  - A "catching" game (catch falling objects)
+  - A simple "maze" game (get from start to finish)
+  - A "racing" game (who gets to the end first?)
+- Plan the four secret ingredients for your game idea.
 
-## Materials Needed
-- Collection of simple physical games for analysis
-- Game design planning templates
-- Chart paper for class brainstorming
-- Game mechanic reference cards
-- Example digital games for demonstration
+### Pitch Your Idea (5 minutes)
+- Share your game concept with a partner.
+- Get some feedback. Does it sound fun? Are the rules clear?
+- This is how real game designers improve their ideas!
 
-## Assessment
+## Your Designer's Toolkit
+- A few simple games (like a deck of cards or a board game) for us to look at
+- Game design worksheets to help you plan your big idea
+- Big paper for our class list of "secret ingredients"
 
-### Formative
-- Quality of game analysis and element identification
-- Creativity and feasibility of game design ideas
-- Understanding of game mechanics and rules
-- Thoughtfulness in planning and feedback
+---
 
-## Design Thinking Process
-- **Empathy:** Understanding what players enjoy
-- **Define:** Identifying game goals and challenges
-- **Ideate:** Brainstorming creative solutions
-- **Prototype:** Planning implementation
-- **Test:** Getting feedback and improving
+## How to Be a Master Designer
+- We'll see how you analyze games to find the four secret ingredients.
+- Your game design worksheet will be your blueprint. Is your idea clear, simple, and fun?
+- **The Fun Test:** When you describe your game to a friend, do they say, "Wow, I want to play that!"? If so, you're on the right track!
 
-## Critical Thinking Skills
-- Analysis and evaluation of existing products
-- Creative problem-solving and innovation
-- Systems thinking and rule creation
-- User experience and audience consideration
-
-## Real-World Applications
-- Product design and development
-- User experience design
-- Entertainment industry careers
-- Problem-solving through gamification
-
-## Extension Activities
-- Research careers in game design and development
-- Create physical prototypes of game ideas
-- Interview family members about their favorite games
-- Analyze educational games and learning effectiveness
-
-## Vocabulary Introduced
-- Game mechanics
-- Design thinking
-- User experience
-- Prototype
-- Game rules
-- Player engagement
+## New Tech Words to Master
+- **Game Mechanics:** A fancy term for the four secret ingredients (goals, rules, challenges, and rewards) that make a game work.
+- **Design Thinking:** The process of planning something for a user, like a game, to make sure it's fun and easy to use.
+- **Prototype:** A simple plan or drawing of your idea. Your worksheet is your first prototype!

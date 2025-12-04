@@ -1,3 +1,11 @@
+---
+title: "Week 15: Project Completion and Presentations"
+nav_order: 16
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
 # Week 15: Project Completion and Presentations
 
 **Unit:** Final Projects and Assessment (Weeks 14-16)

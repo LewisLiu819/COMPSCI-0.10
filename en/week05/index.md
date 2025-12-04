@@ -1,49 +1,56 @@
-# Week 5: Loops and Patterns
+---
+title: "Week 5: Loops and Patterns"
+nav_order: 6
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
+# Week 5: The Power of Patterns and Loops!
 
 **Unit:** Building Blocks of Programming (Weeks 3-5)
-**Duration:** 2 lessons, 50 minutes each
 
-## Week Overview
+## What's in Store This Week?
 
-Week 5 concludes Unit 2 by introducing students to loops and repetition in programming. Through pattern exploration and creative projects, students learn how loops make programming more efficient and discover the mathematical and artistic beauty of repeating sequences.
+This week, you'll unlock one of programming's biggest secrets: how to do a lot of work with very little code! We'll explore the world of **patterns** and **loops**, the tools programmers use to repeat actions over and over again. You'll become a pattern detective, finding loops in art, nature, and music. Then, you'll use this superpower to program amazing geometric art and compose your own looping music tracks. Get ready to make your programs more powerful and efficient!
 
-## Learning Goals
+## What You'll Be Able to Do!
 
-By the end of Week 5, students will be able to:
-- Identify patterns in nature, art, and daily life
-- Understand how loops make programming more efficient
-- Create visual and audio patterns using repeat blocks
-- Collaborate effectively on programming projects
+By the end of this week, you'll be able to:
+- Spot repeating patterns all around you.
+- Explain how "loops" help programmers save a ton of time.
+- Use the "repeat" block to create awesome visual and musical patterns.
+- Team up with a partner to create a cool programming project.
 
 ## Lessons This Week
 
-### [Lesson 5.1: Loop-de-Loop Patterns](lesson5.1.md)
-**Format:** Pattern Exploration + Repetition Programming
+### [Lesson 5.1: Programming Infinite Patterns](lesson5.1.md)
+**Get Ready To:** Become a pattern detective and a digital artist! You'll hunt for patterns in the wild and then learn how to use loops to program mesmerizing, repeating geometric designs.
 
-Students become pattern detectives, discovering repetition everywhere and learning to create geometric patterns using programming loops.
-
-**Key Activities:**
-- Pattern detective hunt in nature and art
-- Comparison of efficient vs. inefficient programming
-- Geometric pattern programming workshop
-- Gallery walk and pattern analysis
-
-**Vocabulary:** Loop, Repeat, Pattern, Efficient/Efficiency, Geometric
+### [Lesson 5.2: Code Your Own Concert](lesson5.2.md)
+**Get Ready To:** Become a composer and a DJ! You'll learn how to loop sounds and notes to create your very own musical masterpieces and maybe even a catchy song!
 
 ---
 
-### [Lesson 5.2: Musical Loops and Sound Sequences](lesson5.2.md)
-**Format:** Audio Programming + Creative Composition
+## How We'll See Our Skills Grow
 
-Students create musical compositions using loops and sound sequences, combining programming with creative expression and collaborative work.
+- **Pattern Spotting:** We'll see how good you are at finding repeating patterns in pictures and music.
+- **Creative Loops:** Your amazing geometric art and cool musical tracks will show off your looping skills.
+- **Teamwork Tune-up:** We'll see how you and your partner work together to compose a piece of music.
 
-**Key Activities:**
-- Musical pattern exploration and rhythm analysis
-- Sound block investigation and experimentation
-- Collaborative music creation in pairs
-- Concert performance and sharing
+## Connecting to Other Subjects
 
-**Vocabulary:** Rhythm, Sequence, Composition, Timing, Collaboration
+- **Art:** We'll look at famous artists who used patterns in their work and create our own digital art.
+- **Music:** You'll become a composer, learning about rhythm, beats, and how songs are structured with repeating parts.
+- **Math:** Loops are all about multiplication and geometry! You'll be doing math without even realizing it.
+
+## Your Programmer's Toolkit
+- Your device with Scratch Jr.
+- Pictures of patterns from art and nature
+- Headphones for when you're composing your musical masterpiece
+- A partner to collaborate with on your concert piece!
 
 ## Assessment Highlights
 

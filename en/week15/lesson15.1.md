@@ -1,3 +1,12 @@
+---
+title: "Lesson 15.1: Project Completion and Testing"
+parent: "Week 15: Project Completion and Presentations"
+nav_order: 1
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 15.1: Project Completion and Testing
 
 **Duration:** 50 minutes

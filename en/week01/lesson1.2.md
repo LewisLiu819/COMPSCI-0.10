@@ -1,69 +1,69 @@
+---
+title: "Lesson 1.2: Computers Are Everywhere!"
+parent: "Week 1: Welcome to the Digital World"
+nav_order: 1
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 1.2: Computers Are Everywhere!
 
-**Duration:** 50 minutes
-**Format:** Investigation + Digital Exploration
-**Unit:** What is Computer Science? (Week 1-2)
+Now that you're an expert computer detective, let's dive deeper! In this lesson, we'll investigate the secret behind how all computers "think" and work.
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Categorize different types of computers by their functions
-- Explain how computers process information (input → processing → output)
-- Identify inputs and outputs for common devices
-- Navigate basic tablet/computer interface
+## What You'll Learn
 
-## Lesson Structure
+By the end of today's investigation, you will be able to:
+- Sort different computers into groups based on their jobs.
+- Explain the secret three-step process all computers use: **Input → Processing → Output**.
+- Point out the "inputs" and "outputs" for everyday devices.
+- Feel comfortable finding your way around a tablet or computer.
+
+## Our Investigation Plan
 
 ### Review and Share (10 minutes)
-- Students share family computer hunt discoveries
-- Add new findings to class computer chart
-- Celebrate diverse discoveries
+- Let's hear about your computer discoveries from the "Family Computer Hunt" you did at home!
+- We'll add all your new finds to our giant class computer chart.
+- It's a celebration of all the amazing and different computers you found!
 
-### Input-Output Investigation (20 minutes)
-- Demonstrate input-output concept with classroom examples
-- Students work in small groups to identify inputs/outputs for different devices
-- Physical demonstration: students act as computers processing information
-- Create input-output cards for matching game
+### The Secret of Input-Output (20 minutes)
+- We'll uncover the "input-processing-output" secret with fun examples.
+- In small groups, you'll become investigators, figuring out the inputs and outputs for different gadgets.
+- **Get ready to be a human computer!** We'll do a fun activity where you act out the steps to process information.
 
-### Digital Exploration Time (15 minutes)
-- Introduction to classroom tablets/computers
-- Practice turning on devices, basic navigation
-- Explore pre-loaded educational apps briefly
-- Focus on observation rather than extensive use
+### Digital Explorer Time (15 minutes)
+- Time to get hands-on with the classroom tablets and computers!
+- We'll practice turning them on and navigating the basics.
+- You'll get to explore some cool, pre-loaded educational apps. The goal is to get comfortable, not to become an expert today!
 
-### Wrap-up and Reflection (5 minutes)
-- Quick sharing: "One new thing I learned about computers"
-- Preview of next lesson's exciting activities
+### Mission Debrief (5 minutes)
+- Quick share time: "What's one new thing you learned about how computers work?"
+- Get a sneak peek of the exciting challenges coming up in our next lesson!
 
-## Materials Needed
-- Tablets or computers for student use
-- Input-output investigation worksheets
-- Device cards for matching activity
-- Chart paper for ongoing class discoveries
-- Simple props for human computer demonstration
+## Gear for Your Investigation
+- Tablets or computers for you to use
+- "Input-Output Investigation" worksheets
+- Fun device cards for a matching game
+- Our growing class chart of computer discoveries
+- A few simple props for our "human computer" game
 
-## Assessment
+---
 
-### Formative
-- Input-output matching activity completion
-- Observation of device handling and navigation
-- Quality of explanations during investigations
+## How We'll Check Your Skills
+- We'll see how you do with a fun input-output matching game.
+- **Your Superpower Quiz:** A quick, picture-based quiz where you'll identify the inputs and outputs for 3 common devices.
 
-### Summative
-Simple quiz with pictures - students identify inputs and outputs for 3 common devices.
+## Fun for Everyone
+- **Want a bigger challenge?** Try to find some really tricky or unusual examples of inputs and outputs.
+- **Need a little help?** We've got pre-made picture cards to help you, and you'll be working with your team.
 
-## Differentiation
-- **Advanced learners:** Challenge to find unusual input-output examples
-- **Struggling learners:** Provide pre-made input-output cards for reference
-- **ELL students:** Use visual cards with minimal text, pair with bilingual buddy
+## More Fun at Home
+- Become an "Input-Output Architect" and draw diagrams for devices you find at home.
+- Keep adding to our class collection of "Amazing Computer Facts"!
 
-## Extension Activities
-- Create input-output diagrams for devices at home
-- Interview family members about how they use computers for work
-- Start a class "Amazing Computer Facts" collection
-
-## Vocabulary Reinforced/Introduced
-- Input
-- Output
-- Processing
-- Interface
-- Navigate
+## New Tech Words to Master
+- **Input:** Any information you give to a computer (like clicking a mouse, typing on a keyboard, or speaking to a smart speaker).
+- **Output:** The way a computer gives you information back (like showing something on a screen, playing a sound, or printing a page).
+- **Processing:** The computer's "brain" thinking about the input to create an output.
+- **Interface:** The screen and buttons you use to interact with a device.
+- **Navigate:** Finding your way around a website or a computer's screen.

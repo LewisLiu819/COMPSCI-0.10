@@ -1,67 +1,62 @@
+---
+title: "Lesson 2.1: Thinking Like a Computer"
+parent: "Week 2: Thinking Like a Computer"
+nav_order: 1
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 2.1: Thinking Like a Computer
 
-**Duration:** 50 minutes
-**Format:** Unplugged Activity + Introduction to Algorithms
-**Unit:** What is Computer Science? (Week 1-2)
+Welcome, programmers! Today, you get to be in charge of a robot. The catch? It's a *human* robot, and it will follow your instructions *exactly* as you say them. Let's learn how to give perfect commands!
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Define "algorithm" in kid-friendly terms
-- Write step-by-step instructions for a simple task
-- Identify when instructions are too vague or missing steps
-- Understand that computers need very precise instructions
+## What You'll Learn
 
-## Lesson Structure
+By the end of this lesson, you'll be able to:
+- Explain that an "algorithm" is just a fancy word for a list of steps.
+- Write a clear, step-by-step algorithm for a simple task.
+- Spot instructions that are confusing or missing a step.
+- Understand why programmers have to be super precise.
 
-### Human Robot Activity (20 minutes)
-- Teacher demonstrates being a "robot" following literal instructions
-- Students give instructions for simple tasks (walk to the board, pick up a book)
-- Highlight how robots/computers follow instructions exactly
-- Students take turns being "robots" and "programmers"
+## Our Mission for Today
 
-### Algorithm Writing Workshop (20 minutes)
-- Introduce the term "algorithm" as a fancy word for step-by-step instructions
-- Collaborative writing: Algorithm for brushing teeth
-- Partner activity: Write algorithms for tying shoes or making a paper airplane
-- Test algorithms by having partners follow them exactly
+### Human Robot Training (20 minutes)
+- First, your teacher will become a "robot" to show you how it works. You'll give commands and see what happens when a robot takes your words literally!
+- Then, it's your turn! In teams, one person will be the "programmer" and the other will be the "robot." Can you guide your robot to do things like walk to the board or pick up a book?
+
+### Algorithm Workshop (20 minutes)
+- Let's learn the secret programmer's word: **Algorithm**. It's just a recipe, or a set of instructions, for the computer to follow.
+- As a class, we'll write an algorithm together for a daily task, like how to brush your teeth.
+- With a partner, you'll write your own algorithm for tying a shoe or making a paper airplane. Then, you'll test it by having your partner follow your instructions precisely!
 
 ### Debugging Practice (8 minutes)
-- Present intentionally flawed algorithms
-- Students identify missing or unclear steps
-- Practice fixing (debugging) the instructions
+- Now for a challenge! We'll look at some instruction lists that are broken.
+- Your job is to be a "debugger" and find the missing, mixed-up, or unclear steps.
+- We'll practice fixing (or "debugging") the algorithms together.
 
-### Reflection Circle (2 minutes)
-- "What was challenging about giving instructions to our human robots?"
-- Connect to why programming requires precision
+### Mission Debrief (2 minutes)
+- "What was the hardest part about giving instructions to your human robot?"
+- We'll connect this fun activity to why real computer programming needs such careful thinking.
 
-## Materials Needed
-- Large chart paper for algorithm writing
+## Your Programmer's Toolkit
+- Big paper for writing our class algorithms
 - Markers and pencils
-- Simple props for robot activities (books, pencils, etc.)
-- Pre-written flawed algorithms for debugging practice
-- Algorithm template worksheets
+- Everyday objects for our robots to use (books, pencils, etc.)
+- Some pre-written "broken" algorithms for us to debug
+- Algorithm worksheets to help you write your steps
 
-## Assessment
+---
 
-### Formative
-- Observation during human robot activities
-- Quality of algorithm writing (completeness, clarity)
-- Participation in debugging exercises
+## How to Be a Master Programmer
+- We'll see how clearly you can give instructions during the Human Robot game.
+- **Your Mission Report:** A partner will try to follow your written algorithm. If they can do it successfully, your mission is a success!
 
-### Performance Assessment
-Students successfully guide a partner through their written algorithm.
+## Fun at Home
+- Write down the algorithm for your morning routine. See if a family member can follow your instructions *exactly*. Does it work?
 
-## Cross-Curricular Connections
-- **Math:** Sequencing and logical order
-- **Language Arts:** Writing clear, detailed instructions
-- **Life Skills:** Following directions and procedures
-
-## Homework Assignment
-Write an algorithm for your morning routine. Test it by asking a family member to follow your instructions exactly.
-
-## Vocabulary Introduced
-- Algorithm
-- Instructions
-- Steps
-- Sequence
-- Debug/Debugging
+## New Tech Words to Master
+- **Algorithm:** A list of step-by-step instructions for completing a task.
+- **Instructions:** The commands you give to a computer or a robot.
+- **Sequence:** The specific order of the steps. Getting the sequence right is very important!
+- **Debug:** To find and fix errors or problems in a set of instructions.

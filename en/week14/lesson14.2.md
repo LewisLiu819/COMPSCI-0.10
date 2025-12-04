@@ -1,3 +1,12 @@
+---
+title: "Lesson 14.2: Capstone Project Development Workshop"
+parent: "Week 14: Capstone Project Planning and Development"
+nav_order: 2
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 14.2: Capstone Project Development Workshop
 
 **Duration:** 50 minutes

@@ -1,3 +1,11 @@
+---
+title: "Week 14: Capstone Project Planning and Development"
+nav_order: 15
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
 # Week 14: Capstone Project Planning and Development
 
 **Unit:** Final Projects and Assessment (Weeks 14-16)

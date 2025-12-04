@@ -1,81 +1,59 @@
+---
+title: "Lesson 10.2: Creating Simple Interactive Games"
+parent: "Week 10: Game Design and Interactive Experiences"
+nav_order: 2
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 10.2: Creating Simple Interactive Games
 
-**Duration:** 50 minutes
-**Format:** Project-Based Programming + Game Development
-**Unit:** Creative Computing (Week 9-11)
+Welcome, game developers! You've analyzed what makes a game fun and designed your own amazing concept. Now it's time to open your game studio, fire up the computers, and bring your idea to life with code!
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Implement basic game mechanics using programming
-- Create games with clear goals and user interaction
-- Apply debugging skills to game development
-- Design user-friendly game interfaces
+## What You'll Learn
 
-## Lesson Structure
+By the end of this workshop, you'll be able to:
+- Use code to create the basic parts of a game (like player controls and goals).
+- Build a simple, playable game with a clear way to win.
+- Test your game to find and fix any bugs.
+- Design a game that is easy for a new player to understand and play.
 
-### Game Programming Basics (12 minutes)
-- Review programming concepts needed for games
-- Demonstrate simple game examples (catching, maze, quiz)
-- Plan programming approach for different game types
-- Choose game type based on programming skill level
+## Your Game Development Plan
+
+### From Plan to Program (12 minutes)
+- Let's review our game design plans from last lesson.
+- We'll look at a few simple game examples in Scratch Jr. (like a catching game or a maze game) and see how they are programmed.
+- Based on your plan, we'll choose a simple and achievable goal for your first game. Remember, starting simple is the key to success!
 
 ### Game Development Workshop (30 minutes)
-- Students program their planned games
-- Focus on core game loop: setup, play, win/lose conditions
-- Add game elements progressively: characters, obstacles, scoring
-- Teacher provides individual coaching and troubleshooting
+- It's time to build! Let's get programming.
+- Your first mission is to build the most important part of your game: the **core gameplay**. (e.g., making your character move, making objects appear).
+- Once that works, you can add the other key parts:
+  - A way to **win** (like reaching a finish line or touching an object).
+  - Clear **instructions** for the player.
+- Your teacher will be your lead developer, helping you solve problems and debug your code.
 
-### Game Testing and Debugging (8 minutes)
-- Students test their own games extensively
-- Partner testing for feedback and bug identification
-- Quick improvements based on testing results
-- Celebrate working games and learning from challenges
+### "Play-Testing" and Feedback (8 minutes)
+- Every real game goes through testing! It's time to let a friend play your game.
+- Watch them play. Do they understand the goal? Is it fun? Are there any bugs?
+- Use their feedback to make quick improvements to your game.
 
-## Materials Needed
-- Devices with Scratch Jr.
-- Game development planning sheets
-- Simple game examples for reference
-- Testing feedback forms
-- Success celebration materials
+## Your Developer's Toolkit
+- Your device with Scratch Jr.
+- Your game design worksheet from our last lesson
+- A simple feedback form for our "play-testers"
+- A big round of applause for every finished game!
 
-## Assessment
+---
 
-### Formative
-- Successful implementation of basic game mechanics
-- Quality of user interface and game experience
-- Effective use of debugging and testing processes
-- Creativity within technical constraints
+## How to Be a Star Developer
+- Did you successfully turn your design plan into a working program?
+- **The "It Works!" Test:** Does your game have a clear goal and a way for the player to win?
+- Your finished, playable game is a massive accomplishment and proves you're a real game developer!
 
-### Summative
-Working interactive game with clear goals, user input, and win/lose conditions.
-
-## Problem-Solving Skills
-- Breaking complex projects into manageable steps
-- Iterative development and improvement
-- Testing and quality assurance
-- Creative solutions within technical limitations
-
-## User Experience Design
-- Clear instructions and intuitive controls
-- Appropriate challenge level and progression
-- Visual and audio feedback for user actions
-- Accessibility and inclusive design considerations
-
-## Extension Challenges
-- Add multiple levels or increasing difficulty
-- Create two-player games
-- Implement scoring systems and high scores
-- Design games that teach academic content
-
-## Real-World Connections
-- Software development lifecycle
-- Product testing and quality assurance
-- User interface and experience design
-- Entertainment industry and game development careers
-
-## Vocabulary Reinforced
-- Game loop
-- User interface
-- Testing
-- Implementation
-- Interactive design
+## New Tech Words to Master
+- **Game Loop:** The main part of a game's code that runs over and over, checking for player actions and updating the screen.
+- **User Interface (UI):** The buttons, text, and screens that a player uses to interact with your game.
+- **Testing:** The process of playing a game to find bugs and see what needs to be improved.
+- **Implementation:** The process of taking your design plan and actually building it with code.

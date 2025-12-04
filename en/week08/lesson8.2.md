@@ -1,75 +1,56 @@
+---
+title: "Lesson 8.2: Digital Scrapbook Creation"
+parent: "Week 8: Data Organization and Digital Projects"
+nav_order: 2
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 8.2: Digital Scrapbook Creation
 
-**Duration:** 50 minutes
-**Format:** Personal Project + Information Organization
-**Unit:** Problem Solving and Logic (Week 6-8)
+Welcome, creators! It's time to bring everything you've learned together into one amazing project: a digital scrapbook that is all about YOU. This is your chance to use your programming superpowers to tell your own story and show off your unique personality.
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Organize personal information in digital format
-- Create multimedia presentations combining text, images, and interactivity
-- Apply programming skills to personal expression
-- Demonstrate understanding of information organization principles
+## What You'll Learn
 
-## Lesson Structure
+By the end of this project, you'll be able to:
+- Plan and organize a multi-page digital project.
+- Combine pictures, words, and interactive buttons to create a cool multimedia experience.
+- Use your coding skills to express who you are.
+- Feel proud of a big project that you planned and built yourself!
 
-### Planning Personal Digital Scrapbook (15 minutes)
-- Brainstorm categories of personal information to include
-- Plan organization structure (pages, sections, navigation)
-- Consider audience and purpose for scrapbook
-- Sketch layout and design ideas
+## Your Creation Plan
 
-### Digital Scrapbook Programming (30 minutes)
-- Create multiple scenes/pages for different topics
-- Add personal information, interests, and favorites
-- Include interactive elements (touch to reveal information)
-- Practice good organization and clear navigation
+### Planning Your "About Me" Scrapbook (15 minutes)
+- Let's brainstorm! What makes you, YOU? What pages should go in your scrapbook? (Ideas: My Family, My Hobbies, My Favorite Things, My Goals).
+- You'll be the designer. On paper, sketch out the different pages and think about how a user will navigate between them.
+- Who is this scrapbook for? (Maybe for your family, or for your friends to get to know you better!)
 
-### Peer Sharing and Feedback (5 minutes)
-- Partners explore each other's digital scrapbooks
-- Provide positive feedback and suggestions
-- Appreciate different organizational approaches and personal content
+### Build Your Masterpiece! (30 minutes)
+- Time to bring your plan to life in Scratch Jr.!
+- Your main goal is to create a scrapbook with different "pages" (scenes) that users can explore.
+- Add your personal information, your favorite things, and anything else that tells your story.
+- Make it interactive! Use buttons that, when tapped, take the user to a different page or reveal a secret message.
 
-## Materials Needed
-- Planning worksheets for scrapbook organization
-- Devices with Scratch Jr.
-- Access to simple drawing tools or pre-made graphics
-- Personal information prompt cards
-- Sharing guidelines for peer feedback
+### The Grand Showcase (5 minutes)
+- Let's explore each other's amazing scrapbooks!
+- As you look at a partner's project, give them a compliment and ask a question about their creation.
+- Let's celebrate all the unique and creative ways we told our own stories with code.
 
-## Assessment
+## Your Creator's Toolkit
+- Planning worksheets to help you design your scrapbook layout
+- Your device with Scratch Jr.
+- Idea cards with prompts about your favorite things to get you started
+- A respectful and curious attitude for our Grand Showcase!
 
-### Formative
-- Quality of planning and organization
-- Successful implementation of multiple scenes/pages
-- Creative use of interactive elements
-- Clear navigation and user-friendly design
+---
 
-### Summative
-Complete digital scrapbook with at least 4 organized sections and functional navigation.
+## How to Make an Awesome Scrapbook
+- We'll look at your plan. Is it well-organized with clear ideas for each page?
+- **The Navigation Test:** Can a friend easily find their way through the different pages of your scrapbook?
+- Your finished project will be an amazing showcase of your creativity and all the programming skills you've learned!
 
-## Personal Expression and Identity
-- Reflection on personal interests and characteristics
-- Cultural sharing and appreciation
-- Development of digital identity and representation
-- Pride in personal accomplishments and growth
-
-## Technology Skills Development
-- Multi-page project management
-- File organization and naming
-- User interface design principles
-- Integration of multiple media types
-
-## Extension Opportunities
-- Create scrapbooks for historical figures (social studies integration)
-- Design scrapbooks for story characters (language arts integration)
-- Make collaborative class scrapbook
-- Share scrapbooks with families for back-to-school night
-
-## Vocabulary Reinforced
-- Organization
-- Navigation
-- Scene
-- Interactive
-- Multimedia
-- Digital identity
+## New Tech Words to Master
+- **Navigation:** How a user moves around your project, from one page or scene to another.
+- **Multimedia:** A project that combines different types of media, like text, pictures, and interactive buttons.
+- **Digital Identity:** All the things that make you unique, shared in a digital way. This scrapbook is a part of your digital identity!

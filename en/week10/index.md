@@ -1,49 +1,54 @@
-# Week 10: Game Design and Interactive Experiences
+---
+title: "Week 10: Game Design and Interactive Experiences"
+nav_order: 11
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
+# Week 10: Become a Game Designer!
 
 **Unit:** Creative Computing (Weeks 9-11)
-**Duration:** 2 lessons, 50 minutes each
 
-## Week Overview
+## What's in Store This Week?
 
-Week 10 focuses on game design principles and creating interactive experiences. Students learn what makes games engaging and fun, then apply design thinking to create their own simple interactive games using programming concepts.
+Have you ever dreamed of creating your own video game? This week, that dream comes true! You'll become a **game designer**, learning the secret ingredients that make games fun and exciting. First, we'll be "game detectives," analyzing our favorite games to figure out what makes them so great. Then, you'll use your findings to design and program your very own simple, playable game. Get ready to turn your ideas into an interactive adventure that your friends can actually play!
 
-## Learning Goals
+## What You'll Be Able to Do!
 
-By the end of Week 10, students will be able to:
-- Analyze what elements make games engaging and fun
-- Apply design thinking principles to game creation
-- Implement basic game mechanics using programming
-- Create complete interactive games with clear objectives
+By the end of this week, you'll be able to:
+- Explain the basic "ingredients" of a fun game (like goals, rules, and challenges).
+- Plan your own simple game idea from start to finish.
+- Use your coding skills to build a basic game with a clear objective.
+- Create a game that is fun and easy for other people to play!
 
 ## Lessons This Week
 
-### [Lesson 10.1: Game Design Basics - What Makes Games Fun?](lesson10.1.md)
-**Format:** Game Analysis + Design Thinking
+### [Lesson 10.1: The Secret Ingredients of a Fun Game](lesson10.1.md)
+**Get Ready To:** Become a game analyst! We'll take a close look at our favorite games to uncover the secrets of what makes them fun. Then you'll brainstorm and design your own unique game concept.
 
-Students analyze their favorite games to identify core elements that make them engaging, then apply design thinking principles to plan original game concepts.
-
-**Key Activities:**
-- Favorite games analysis and element identification
-- Game mechanics exploration (goals, obstacles, rewards)
-- Design thinking process introduction
-- Game concept brainstorming and planning
-
-**Vocabulary:** Game mechanics, Design thinking, User experience, Prototype, Game rules, Player engagement
+### [Lesson 10.2: Build Your First Playable Game!](lesson10.2.md)
+**Get Ready To:** Open your own game development studio! You'll take your game design from the drawing board and bring it to life with code, creating a simple but complete game you can share.
 
 ---
 
-### [Lesson 10.2: Creating Simple Interactive Games](lesson10.2.md)
-**Format:** Project-Based Programming + Game Development
+## How We'll See Our Skills Grow
 
-Students implement their game designs using programming, creating complete interactive experiences with user input, game objectives, and win/lose conditions.
+- **Game Design Docs:** Your game design plan will show us how you can think like a real game designer.
+- **The Playability Test:** The ultimate test is your finished game! Is it fun? Does it work? Can a friend understand how to play it?
+- **From Idea to Reality:** Finishing your own game from start to finish will be a huge accomplishment that showcases all your amazing skills.
 
-**Key Activities:**
-- Game programming basics and core game loop
-- Interactive game development workshop
-- Game testing and debugging processes
-- Game sharing and celebration
+## Connecting to Other Subjects
 
-**Vocabulary:** Game loop, User interface, Testing, Implementation, Interactive design
+- **Art & Design:** You'll design the look and feel of your game, from the characters to the background.
+- **Physical Education:** You'll think about what makes any game (sports or video games) fair, challenging, and fun.
+- **Creative Writing:** You'll create a world and a story for your game, no matter how simple!
+
+## Your Game Designer's Toolkit
+- A few simple board games or card games to help us analyze "game mechanics"
+- Special worksheets to help you design your own game concept
+- Your trusty device with Scratch Jr.
+- Feedback forms for when we "play-test" each other's games
 
 ## Assessment Highlights
 

@@ -1,83 +1,60 @@
+---
+title: "Lesson 12.1: Community Helpers and Technology"
+parent: "Week 12: Technology Careers and Social Impact"
+nav_order: 1
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 12.1: Community Helpers and Technology
 
-**Duration:** 50 minutes
-**Format:** Community Exploration + Career Connections
-**Unit:** Computers and Society (Week 12-13)
+Welcome, future world-changers! Today is Career Day in our tech lab. We'll explore all the amazing jobs that use technology to help our community, and you'll even get to be a journalist and interview a real tech professional.
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Identify how different professionals use computers in their work
-- Understand the positive impact of technology on community services
-- Connect programming skills to real-world applications
-- Explore potential technology-related career paths
+## What You'll Learn
 
-## Lesson Structure
+By the end of this lesson, you'll be able to:
+- Name at least 3 different jobs that use technology every day.
+- Explain how technology helps people in our community do their jobs better.
+- Ask thoughtful questions to a professional who works in the tech world.
+- Connect your own passions to a cool future career!
 
-### Community Helper Technology Hunt (15 minutes)
-- Brainstorm different jobs in the community
-- Identify how each job might use technology or computers
-- Create visual maps connecting jobs to technology use
-- Discuss how technology helps people serve others better
+## Your Career Day Plan
 
-### Professional Technology Interviews (20 minutes)
-- Virtual or in-person interviews with community professionals
-- Focus on how they use technology in their daily work
-- Students prepare questions about technology use and career paths
-- Learn about different ways programming and computers help people
+### Tech in Our Town (15 minutes)
+- Let's brainstorm all the "community helpers" who work in our town (doctors, librarians, artists, builders, etc.).
+- Now, let's be detectives: How do you think each of these people uses technology? (A librarian uses a computer database; a builder might use a laser level).
+- We'll create a big map to see how technology connects to almost every job imaginable!
 
-### Technology Problem-Solving (12 minutes)
-- Identify problems in school or community that technology could help solve
-- Brainstorm app or program ideas to address real needs
-- Consider how programming skills could create positive change
-- Plan simple programs that could help others
+### Interview a Tech Pro! (20 minutes)
+- It's time to talk to a real-life tech expert!
+- As a class, we'll get to interview a special guest (in person or on video) who works in technology.
+- Your job is to be a journalist. Before the interview, you'll help brainstorm questions to ask them about their job and how they use computers.
 
-### Career Inspiration Sharing (3 minutes)
-- Students share which technology careers sound interesting
-- Discuss pathways to technology careers and continued learning
-- Celebrate diversity of interests and potential future paths
+### What's Your Tech Superpower? (12 minutes)
+- After our interview, let's think about our own futures.
+- What problems in our school or community do you care about? (e.g., helping new students feel welcome, making the playground safer).
+- Let's brainstorm how a simple app or program could help solve one of those problems.
 
-## Materials Needed
-- Career and technology connection worksheets
-- Video chat setup for virtual professional interviews
-- Community problem identification templates
-- Career exploration resources and websites
-- Inspiration and goal-setting materials
+### My Future in Tech (3 minutes)
+- Let's share one cool tech job we learned about today.
+- Did any of the jobs connect with something you already love to do? (Maybe you love art and could be a digital animator!)
 
-## Assessment
+## Your Journalist's Toolkit
+- Worksheets to help us map out "Tech in Our Town"
+- A video chat setup for our special guest interview
+- A list of the awesome questions we brainstorm as a class
+- A place to write down your own "App for Good" ideas
 
-### Formative
-- Understanding of technology use across different careers
-- Quality of interview questions and engagement with professionals
-- Creativity in problem-solving and solution brainstorming
-- Connection between current learning and future possibilities
+---
 
-## Career Exploration
-- Diversity of technology-related careers
-- Skills and education pathways for different jobs
-- Entrepreneurship and innovation opportunities
-- Connection between personal interests and career possibilities
+## How to Be a Star Journalist
+- We'll see how you connect different community jobs to the technology they use.
+- Your participation in brainstorming questions for our guest will show your great thinking.
+- The creativity of your "App for Good" idea will show how you're starting to think like a real-world problem-solver!
 
-## Community Connection
-- Understanding of local community needs and services
-- Appreciation for different types of work and contributions
-- Recognition of technology's role in helping people
-- Development of civic awareness and responsibility
-
-## Real-World Applications
-- Technology in healthcare, education, public safety, transportation
-- Entrepreneurship and startup development
-- Social impact and technology for good
-- Innovation and creative problem-solving
-
-## Extension Activities
-- Create digital presentations about different technology careers
-- Design apps or programs to solve school problems
-- Interview family members about technology use in their work
-- Research famous technologists and inventors
-
-## Vocabulary Introduced
-- Professional
-- Technology careers
-- Innovation
-- Social impact
-- Community service
+## New Tech Words to Master
+- **Professional:** A person who has a job that requires special training or education.
+- **Tech Career:** Any job that involves creating or using technology.
+- **Innovation:** Coming up with new ideas or new ways of doing things.
+- **Social Impact:** The effect that an action or invention has on people and society. Using tech for good has a positive social impact!

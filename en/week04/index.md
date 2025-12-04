@@ -1,49 +1,56 @@
-# Week 4: Conditionals and Interactive Programming
+---
+title: "Week 4: Conditionals and Interactive Programming"
+nav_order: 5
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
+# Week 4: Giving Your Programs a Brain!
 
 **Unit:** Building Blocks of Programming (Weeks 3-5)
-**Duration:** 2 lessons, 50 minutes each
 
-## Week Overview
+## What's in Store This Week?
 
-Week 4 introduces students to conditional logic and interactive programming. Through choose-your-own-adventure stories and hands-on programming projects, students learn to create programs that make decisions based on user input and different conditions.
+This week, we're giving our programs a superpower: the ability to make decisions! You'll learn the magic words of programming—**If... then...**—that let your creations respond to touch and make choices. We'll start by designing our own "Choose Your Own Adventure" stories and then build a mysterious "Magic 8-Ball" that can predict the future. Get ready to make your programs smarter and more interactive than ever before!
 
-## Learning Goals
+## What You'll Be Able to Do!
 
-By the end of Week 4, students will be able to:
-- Understand "if-then" logic in everyday situations and programming
-- Create programs that respond to user interaction
-- Use touch triggers and conditional statements in their projects
-- Build interactive stories with multiple pathways
+By the end of this week, you'll be able to:
+- Use "if... then..." logic to solve problems and create stories.
+- Make programs that do different things when you touch them.
+- Use special "trigger" blocks to make your programs interactive.
+- Build your very own interactive story with different paths and endings!
 
 ## Lessons This Week
 
-### [Lesson 4.1: Choose Your Own Adventure - Introduction to Conditionals](lesson4.1.md)
-**Format:** Interactive Storytelling + Programming Logic
+### [Lesson 4.1: Choose Your Own Adventure!](lesson4.1.md)
+**Get Ready To:** Become an interactive storyteller! You'll learn how "if... then..." sentences work in the real world and then use that power to build a story in Scratch Jr. where the user gets to decide what happens next.
 
-Students explore if-then logic through real-world examples and create simple interactive stories using touch triggers and conditional statements.
-
-**Key Activities:**
-- If-then logic exploration with physical activities
-- Interactive story planning and analysis
-- Programming touch triggers and responses
-- Creating simple branching narratives
-
-**Vocabulary:** Conditional, If-then, Trigger, Interactive, Choice/Decision, Response
+### [Lesson 4.2: Code a Mystic Magic 8-Ball](lesson4.2.md)
+**Get Ready To:** Create a fortune-telling program! You'll build your own Magic 8-Ball that gives a random, mysterious answer every time you ask it a question.
 
 ---
 
-### [Lesson 4.2: Magic 8-Ball Fortune Teller](lesson4.2.md)
-**Format:** Project-Based Learning + Logic Programming
+## How We'll See Our Skills Grow
 
-Students create their own digital Magic 8-Ball fortune teller, learning to program random responses and complete interactive projects from start to finish.
+- **Logic Check:** We'll see how you use "if... then..." logic in our games and in your programs.
+- **Interactive Showcase:** You'll show off your adventure stories and explain the different choices a user can make.
+- **The Final Project:** Your finished Magic 8-Ball will prove you can build a complete, interactive program from start to finish!
 
-**Key Activities:**
-- Introduction to randomness and probability
-- Project planning and design
-- Programming random responses with broadcast blocks
-- Testing, debugging, and project completion
+## Connecting to Other Subjects
 
-**Vocabulary:** Random, Broadcast, Debug, Test, User input
+- **Literature:** We'll explore how "Choose Your Own Adventure" books are structured, just like the programs we're building.
+- **Math:** You'll learn about the basics of probability and what makes something "random."
+- **Language Arts:** You'll practice creative writing by building your own branching stories.
+
+## Your Programmer's Toolkit
+- Tablets or computers with Scratch Jr.
+- A few "Choose Your Own Adventure" books to inspire us
+- Templates for planning your interactive stories
+- A real Magic 8-Ball (or a video of one) to see how it works!
 
 ## Assessment Highlights
 

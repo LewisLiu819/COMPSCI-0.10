@@ -1,69 +1,58 @@
+---
+title: "Week 2: Thinking Like a Computer"
+nav_order: 3
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Week 2: Thinking Like a Computer
 
 **Unit:** What is Computer Science? (Weeks 1-2)
-**Duration:** 2 lessons, 50 minutes each
 
-## Week Overview
+## What's in Store This Week?
 
-Week 2 introduces students to algorithmic thinking and the importance of precise instructions. Through unplugged activities and hands-on challenges, students learn to write step-by-step instructions (algorithms) and understand why computers need very specific directions to function properly.
+This week, we're going to learn the secret to talking to computers! It's all about thinking like they do. We'll discover that computers need super clear, step-by-step instructions to get anything done. These special instruction lists are called **algorithms**, and you use them every day without even realizing it! Through hilarious and hands-on games, you'll learn how to write your own algorithms and see why being super specific is the key to becoming a master programmer.
 
-## Learning Goals
+## What You'll Be Able to Do!
 
-By the end of Week 2, students will be able to:
-- Define "algorithm" in simple terms
-- Write clear, step-by-step instructions for simple tasks
-- Identify and fix problems in instructions (debugging)
-- Understand that computers follow instructions exactly as written
+By the end of this week, you'll be able to:
+- Explain what an "algorithm" is in your own words (it's like a recipe!).
+- Write super clear, step-by-step instructions for everyday tasks.
+- Find and fix problems in a set of instructions, a skill called "debugging."
+- Understand why computers are a bit silly—they do *exactly* what you tell them, even if it's wrong!
 
 ## Lessons This Week
 
-### [Lesson 2.1: Thinking Like a Computer](lesson2.1.md)
-**Format:** Unplugged Activity + Introduction to Algorithms
+### [Lesson 2.1: How to Train Your Human Robot](lesson2.1.md)
+**Get Ready To:** Become a programmer for a "human robot"! You'll give commands to your friends and see firsthand why every single step matters.
 
-Students learn about algorithms through the "Human Robot" activity, where they give precise instructions to their classmates and discover the importance of clear, detailed directions.
-
-**Key Activities:**
-- Human Robot demonstrations
-- Algorithm writing workshop
-- Debugging practice with flawed instructions
-- Collaborative algorithm creation
-
-**Vocabulary:** Algorithm, Instructions, Steps, Sequence, Debug/Debugging
+### [Lesson 2.2: The Great Peanut Butter Sandwich Challenge!](lesson2.2.md)
+**Get Ready To:** Write the most detailed recipe ever for making a peanut butter and jelly sandwich. We'll test your instructions live, and the results are guaranteed to be funny and educational!
 
 ---
 
-### [Lesson 2.2: The Great Peanut Butter Sandwich Challenge](lesson2.2.md)
-**Format:** Hands-on Algorithm Practice + Introduction to Programming
+## How We'll See Our Skills Grow
 
-Students write detailed algorithms for making peanut butter sandwiches and watch as their instructions are followed exactly, leading to hilarious (and educational) results that demonstrate the need for precision in programming.
+- **Teamwork in Action:** We'll see how well you work as a programmer-robot team.
+- **Algorithm Check-Up:** We'll look at the instructions you write to see how clear and complete they are.
+- **Before and After:** You'll get to improve your first set of instructions after seeing it in action, showing how much you've learned about debugging!
 
-**Key Activities:**
-- Peanut butter sandwich algorithm writing
-- Live testing of student algorithms
-- Algorithm revision and improvement
-- Connection to computer programming concepts
+## Connecting to Other Subjects
 
-**Vocabulary:** Algorithm, Precise/Precision, Instructions, Debug, Revise/Revision
+- **Math:** You'll be using logic and putting things in the right order (sequencing).
+- **Language Arts:** This is all about writing clear instructions that are easy to follow.
+- **Life Skills:** You'll get better at following directions for anything, from building LEGOs to baking a cake.
 
-## Assessment Highlights
+## Real-World Connections
 
-- **Formative:** Human robot activity participation, algorithm completeness
-- **Performance:** Partner successfully follows written algorithm
-- **Summative:** Comparison of original vs. revised algorithms
-
-## Cross-Curricular Connections
-
-- **Math:** Sequencing and logical order
-- **Language Arts:** Clear technical writing and instruction giving
-- **Life Skills:** Following procedures and directions
-- **Science:** Systematic observation and hypothesis testing
-
-## Real-World Applications
-
-- Cooking recipes as algorithms
-- GPS navigation instructions
-- Assembly instructions for toys and furniture
-- Emergency procedures and safety protocols
+Did you know algorithms are everywhere? They're in:
+- Cooking recipes
+- GPS directions on a map
+- Instructions for building a new toy
+- The rules for your favorite board game
 
 ## Safety Considerations
 

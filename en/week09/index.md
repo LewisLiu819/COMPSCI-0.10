@@ -1,84 +1,55 @@
-# Week 9: Digital Storytelling and Character Development
+---
+title: "Week 9: Digital Storytelling and Character Development"
+nav_order: 10
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
+# Week 9: Become a Digital Storyteller!
 
 **Unit:** Creative Computing (Weeks 9-11)
 **Duration:** 2 lessons, 50 minutes each
 
-## Week Overview
+## What's in Store This Week?
 
-Week 9 begins Unit 4 by introducing students to digital storytelling and advanced character development. Students learn to adapt traditional stories for digital media and create compelling characters with unique personalities and voices, combining programming skills with creative expression.
+Get ready to bring your imagination to life! This week, you'll become a **digital storyteller**, learning how to create amazing animated stories on the computer. We'll start by taking a classic fairy tale and giving it a modern, coded twist. Then, you'll learn how to design your own unique characters, giving them cool personalities and even your own voice! It's time to combine your programming skills with your creativity to become the author, director, and star of your own show.
 
-## Learning Goals
+## What You'll Be Able to Do!
 
-By the end of Week 9, students will be able to:
-- Adapt traditional stories for digital medium
-- Create multi-scene narrative programs with clear story structure
-- Design unique digital characters with distinct personalities
-- Add voice recording and character interactions to their stories
+By the end of this week, you'll be able to:
+- Plan a story with a clear beginning, middle, and end.
+- Turn a classic story into your own unique animated version.
+- Design a cool digital character with its own personality.
+- Record your own voice to make your characters talk and come alive!
 
 ## Lessons This Week
 
-### [Lesson 9.1: Digital Storytelling - Adapting Fairy Tales](lesson9.1.md)
-**Format:** Creative Programming + Literature Integration
+### [Lesson 9.1: Remaking a Classic: Coding a Fairy Tale](lesson9.1.md)
+**Get Ready To:** Take a fairy tale you know and love and turn it into a cool animation! You'll learn how to plan your story scene by scene and then build it with code.
 
-Students analyze classic story structure and begin adapting traditional fairy tales for digital presentation, learning to translate literary elements into programming concepts.
-
-**Key Activities:**
-- Story structure analysis and storyboard planning
-- Digital story programming with multiple scenes
-- Character movement and scene transitions
-- Story sharing and peer feedback
-
-**Vocabulary:** Adaptation, Storyboard, Scene transition, Digital storytelling, Narrative structure
+### [Lesson 9.2: Creating Characters with Personality!](lesson9.2.md)
+**Get Ready To:** Be a character designer and a voice actor! You'll invent your own characters, decide what makes them special, and then record your own voice to make them speak.
 
 ---
 
-### [Lesson 9.2: Character Development and Voice Acting](lesson9.2.md)
-**Format:** Creative Arts + Advanced Programming
+## How We'll See Our Skills Grow
 
-Students design original characters with distinct personalities and add voice acting to bring their digital creations to life through audio recording and character interaction programming.
+- **Story Planning:** Your storyboards will show us how you can plan a story from beginning to end.
+- **Creative Characters:** We'll see the awesome, unique characters you design and bring to life.
+- **The Final Show:** Your finished, voiced animation will be an amazing showcase of your storytelling and programming talents!
 
-**Key Activities:**
-- Character design workshop with personality development
-- Voice acting and audio recording techniques
-- Character interaction programming
-- Character showcase and performance
+## Connecting to Other Subjects
 
-**Vocabulary:** Character development, Voice acting, Dialogue, Personality traits, Audio recording
+- **Literature & Writing:** You'll be analyzing stories, writing dialogue, and becoming an author.
+- **Drama & Art:** You'll practice voice acting and character design, just like in a real movie studio!
+- **Technology:** You're combining the art of storytelling with the power of programming.
 
-## Assessment Highlights
-
-- **Formative:** Story structure understanding, creativity in character design
-- **Performance:** Digital story presentation and character voice work
-- **Portfolio:** Storyboards, character designs, and completed digital stories
-
-## Cross-Curricular Connections
-
-- **Literature:** Story structure, character analysis, and narrative adaptation
-- **Drama:** Voice acting, character interpretation, and performance skills
-- **Visual Arts:** Character design and digital illustration
-- **Creative Writing:** Dialogue development and storytelling techniques
-
-## Creative Expression Focus
-
-- Adaptation and interpretation of existing works
-- Original character creation and development
-- Integration of technology with traditional art forms
-- Personal artistic voice and creative choices
-
-## Technology Skills Development
-
-- Multi-scene project organization and management
-- Audio recording and basic editing techniques
-- Character animation and interaction programming
-- File management for multimedia projects
-
-## Materials Needed
-
-- Collection of classic fairy tales for reference
-- Devices with Scratch Jr. and audio recording capabilities
-- Character design planning worksheets
-- Storyboard templates and planning materials
-- Headphones for individual audio recording
+## Your Storyteller's Toolkit
+- A collection of classic fairy tales to spark your imagination
+- Storyboard templates to help you plan your scenes, like a real director
+- Worksheets for designing your amazing new characters
+- Your device with Scratch Jr., complete with a microphone for voice recording!
 
 ---
 

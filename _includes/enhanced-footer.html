@@ -1,0 +1,260 @@
+<!-- Enhanced Footer -->
+<footer class="enhanced-footer" style="background: linear-gradient(135deg, #2E86AB 0%, #1976D2 100%); color: white; margin-top: 4rem; padding: 3rem 0 1rem 0;">
+  <div class="footer-content" style="max-width: 1200px; margin: 0 auto; padding: 0 2rem;">
+
+    <!-- Main Footer Content -->
+    <div class="footer-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+
+      <!-- Course Information -->
+      <div class="footer-section">
+        <h3 style="color: #F18F01; margin-bottom: 1rem; font-size: 1.2rem;">
+          {% if page.lang == 'en' %}
+            🎓 Course Information
+          {% else %}
+            🎓 课程信息
+          {% endif %}
+        </h3>
+        <ul style="list-style: none; padding: 0; line-height: 1.8;">
+          <li style="margin-bottom: 0.5rem;">
+            <a href="{% if page.lang == 'en' %}/en/{% else %}/{% endif %}" style="color: rgba(255,255,255,0.9); text-decoration: none; transition: color 0.3s ease;">
+              {% if page.lang == 'en' %}📚 Course Overview{% else %}📚 课程概述{% endif %}
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="{% if page.lang == 'en' %}/en/week01/{% else %}/week01/{% endif %}" style="color: rgba(255,255,255,0.9); text-decoration: none; transition: color 0.3s ease;">
+              {% if page.lang == 'en' %}🚀 Start Learning{% else %}🚀 开始学习{% endif %}
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <span style="color: rgba(255,255,255,0.7);">
+              {% if page.lang == 'en' %}⏱️ 16 weeks, 32 lessons{% else %}⏱️ 16周，32节课{% endif %}
+            </span>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <span style="color: rgba(255,255,255,0.7);">
+              {% if page.lang == 'en' %}👥 Grades 4-6{% else %}👥 4-6年级{% endif %}
+            </span>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Quick Links -->
+      <div class="footer-section">
+        <h3 style="color: #F18F01; margin-bottom: 1rem; font-size: 1.2rem;">
+          {% if page.lang == 'en' %}
+            🔗 Quick Links
+          {% else %}
+            🔗 快速链接
+          {% endif %}
+        </h3>
+        <ul style="list-style: none; padding: 0; line-height: 1.8;">
+          <li style="margin-bottom: 0.5rem;">
+            <a href="{% if page.lang == 'en' %}/en/week03/{% else %}/week03/{% endif %}" style="color: rgba(255,255,255,0.9); text-decoration: none; transition: color 0.3s ease;">
+              {% if page.lang == 'en' %}🎨 Scratch Jr. Programming{% else %}🎨 Scratch Jr. 编程{% endif %}
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="{% if page.lang == 'en' %}/en/week10/{% else %}/week10/{% endif %}" style="color: rgba(255,255,255,0.9); text-decoration: none; transition: color 0.3s ease;">
+              {% if page.lang == 'en' %}🎮 Game Design{% else %}🎮 游戏设计{% endif %}
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="{% if page.lang == 'en' %}/en/week13/{% else %}/week13/{% endif %}" style="color: rgba(255,255,255,0.9); text-decoration: none; transition: color 0.3s ease;">
+              {% if page.lang == 'en' %}🌐 Digital Citizenship{% else %}🌐 数字公民{% endif %}
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="{% if page.lang == 'en' %}/en/week16/{% else %}/week16/{% endif %}" style="color: rgba(255,255,255,0.9); text-decoration: none; transition: color 0.3s ease;">
+              {% if page.lang == 'en' %}🏆 Final Showcase{% else %}🏆 最终展示{% endif %}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Resources & Tools -->
+      <div class="footer-section">
+        <h3 style="color: #F18F01; margin-bottom: 1rem; font-size: 1.2rem;">
+          {% if page.lang == 'en' %}
+            🛠️ Resources & Tools
+          {% else %}
+            🛠️ 资源与工具
+          {% endif %}
+        </h3>
+        <ul style="list-style: none; padding: 0; line-height: 1.8;">
+          <li style="margin-bottom: 0.5rem;">
+            <a href="https://www.scratchjr.org/" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.9); text-decoration: none; transition: color 0.3s ease;">
+              {% if page.lang == 'en' %}📱 Scratch Jr. App{% else %}📱 Scratch Jr. 应用{% endif %}
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="https://scratch.mit.edu/" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.9); text-decoration: none; transition: color 0.3s ease;">
+              {% if page.lang == 'en' %}🐱 Scratch (Advanced){% else %}🐱 Scratch (进阶){% endif %}
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="https://code.org/student" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.9); text-decoration: none; transition: color 0.3s ease;">
+              {% if page.lang == 'en' %}🌟 Code.org Courses{% else %}🌟 Code.org 课程{% endif %}
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="https://cs.berkeley.edu/academics/undergraduate/degree-programs/ba-program/cs10" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.9); text-decoration: none; transition: color 0.3s ease;">
+              {% if page.lang == 'en' %}🎓 UC Berkeley CS10{% else %}🎓 加州大学伯克利分校CS10{% endif %}
+            </a>
+          </li>
+        </ul>
+      </div>
+
+      <!-- Contact & Support -->
+      <div class="footer-section">
+        <h3 style="color: #F18F01; margin-bottom: 1rem; font-size: 1.2rem;">
+          {% if page.lang == 'en' %}
+            💬 Support & Community
+          {% else %}
+            💬 支持与社区
+          {% endif %}
+        </h3>
+        <ul style="list-style: none; padding: 0; line-height: 1.8;">
+          <li style="margin-bottom: 0.5rem;">
+            <a href="https://github.com/lewisliu819/jdtest" target="_blank" rel="noopener" style="color: rgba(255,255,255,0.9); text-decoration: none; transition: color 0.3s ease;">
+              {% if page.lang == 'en' %}💻 GitHub Repository{% else %}💻 GitHub 仓库{% endif %}
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <span style="color: rgba(255,255,255,0.7);">
+              {% if page.lang == 'en' %}👨‍🏫 For Teachers{% else %}👨‍🏫 教师专区{% endif %}
+            </span>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <span style="color: rgba(255,255,255,0.7);">
+              {% if page.lang == 'en' %}👨‍👩‍👧‍👦 Parent Resources{% else %}👨‍👩‍👧‍👦 家长资源{% endif %}
+            </span>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <span style="color: rgba(255,255,255,0.7);">
+              {% if page.lang == 'en' %}❓ FAQ & Help{% else %}❓ 常见问题与帮助{% endif %}
+            </span>
+          </li>
+        </ul>
+      </div>
+
+    </div>
+
+    <!-- Fun Facts Section -->
+    <div class="fun-facts-section" style="background: rgba(255,255,255,0.1); border-radius: 12px; padding: 1.5rem; margin-bottom: 2rem;">
+      <h3 style="color: #F18F01; margin-bottom: 1rem; text-align: center;">
+        {% if page.lang == 'en' %}
+          🤖 Fun Computer Science Facts!
+        {% else %}
+          🤖 有趣的计算机科学知识！
+        {% endif %}
+      </h3>
+      <div class="facts-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); gap: 1rem;">
+        <div class="fact-item" style="text-align: center; padding: 1rem;">
+          <div style="font-size: 2rem; margin-bottom: 0.5rem;">🐛</div>
+          <p style="margin: 0; font-size: 0.9rem; line-height: 1.4; color: rgba(255,255,255,0.9);">
+            {% if page.lang == 'en' %}
+              The first computer "bug" was an actual bug! Grace Hopper found a moth stuck in a computer in 1947.
+            {% else %}
+              第一个计算机"bug"是真正的虫子！1947年格蕾丝·霍普在计算机里发现了一只飞蛾。
+            {% endif %}
+          </p>
+        </div>
+        <div class="fact-item" style="text-align: center; padding: 1rem;">
+          <div style="font-size: 2rem; margin-bottom: 0.5rem;">📱</div>
+          <p style="margin: 0; font-size: 0.9rem; line-height: 1.4; color: rgba(255,255,255,0.9);">
+            {% if page.lang == 'en' %}
+              Your phone has more computing power than the computers that sent humans to the moon!
+            {% else %}
+              你的手机比把人类送上月球的计算机拥有更强的计算能力！
+            {% endif %}
+          </p>
+        </div>
+        <div class="fact-item" style="text-align: center; padding: 1rem;">
+          <div style="font-size: 2rem; margin-bottom: 0.5rem;">👩‍💻</div>
+          <p style="margin: 0; font-size: 0.9rem; line-height: 1.4; color: rgba(255,255,255,0.9);">
+            {% if page.lang == 'en' %}
+              The first computer programmer was Ada Lovelace in 1843 - over 100 years before modern computers!
+            {% else %}
+              第一位计算机程序员是1843年的艾达·洛芙莱斯——比现代计算机早100多年！
+            {% endif %}
+          </p>
+        </div>
+      </div>
+    </div>
+
+    <!-- Bottom Footer -->
+    <div class="footer-bottom" style="border-top: 1px solid rgba(255,255,255,0.2); padding-top: 1.5rem; text-align: center;">
+      <div style="display: flex; justify-content: space-between; align-items: center; flex-wrap: wrap; gap: 1rem;">
+        <div style="color: rgba(255,255,255,0.7); font-size: 0.9rem;">
+          {% if page.lang == 'en' %}
+            © 2024 COMPSCI 0.10 - Elementary Computer Science Course<br>
+            Adapted from UC Berkeley CS10 for Young Learners
+          {% else %}
+            © 2024 COMPSCI 0.10 - 小学计算机科学课程<br>
+            改编自加州大学伯克利分校CS10课程，专为年轻学习者设计
+          {% endif %}
+        </div>
+        <div class="language-toggle" style="display: flex; gap: 0.5rem;">
+          <a href="{% if page.url contains '/en/' %}{{ page.url | replace: '/en/', '/' }}{% else %}/en{{ page.url }}{% endif %}"
+             style="background: rgba(255,255,255,0.2); color: white; padding: 0.5rem 1rem; border-radius: 20px; text-decoration: none; font-size: 0.8rem; transition: background 0.3s ease;">
+            {% if page.lang == 'en' %}🇨🇳 中文{% else %}🇺🇸 English{% endif %}
+          </a>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</footer>
+
+<!-- Footer Styles -->
+<style>
+.enhanced-footer a:hover {
+  color: #F18F01 !important;
+  transform: translateX(3px);
+}
+
+.enhanced-footer a {
+  transition: all 0.3s ease;
+}
+
+.language-toggle a:hover {
+  background: rgba(255,255,255,0.3) !important;
+  transform: translateY(-1px) !important;
+}
+
+@media (max-width: 768px) {
+  .footer-grid {
+    grid-template-columns: 1fr !important;
+    text-align: center;
+  }
+
+  .facts-grid {
+    grid-template-columns: 1fr !important;
+  }
+
+  .footer-bottom > div {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .enhanced-footer {
+    padding: 2rem 0 1rem 0 !important;
+  }
+}
+
+/* Animate facts on scroll */
+.fact-item {
+  animation: fadeInUp 0.6s ease-out;
+}
+
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+</style>

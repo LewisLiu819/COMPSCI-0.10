@@ -1,3 +1,12 @@
+---
+title: "Lesson 15.2: Final Presentations and Peer Feedback"
+parent: "Week 15: Project Completion and Presentations"
+nav_order: 2
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 15.2: Final Presentations and Peer Feedback
 
 **Duration:** 50 minutes

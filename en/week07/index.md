@@ -1,49 +1,58 @@
-# Week 7: Debugging and Pair Programming
+---
+title: "Week 7: Boolean Logic and Decision Making"
+nav_order: 8
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
+# Week 7: Team Up and Troubleshoot!
 
 **Unit:** Problem Solving and Logic (Weeks 6-8)
 **Duration:** 2 lessons, 50 minutes each
 
-## Week Overview
+## What's in Store This Week?
 
-Week 7 focuses on essential programming skills: debugging and collaboration. Students learn systematic approaches to finding and fixing problems in their code, and experience the benefits of pair programming for creating better programs and learning from each other.
+This week is all about becoming a super-powered problem-solver and an amazing teammate! First, you'll become a "Bug Buster" and learn the art of **debugging**—finding and fixing those pesky "bugs" that pop up in every programmer's code. You'll learn that making mistakes is a normal and even fun part of the journey. Then, you'll team up for a **Pair Programming** adventure, learning how two heads are better than one when it comes to creating awesome projects.
 
-## Learning Goals
+## What You'll Be Able to Do!
 
-By the end of Week 7, students will be able to:
-- Identify and fix common programming errors systematically
-- Apply debugging strategies independently
-- Work effectively with programming partners
-- Demonstrate persistence when facing programming challenges
+By the end of this week, you'll be able to:
+- Find and fix common mistakes (bugs) in your programs like a pro.
+- Use a step-by-step plan to figure out why your code isn't working.
+- Work with a partner to build a program together.
+- Feel confident and not give up when you face a tricky coding challenge.
 
 ## Lessons This Week
 
-### [Lesson 7.1: Bug Busters - Debugging Workshop](lesson7.1.md)
-**Format:** Problem-Solving Skills + Systematic Debugging
+### [Lesson 7.1: Bug Busters! A Debugging Workshop](lesson7.1.md)
+**Get Ready To:** Put on your detective gear and hunt for bugs! You'll learn that "bugs" are just puzzles to be solved and practice a secret four-step method for squashing any bug you find.
 
-Students learn that bugs are normal and expected in programming, and develop systematic strategies for finding and fixing problems in their code.
-
-**Key Activities:**
-- Introduction to bugs and debugging history
-- Debugging strategy training (Stop, Look, Think, Try)
-- Bug hunt challenge with intentionally broken programs
-- Peer debugging support and collaboration
-
-**Vocabulary:** Bug, Debugging, Systematic, Persistence, Troubleshooting
+### [Lesson 7.2: Pair Programming Adventure!](lesson7.2.md)
+**Get Ready To:** Team up with a partner for a coding mission! You'll learn the secrets of "pair programming" by taking turns as the "Driver" (at the controls) and the "Navigator" (the guide with the map).
 
 ---
 
-### [Lesson 7.2: Pair Programming Partnership](lesson7.2.md)
-**Format:** Collaborative Programming + Communication Skills
+## How We'll See Our Skills Grow
 
-Students learn to work effectively in pairs using the driver/navigator model, creating better programs through collaboration and developing communication skills.
+- **Bug Busting Skills:** We'll give you broken programs and see how you use the debugging steps to fix them.
+- **Teamwork in Action:** We'll watch you and your partner work together. Are you sharing ideas? Are you communicating clearly?
+- **Smarter Problem-Solving:** Your notes and discussions will show us how you're learning to think like a real programmer when you get stuck.
 
-**Key Activities:**
-- Introduction to pair programming roles
-- Collaborative programming challenges with role switching
-- Reflection on effective collaboration strategies
-- Celebration of successful partnerships
+## Becoming a Great Teammate
 
-**Vocabulary:** Pair programming, Driver, Navigator, Collaboration, Communication
+This week is huge for learning important life skills, like:
+- Taking turns and sharing your ideas.
+- Listening carefully to your partner's thoughts.
+- Giving helpful feedback and being a good friend.
+- Working together to create something you can both be proud of!
+
+## Your Programmer's Toolkit
+- Programs with sneaky bugs hidden inside for you to find
+- A cool poster of our "Bug Busting" strategies
+- Role cards that explain the job of the "Driver" and "Navigator"
+- A timer to help you remember to switch roles
+- A partner to team up with!
 
 ## Assessment Highlights
 

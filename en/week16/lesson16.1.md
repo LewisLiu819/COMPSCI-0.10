@@ -1,3 +1,12 @@
+---
+title: "Lesson 16.1: Showcase Event Preparation"
+parent: "Week 16: Showcase Event and Course Reflection"
+nav_order: 1
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 16.1: Showcase Event Preparation
 
 **Duration:** 50 minutes

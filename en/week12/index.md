@@ -1,49 +1,53 @@
-# Week 12: Technology Careers and Social Impact
+---
+title: "Week 12: Technology Careers and Social Impact"
+nav_order: 13
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
+# Week 12: Use Your Powers for Good!
 
 **Unit:** Computers and Society (Weeks 12-13)
-**Duration:** 2 lessons, 50 minutes each
 
-## Week Overview
+## What's in Store This Week?
 
-Week 12 begins Unit 5 by exploring how technology and computer science impact society and create career opportunities. Students learn about different technology-related careers, interview professionals, and design solutions to real community problems using their programming skills.
+You've learned so many amazing coding superpowers. Now it's time to see how you can use them to help people and change the world! This week, we'll explore all the cool jobs that use technology, from artists and doctors to scientists and game designers. Then, you'll become an inventor, using your programming skills to brainstorm a simple app that could solve a real problem in our community. Get ready to see how the skills you're learning can make a real difference!
 
-## Learning Goals
+## What You'll Be Able to Do!
 
-By the end of Week 12, students will be able to:
-- Identify how different professionals use computers in their work
-- Understand the positive impact of technology on community services
-- Connect programming skills to real-world applications
-- Apply design thinking to address community problems
+By the end of this week, you'll be able to:
+- Name different jobs that use technology to help people.
+- Explain how programming can have a positive impact on the world.
+- Connect your own interests to a future career in tech.
+- Brainstorm and plan a simple app that could help someone in our community.
 
 ## Lessons This Week
 
-### [Lesson 12.1: Community Helpers and Technology](lesson12.1.md)
-**Format:** Community Exploration + Career Connections
+### [Lesson 12.1: Technology All Around Us: A Career Day!](lesson12.1.md)
+**Get Ready To:** Explore the future! We'll discover how all sorts of community helpers—like doctors, firefighters, and teachers—use technology in their jobs. You might even get to talk to a real tech professional!
 
-Students explore how technology is used across different professions and interview community professionals to learn about technology careers and applications.
-
-**Key Activities:**
-- Community helper technology identification
-- Professional technology interviews (virtual or in-person)
-- Technology problem-solving brainstorming
-- Career inspiration and pathway discussion
-
-**Vocabulary:** Professional, Technology careers, Innovation, Social impact, Community service
+### [Lesson 12.2: Apps for Good: A Design Workshop](lesson12.2.md)
+**Get Ready To:** Become a problem-solver! You'll put on your inventor hat and design a simple app that could help make our school or neighborhood a better place.
 
 ---
 
-### [Lesson 12.2: Designing Apps for Good](lesson12.2.md)
-**Format:** Design Thinking + Social Impact Programming
+## How We'll See Our Skills Grow
 
-Students apply design thinking principles to create simple programs that help others, learning to use technology for positive social impact and community problem-solving.
+- **Career Connections:** We'll see how you connect your own passions to the cool tech careers we learn about.
+- **Problem-Solving Power:** Your "App for Good" design will show how you can use empathy and design thinking to come up with helpful ideas.
+- **Big Ideas:** This week is all about your amazing ideas! We'll be looking for creativity and a passion for helping others.
 
-**Key Activities:**
-- Problem identification and empathy interviews
-- Solution design and planning with user-centered approach
-- Prototype programming for helpful applications
-- Impact reflection and responsibility discussion
+## Connecting to the Real World
 
-**Vocabulary:** Design thinking, Empathy, User-centered design, Social impact, Prototype
+- **Social Studies:** You'll be thinking like a responsible citizen about how to improve your community.
+- **Career Day:** This is your first step into thinking about what you might want to be when you grow up, and how tech can be a part of it!
+- **Ethics:** We'll talk about the responsibility we have as creators to use our tech powers for good.
+
+## Your Inventor's Toolkit
+- Resources and videos about cool careers in technology
+- A special guest (in person or on video) who works in tech!
+- Worksheets to help you brainstorm community problems and design your "App for Good"
 
 ## Assessment Highlights
 

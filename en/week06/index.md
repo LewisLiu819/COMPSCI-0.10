@@ -1,49 +1,54 @@
-# Week 6: Boolean Logic and Decision Making
+---
+title: "Week 6: Boolean Logic and Decision Making"
+nav_order: 7
+parent: "Course Overview"
+has_children: true
+lang: en
+---
+
+# Week 6: Become a Logic Detective!
 
 **Unit:** Problem Solving and Logic (Weeks 6-8)
-**Duration:** 2 lessons, 50 minutes each
 
-## Week Overview
+## What's in Store This Week?
 
-Week 6 begins Unit 3 by introducing students to Boolean logic and systematic decision-making. Through detective games and logic puzzles, students learn to think systematically about true/false conditions and create programs that make decisions based on logic.
+Get your detective hats ready! This week, we're diving into the world of logic and learning how to think like a super sleuth. You'll learn about **Boolean logic**—a fancy term for thinking in "true or false." We'll play detective games, solve logic puzzles, and use this new power to build programs that can make smart decisions. It's time to sharpen your minds and teach your programs to reason like a true detective!
 
-## Learning Goals
+## What You'll Be Able to Do!
 
-By the end of Week 6, students will be able to:
-- Distinguish between true and false statements systematically
-- Apply logical reasoning to solve problems
-- Understand how computers use Boolean logic for decisions
-- Create interactive programs with branching narratives
+By the end of this week, you'll be able to:
+- Look at a statement and decide if it's "true" or "false."
+- Use clues and logical thinking to solve tricky problems.
+- Understand how computers use simple "true/false" logic to make all their decisions.
+- Create your own interactive adventures with even more choices and branching paths.
 
 ## Lessons This Week
 
-### [Lesson 6.1: True or False Detective Agency](lesson6.1.md)
-**Format:** Logic Games + Boolean Thinking
+### [Lesson 6.1: The True or False Detective Agency](lesson6.1.md)
+**Get Ready To:** Join the detective agency! Your mission is to solve mysteries by figuring out which clues are true and which are false. You'll use systematic thinking to crack the case!
 
-Students become logic detectives, learning to work with true/false statements and solving mysteries through systematic reasoning and evidence-based thinking.
-
-**Key Activities:**
-- Boolean logic introduction with physical activities
-- Detective logic puzzles and team problem-solving
-- Programming Boolean conditions and responses
-- Logic challenge reflection and strategy sharing
-
-**Vocabulary:** Boolean, Logic, Condition, True/False, Reasoning, Evidence
+### [Lesson 6.2: Create a Super-Smart Adventure Story](lesson6.2.md)
+**Get Ready To:** Build your most complex interactive story yet! You'll use your new logic skills to design an adventure with multiple decision points, leading to many different endings.
 
 ---
 
-### [Lesson 6.2: Yes/No Adventure Programming](lesson6.2.md)
-**Format:** Interactive Story Creation + Advanced Conditionals
+## How We'll See Our Skills Grow
 
-Students create sophisticated branching narratives with multiple decision points, applying Boolean logic to create engaging user experiences.
+- **Puzzle Power:** We'll see how you use logic to solve our detective puzzles.
+- **Logical Leaps in Code:** Can you successfully program a sprite to make a decision based on a "true/false" condition?
+- **The Ultimate Adventure:** Your multi-path adventure story will be the final proof of your amazing new logic and programming skills!
 
-**Key Activities:**
-- Story structure analysis and decision tree mapping
-- Advanced programming with message broadcasting
-- Interactive story creation with multiple pathways
-- User testing and feedback implementation
+## Connecting to Other Subjects
 
-**Vocabulary:** Branching, Decision tree, User experience, Navigation, Message broadcasting
+- **Science:** Thinking like a detective is just like being a scientist! You'll use evidence to test ideas (hypotheses) and find the truth.
+- **Reading & Writing:** You'll become a master storyteller by creating complex stories with many different branches.
+- **Life Skills:** You'll learn how to break down big problems into smaller, true/false questions to solve them more easily.
+
+## Your Detective's Toolkit
+- Top-secret logic puzzles for your team to solve
+- Detective badges to make it official!
+- Special templates for mapping out the choices in your adventure stories (decision trees)
+- Your trusty device with Scratch Jr.
 
 ## Assessment Highlights
 

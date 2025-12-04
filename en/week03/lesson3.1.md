@@ -1,73 +1,66 @@
+---
+title: "Lesson 3.1: Meet Scratch Jr. - Our Programming Playground"
+parent: "Week 3: Introduction to Scratch Jr."
+nav_order: 1
+lang: en
+---
+
+{% include simple-language-toggle.html %}
+
 # Lesson 3.1: Meet Scratch Jr. - Our Programming Playground
 
-**Duration:** 50 minutes
-**Format:** Technology Introduction + Guided Exploration
-**Unit:** Building Blocks of Programming (Week 3-5)
+Welcome, creators! Today, we're opening the doors to our digital playground, Scratch Jr. Let's explore all the cool things you can do and build your very first program.
 
-## Learning Objectives
-By the end of this lesson, students will be able to:
-- Navigate the Scratch Jr. interface confidently
-- Identify and name basic programming blocks
-- Create a simple sequence of 3-4 actions
-- Explain what a "sprite" is in programming terms
+## What You'll Learn
 
-## Lesson Structure
+By the end of our first day in the playground, you'll be able to:
+- Find your way around all the main areas of Scratch Jr. with confidence.
+- Know the names of the basic programming blocks.
+- Create a simple program that makes a character (a "sprite") perform 3-4 actions in a row.
+- Explain that a "sprite" is the character you get to bring to life with code!
 
-### Technology Setup (10 minutes)
-- Distribute tablets/devices
-- Practice proper device handling
-- Log into Scratch Jr. accounts or start new projects
-- Basic navigation review
+## Our Mission for Today
 
-### Guided Interface Tour (15 minutes)
-- Teacher demonstrates on projector/large screen
-- Students follow along on their devices
-- Identify key areas: stage, sprites, block palette, script area
-- Practice selecting and dragging blocks
+### Getting Your Gear (10 minutes)
+- Time to get your tablet or computer.
+- Let's practice how we handle our tech tools with care.
+- We'll open up Scratch Jr. and get ready to create a brand new project.
 
-### First Programming Experience (20 minutes)
-- Challenge: Make your sprite move across the screen
-- Students experiment with motion blocks
-- Encourage trial and error exploration
-- Teacher circulates providing individual support
+### A Tour of the Playground (15 minutes)
+- Your teacher will give you a tour on the big screen, showing you all the fun areas.
+- You'll follow along on your own device.
+- We'll discover the main zones: the **Stage** (where the action happens), the **Sprites** (your characters), the **Block Palette** (your box of commands), and the **Script Area** (where you build your program).
+- Let's practice the most important move: dragging and snapping blocks together!
 
-### Sharing and Celebration (5 minutes)
-- Quick gallery walk to see classmates' projects
-- Students share one discovery or challenge
-- Save projects for next lesson
+### Your First Creation! (20 minutes)
+- **Your first challenge:** Can you make your sprite move all the way across the stage?
+- You'll get to experiment with the blue "motion" blocks.
+- Don't be afraid to try things out! Trial and error is how programmers learn.
+- Your teacher will be around to help you if you get stuck.
 
-## Materials Needed
+### Show and Tell (5 minutes)
+- Let's take a quick walk around the room to see what everyone created.
+- You can share one cool thing you discovered or one tricky part you figured out.
+- Make sure to save your project—we'll need it for our next adventure!
+
+## Your Playground Equipment
 - Tablets or computers with Scratch Jr. installed
-- Projector/large screen for demonstrations
-- Student device management system (numbers, charging station)
-- Quick reference cards with basic blocks
-- Success celebration stickers or stamps
+- A big screen or projector for our tour
+- Cool stickers or high-fives to celebrate your first program!
 
-## Assessment
+---
 
-### Formative
-- Observation of interface navigation skills
-- Ability to drag and connect blocks
-- Problem-solving persistence during exploration
+## How to Become a Playground Pro
+- We'll see how you explore the different parts of the app.
+- **Quick Check:** Can you show us how to make your sprite move and tell us which block you used? That's the sign of a programmer!
 
-### Quick Check
-Students demonstrate how to make their sprite move and explain which block they used.
+## Playground Tips for Everyone
+- **Want a bigger challenge?** Try using a few *different* motion blocks to make a more complex movement.
+- **Need a little help?** Team up with a classmate who feels comfortable, or use one of our picture guides to help you.
 
-## Differentiation
-- **Advanced learners:** Challenge to use multiple different motion blocks
-- **Struggling learners:** Pair with tech-savvy classmate, provide visual step-by-step cards
-- **Fine motor challenges:** Adjust device settings for easier touch response
-
-## Technology Troubleshooting Tips
-- Prepare backup activities for technology failures
-- Have student tech helpers identified
-- Know basic restart/reset procedures
-- Keep written instructions simple and visual
-
-## Vocabulary Introduced
-- Sprite
-- Block
-- Script
-- Stage
-- Drag
-- Programming
+## New Tech Words to Master
+- **Sprite:** The character or object on the screen that you get to program.
+- **Block:** A colorful puzzle piece that is a command for your sprite.
+- **Script:** A stack of blocks that you connect to create a program.
+- **Stage:** The background of your project where your sprites live and act.
+- **Programming:** The art of creating instructions (a script) to tell a computer (or a sprite) what to do.
