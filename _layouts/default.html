@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'zh' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.title }}</title>
+  
+  <!-- SEO Tags -->
+  {% seo %}
+  
+  <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="icon" type="image/svg+xml" href="{{ '/assets/images/favicon.svg' | relative_url }}">
+</head>
+<body>
+
+  <div class="site-wrapper">
+    {% include sidebar.html %}
+
+    <main class="main-content" id="main-content">
+      <div class="container">
+        
+        <!-- Header Actions: Language & Theme -->
+        <div class="header-actions">
+          <button id="themeToggle" class="theme-toggle-btn" aria-label="Toggle Dark Mode">
+            <span id="themeIcon">☀️</span>
+          </button>
+
+          <div class="language-toggle">
+            {% if page.lang == 'en' %}
+              <a href="{{ page.url | replace: '/en/', '/zh/' | replace: 'en/', '' }}">🇨🇳 中文</a>
+            {% else %}
+              <a href="{{ page.url | replace: '/zh/', '/en/' | prepend: '/en' }}">🇺🇸 English</a>
+            {% endif %}
+          </div>
+        </div>
+
+        <!-- Breadcrumbs (Simplified) -->
+        {% if page.parent %}
+        <nav aria-label="breadcrumb" style="margin-bottom: 1rem; color: #888; font-size: 0.9rem;">
+          {{ page.parent }} / {{ page.title }}
+        </nav>
+        {% endif %}
+
+        <div class="content-body">
+          {{ content }}
+        </div>
+
+        <footer>
+          <p>
+            COMPSCI 0.10 &copy; {{ site.time | date: '%Y' }}. 
+            {% if page.lang == 'en' %}
+            Adapted from UC Berkeley CS10.
+            {% else %}
+            改编自加州大学伯克利分校 CS10 课程。
+            {% endif %}
+          </p>
+        </footer>
+      </div>
+    </main>
+  </div>
+
+  <!-- Scripts -->
+  <script src="{{ '/assets/js/custom.js' | relative_url }}"></script>
+</body>
+</html>

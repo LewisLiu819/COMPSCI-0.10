@@ -68,11 +68,6 @@ GEM
     json (2.7.3)
     json-minify (0.0.3)
       json (> 0)
-    just-the-docs (0.10.0)
-      jekyll (>= 3.8.5)
-      jekyll-include-cache
-      jekyll-seo-tag (>= 2.0)
-      rake (>= 12.3.1)
     kramdown (2.4.0)
       rexml
     kramdown-parser-gfm (1.1.0)
@@ -130,7 +125,6 @@ DEPENDENCIES
   jekyll-minifier
   jekyll-seo-tag
   jekyll-sitemap
-  just-the-docs (= 0.10.0)
   logger
   ostruct
   webrick
