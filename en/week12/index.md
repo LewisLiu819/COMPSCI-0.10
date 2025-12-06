@@ -24,10 +24,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 12.1: Technology All Around Us: A Career Day!](lesson12.1.md)
+### [Lesson 12.1: Technology All Around Us: A Career Day!](lesson12.1/)
 **Get Ready To:** Explore the future! We'll discover how all sorts of community helpers—like doctors, firefighters, and teachers—use technology in their jobs. You might even get to talk to a real tech professional!
 
-### [Lesson 12.2: Apps for Good: A Design Workshop](lesson12.2.md)
+### [Lesson 12.2: Apps for Good: A Design Workshop](lesson12.2/)
 **Get Ready To:** Become a problem-solver! You'll put on your inventor hat and design a simple app that could help make our school or neighborhood a better place.
 
 ---
@@ -86,4 +86,4 @@ By the end of this week, you'll be able to:
 
 ---
 
-[← Previous Week: Art and Music](../week11/index.md) | [Back to Course Overview](../index.md) | [Next Week: Digital Citizenship →](../week13/index.md)
+[← Previous Week: Art and Music](../week11/) | [Back to Course Overview](../) | [Next Week: Digital Citizenship →](../week13/)

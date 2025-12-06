@@ -26,10 +26,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 4.1: Choose Your Own Adventure!](lesson4.1.md)
+### [Lesson 4.1: Choose Your Own Adventure!](lesson4.1/)
 **Get Ready To:** Become an interactive storyteller! You'll learn how "if... then..." sentences work in the real world and then use that power to build a story in Scratch Jr. where the user gets to decide what happens next.
 
-### [Lesson 4.2: Code a Mystic Magic 8-Ball](lesson4.2.md)
+### [Lesson 4.2: Code a Mystic Magic 8-Ball](lesson4.2/)
 **Get Ready To:** Create a fortune-telling program! You'll build your own Magic 8-Ball that gives a random, mysterious answer every time you ask it a question.
 
 ---
@@ -82,4 +82,4 @@ By the end of this week, you'll be able to:
 
 ---
 
-[← Previous Week: Scratch Jr. Basics](../week03/index.md) | [Back to Course Overview](../index.md) | [Next Week: Loops and Patterns →](../week05/index.md)
+[← Previous Week: Scratch Jr. Basics](../week03/) | [Back to Course Overview](../) | [Next Week: Loops and Patterns →](../week05/)

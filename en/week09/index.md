@@ -25,10 +25,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 9.1: Remaking a Classic: Coding a Fairy Tale](lesson9.1.md)
+### [Lesson 9.1: Remaking a Classic: Coding a Fairy Tale](lesson9.1/)
 **Get Ready To:** Take a fairy tale you know and love and turn it into a cool animation! You'll learn how to plan your story scene by scene and then build it with code.
 
-### [Lesson 9.2: Creating Characters with Personality!](lesson9.2.md)
+### [Lesson 9.2: Creating Characters with Personality!](lesson9.2/)
 **Get Ready To:** Be a character designer and a voice actor! You'll invent your own characters, decide what makes them special, and then record your own voice to make them speak.
 
 ---
@@ -53,4 +53,4 @@ By the end of this week, you'll be able to:
 
 ---
 
-[← Previous Week: Data and Organization](../week08/index.md) | [Back to Course Overview](../index.md) | [Next Week: Game Design →](../week10/index.md)
+[← Previous Week: Data and Organization](../week08/) | [Back to Course Overview](../) | [Next Week: Game Design →](../week10/)

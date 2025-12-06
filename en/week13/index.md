@@ -25,10 +25,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 13.1: Your Digital Superhero Toolkit](lesson13.1.md)
+### [Lesson 13.1: Your Digital Superhero Toolkit](lesson13.1/)
 **Get Ready To:** Gear up with your digital superhero toolkit! You'll learn how to protect your secret identity with strong passwords, how to leave positive "digital footprints," and what to do if you see something online that makes you feel uncomfortable.
 
-### [Lesson 13.2: Connecting with the World!](lesson13.2.md)
+### [Lesson 13.2: Connecting with the World!](lesson13.2/)
 **Get Ready To:** Go on a virtual trip around the globe! You'll explore how technology connects us with different cultures and friends from far away, and learn how we can all be good "global citizens" together.
 
 ---
@@ -97,4 +97,4 @@ This week is all about becoming a leader who is:
 
 ---
 
-[← Previous Week: Careers and Impact](../week12/index.md) | [Back to Course Overview](../index.md) | [Next Week: Project Planning →](../week14/index.md)
+[← Previous Week: Careers and Impact](../week12/) | [Back to Course Overview](../) | [Next Week: Project Planning →](../week14/)

@@ -26,10 +26,27 @@
           </button>
 
           <div class="language-toggle">
+            {% assign current_path = page.url %}
             {% if page.lang == 'en' %}
-              <a href="{{ page.url | replace: '/en/', '/zh/' | replace: 'en/', '' }}">🇨🇳 中文</a>
+              {% comment %} English -> Chinese {% endcomment %}
+              {% if current_path == '/en/' or current_path == '/en' %}
+                {% assign target_url = '/' %}
+              {% elsif current_path contains '/en/' %}
+                {% assign target_url = current_path | replace: '/en/', '/zh/' %}
+              {% else %}
+                {% assign target_url = '/' %}
+              {% endif %}
+              <a href="{{ target_url }}">🇨🇳 中文</a>
             {% else %}
-              <a href="{{ page.url | replace: '/zh/', '/en/' | prepend: '/en' }}">🇺🇸 English</a>
+              {% comment %} Chinese -> English {% endcomment %}
+              {% if current_path == '/' %}
+                {% assign target_url = '/en/' %}
+              {% elsif current_path contains '/zh/' %}
+                {% assign target_url = current_path | replace: '/zh/', '/en/' %}
+              {% else %}
+                {% assign target_url = '/en/' %}
+              {% endif %}
+              <a href="{{ target_url }}">🇺🇸 English</a>
             {% endif %}
           </div>
         </div>

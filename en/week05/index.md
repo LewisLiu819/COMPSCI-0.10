@@ -26,10 +26,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 5.1: Programming Infinite Patterns](lesson5.1.md)
+### [Lesson 5.1: Programming Infinite Patterns](lesson5.1/)
 **Get Ready To:** Become a pattern detective and a digital artist! You'll hunt for patterns in the wild and then learn how to use loops to program mesmerizing, repeating geometric designs.
 
-### [Lesson 5.2: Code Your Own Concert](lesson5.2.md)
+### [Lesson 5.2: Code Your Own Concert](lesson5.2/)
 **Get Ready To:** Become a composer and a DJ! You'll learn how to loop sounds and notes to create your very own musical masterpieces and maybe even a catchy song!
 
 ---
@@ -89,4 +89,4 @@ By the end of this week, you'll be able to:
 
 ---
 
-[← Previous Week: Conditionals](../week04/index.md) | [Back to Course Overview](../index.md) | [Next Week: Logic and Decisions →](../week06/index.md)
+[← Previous Week: Conditionals](../week04/) | [Back to Course Overview](../) | [Next Week: Logic and Decisions →](../week06/)

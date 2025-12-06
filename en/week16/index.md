@@ -25,7 +25,7 @@ By the end of Week 16, students will be able to:
 
 ## Lessons This Week
 
-### [Lesson 16.1: Showcase Event Preparation](lesson16.1.md)
+### [Lesson 16.1: Showcase Event Preparation](lesson16.1/)
 **Format:** Event Planning + Final Preparations
 
 Students prepare for a public showcase of their learning, organizing displays, practicing presentations, and celebrating their achievements with the broader community.
@@ -40,7 +40,7 @@ Students prepare for a public showcase of their learning, organizing displays, p
 
 ---
 
-### [Lesson 16.2: Showcase Event and Course Reflection](lesson16.2.md)
+### [Lesson 16.2: Showcase Event and Course Reflection](lesson16.2/)
 **Format:** Public Showcase + Learning Reflection
 
 Students present their work to families and community members, reflect on their complete learning journey, and celebrate their growth and achievements.
@@ -91,4 +91,4 @@ Students present their work to families and community members, reflect on their 
 
 ---
 
-[← Previous Week: Project Presentations](../week15/index.md) | [Back to Course Overview](../index.md)
+[← Previous Week: Project Presentations](../week15/) | [Back to Course Overview](../)

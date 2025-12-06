@@ -25,7 +25,7 @@ By the end of Week 14, students will be able to:
 
 ## Lessons This Week
 
-### [Lesson 14.1: Capstone Project Planning](lesson14.1.md)
+### [Lesson 14.1: Capstone Project Planning](lesson14.1/)
 **Format:** Project Planning + Goal Setting
 
 Students explore four different capstone project options, choose their preferred project, and create detailed plans with timelines and milestones.
@@ -40,7 +40,7 @@ Students explore four different capstone project options, choose their preferred
 
 ---
 
-### [Lesson 14.2: Capstone Project Development Workshop](lesson14.2.md)
+### [Lesson 14.2: Capstone Project Development Workshop](lesson14.2/)
 **Format:** Independent Programming + Coaching Support
 
 Students begin intensive development work on their capstone projects with individual coaching support and peer collaboration.
@@ -97,4 +97,4 @@ Address a real school or community issue through programming, applying design th
 
 ---
 
-[← Previous Week: Digital Citizenship](../week13/index.md) | [Back to Course Overview](../index.md) | [Next Week: Project Completion →](../week15/index.md)
+[← Previous Week: Digital Citizenship](../week13/) | [Back to Course Overview](../) | [Next Week: Project Completion →](../week15/)

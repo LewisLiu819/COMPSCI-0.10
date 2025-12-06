@@ -24,10 +24,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 8.1: Data Detectives!](lesson8.1.md)
+### [Lesson 8.1: Data Detectives!](lesson8.1/)
 **Get Ready To:** Put on your detective hat again! You'll investigate how the world organizes information (like in a library) and then collect and sort fun data about our own class.
 
-### [Lesson 8.2: Build Your Digital Scrapbook!](lesson8.2.md)
+### [Lesson 8.2: Build Your Digital Scrapbook!](lesson8.2/)
 **Get Ready To:** Create a project that's all about you! You'll design and build an interactive scrapbook with different pages for your hobbies, family, favorite foods, and more.
 
 ---
@@ -87,4 +87,4 @@ By the end of this week, you'll be able to:
 
 ---
 
-[← Previous Week: Debugging and Collaboration](../week07/index.md) | [Back to Course Overview](../index.md) | [Next Week: Digital Storytelling →](../week09/index.md)
+[← Previous Week: Debugging and Collaboration](../week07/) | [Back to Course Overview](../) | [Next Week: Digital Storytelling →](../week09/)

@@ -25,10 +25,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 7.1: Bug Busters! A Debugging Workshop](lesson7.1.md)
+### [Lesson 7.1: Bug Busters! A Debugging Workshop](lesson7.1/)
 **Get Ready To:** Put on your detective gear and hunt for bugs! You'll learn that "bugs" are just puzzles to be solved and practice a secret four-step method for squashing any bug you find.
 
-### [Lesson 7.2: Pair Programming Adventure!](lesson7.2.md)
+### [Lesson 7.2: Pair Programming Adventure!](lesson7.2/)
 **Get Ready To:** Team up with a partner for a coding mission! You'll learn the secrets of "pair programming" by taking turns as the "Driver" (at the controls) and the "Navigator" (the guide with the map).
 
 ---
@@ -91,4 +91,4 @@ This week is huge for learning important life skills, like:
 
 ---
 
-[← Previous Week: Logic and Decisions](../week06/index.md) | [Back to Course Overview](../index.md) | [Next Week: Data and Organization →](../week08/index.md)
+[← Previous Week: Logic and Decisions](../week06/) | [Back to Course Overview](../) | [Next Week: Data and Organization →](../week08/)

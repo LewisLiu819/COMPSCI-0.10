@@ -5,8 +5,16 @@
 
   <div class="nav-list">
     {% assign current_lang = page.lang | default: "zh" %}
-    {% assign pages = site.pages | sort: "nav_order" %}
+    {% assign all_pages = site.pages | sort: "nav_order" %}
     
+    {% comment %} Filter pages for current language {% endcomment %}
+    {% assign lang_pages = "" | split: "" %}
+    {% for p in all_pages %}
+      {% if p.lang == current_lang and p.title and p.nav_exclude != true %}
+         {% assign lang_pages = lang_pages | push: p %}
+      {% endif %}
+    {% endfor %}
+
     <ul>
       <li>
         <a href="{{ '/' | relative_url }}" {% if page.url == "/" %}class="active"{% endif %}>
@@ -14,15 +22,7 @@
         </a>
       </li>
       
-      {% comment %} Filter pages for current language {% endcomment %}
-      {% assign lang_pages = "" | split: "" %}
-      {% for p in pages %}
-        {% if p.lang == current_lang and p.title and p.nav_exclude != true %}
-           {% assign lang_pages = lang_pages | push: p %}
-        {% endif %}
-      {% endfor %}
-
-      {% comment %} Render Top Level Items {% endcomment %}
+      {% comment %} Render Top Level Items (no parent) {% endcomment %}
       {% for p in lang_pages %}
         {% unless p.parent %}
           <li>
@@ -30,15 +30,30 @@
               {{ p.title }}
             </a>
             
-            {% comment %} Render Children (1 level deep for simplicity) {% endcomment %}
+            {% comment %} Render Level 2 Children {% endcomment %}
             {% if p.has_children %}
-              <ul style="padding-left: 1rem; list-style: none;">
+              <ul class="nav-children">
                 {% for child in lang_pages %}
                   {% if child.parent == p.title %}
                     <li>
-                      <a href="{{ child.url | relative_url }}" {% if child.url == page.url %}class="active"{% endif %} style="font-size: 0.9em;">
+                      <a href="{{ child.url | relative_url }}" {% if child.url == page.url %}class="active"{% endif %}>
                         {{ child.title }}
                       </a>
+                      
+                      {% comment %} Render Level 3 Children (Lessons) {% endcomment %}
+                      {% if child.has_children %}
+                        <ul class="nav-grandchildren">
+                          {% for grandchild in lang_pages %}
+                            {% if grandchild.parent == child.title %}
+                              <li>
+                                <a href="{{ grandchild.url | relative_url }}" {% if grandchild.url == page.url %}class="active"{% endif %}>
+                                  {{ grandchild.title }}
+                                </a>
+                              </li>
+                            {% endif %}
+                          {% endfor %}
+                        </ul>
+                      {% endif %}
                     </li>
                   {% endif %}
                 {% endfor %}
@@ -50,4 +65,3 @@
     </ul>
   </div>
 </div>
-

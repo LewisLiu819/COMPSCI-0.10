@@ -24,10 +24,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 10.1: The Secret Ingredients of a Fun Game](lesson10.1.md)
+### [Lesson 10.1: The Secret Ingredients of a Fun Game](lesson10.1/)
 **Get Ready To:** Become a game analyst! We'll take a close look at our favorite games to uncover the secrets of what makes them fun. Then you'll brainstorm and design your own unique game concept.
 
-### [Lesson 10.2: Build Your First Playable Game!](lesson10.2.md)
+### [Lesson 10.2: Build Your First Playable Game!](lesson10.2/)
 **Get Ready To:** Open your own game development studio! You'll take your game design from the drawing board and bring it to life with code, creating a simple but complete game you can share.
 
 ---
@@ -88,4 +88,4 @@ By the end of this week, you'll be able to:
 
 ---
 
-[← Previous Week: Digital Storytelling](../week09/index.md) | [Back to Course Overview](../index.md) | [Next Week: Art and Music →](../week11/index.md)
+[← Previous Week: Digital Storytelling](../week09/) | [Back to Course Overview](../) | [Next Week: Art and Music →](../week11/)

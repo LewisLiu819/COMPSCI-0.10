@@ -77,4 +77,4 @@ By the end of our adventure today, you'll be able to:
 ✓ Students demonstrate excitement about technology discovery
 ✓ Home extension activities are distributed with clear instructions
 
-[← Back to Week 1 Overview](index.md) | [Next Lesson: Computers Are Everywhere! →](lesson1.2.md)
+[← Back to Week 1 Overview](./) | [Next Lesson: Computers Are Everywhere! →](lesson1.2/)

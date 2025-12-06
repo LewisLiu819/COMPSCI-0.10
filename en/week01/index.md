@@ -28,10 +28,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 1.1: Computer Detectives on the Case!](lesson1.1.md)
+### [Lesson 1.1: Computer Detectives on the Case!](lesson1.1/)
 **Get Ready To:** Go on a scavenger hunt to find all the different kinds of computers in our school. You'll be surprised where they pop up!
 
-### [Lesson 1.2: How Do Computers "Think"?](lesson1.2.md)
+### [Lesson 1.2: How Do Computers "Think"?](lesson1.2/)
 **Get Ready To:** Dive into the mystery of how computers work. We'll investigate their secret three-step process and get our hands on some cool tech.
 
 ---
@@ -107,4 +107,4 @@ Want to continue the adventure at home? Here are a few ideas:
 **Week 1 Vocabulary Mastery:**
 Computer, Device, Technology, Smart devices, Input, Output, Processing, Interface, Navigate
 
-[← Back to Course Overview](../index.md) | [Next Week: Thinking Like a Computer →](../week02/index.md)
+[← Back to Course Overview](../) | [Next Week: Thinking Like a Computer →](../week02/)

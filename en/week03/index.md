@@ -26,10 +26,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 3.1: Welcome to the Programming Playground!](lesson3.1.md)
+### [Lesson 3.1: Welcome to the Programming Playground!](lesson3.1/)
 **Get Ready To:** Jump into Scratch Jr. for the first time! We'll take a guided tour of your new creative playground and program a character to move across the screen.
 
-### [Lesson 3.2: Let's Have a Dance Party!](lesson3.2.md)
+### [Lesson 3.2: Let's Have a Dance Party!](lesson3.2/)
 **Get Ready To:** Become a digital choreographer! You'll combine movement, sound, and even repeat blocks to make your characters perform amazing dance routines.
 
 ---
@@ -54,4 +54,4 @@ By the end of this week, you'll be able to:
 
 ---
 
-[← Previous Week: Algorithms](../week02/index.md) | [Back to Course Overview](../index.md) | [Next Week: Conditionals →](../week04/index.md)
+[← Previous Week: Algorithms](../week02/) | [Back to Course Overview](../) | [Next Week: Conditionals →](../week04/)

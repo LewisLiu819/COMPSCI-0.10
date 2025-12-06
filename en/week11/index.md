@@ -24,10 +24,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 11.1: The Living Art Gallery](lesson11.1.md)
+### [Lesson 11.1: The Living Art Gallery](lesson11.1/)
 **Get Ready To:** Create a piece of art that's alive! You'll program a digital painting or sculpture that moves, changes colors, and reacts to the viewer's touch.
 
-### [Lesson 11.2: Your Own Coding Orchestra!](lesson11.2.md)
+### [Lesson 11.2: Your Own Coding Orchestra!](lesson11.2/)
 **Get Ready To:** Start a band where code is your instrument! You'll learn to program different sounds and loops to compose your own original song.
 
 ---
@@ -52,4 +52,4 @@ By the end of this week, you'll be able to:
 
 ---
 
-[← Previous Week: Game Design](../week10/index.md) | [Back to Course Overview](../index.md) | [Next Week: Careers and Impact →](../week12/index.md)
+[← Previous Week: Game Design](../week10/) | [Back to Course Overview](../) | [Next Week: Careers and Impact →](../week12/)

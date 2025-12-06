@@ -24,10 +24,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 6.1: The True or False Detective Agency](lesson6.1.md)
+### [Lesson 6.1: The True or False Detective Agency](lesson6.1/)
 **Get Ready To:** Join the detective agency! Your mission is to solve mysteries by figuring out which clues are true and which are false. You'll use systematic thinking to crack the case!
 
-### [Lesson 6.2: Create a Super-Smart Adventure Story](lesson6.2.md)
+### [Lesson 6.2: Create a Super-Smart Adventure Story](lesson6.2/)
 **Get Ready To:** Build your most complex interactive story yet! You'll use your new logic skills to design an adventure with multiple decision points, leading to many different endings.
 
 ---
@@ -87,4 +87,4 @@ By the end of this week, you'll be able to:
 
 ---
 
-[← Previous Week: Loops and Patterns](../week05/index.md) | [Back to Course Overview](../index.md) | [Next Week: Debugging and Collaboration →](../week07/index.md)
+[← Previous Week: Loops and Patterns](../week05/) | [Back to Course Overview](../) | [Next Week: Debugging and Collaboration →](../week07/)

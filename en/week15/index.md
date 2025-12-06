@@ -25,7 +25,7 @@ By the end of Week 15, students will be able to:
 
 ## Lessons This Week
 
-### [Lesson 15.1: Project Completion and Testing](lesson15.1.md)
+### [Lesson 15.1: Project Completion and Testing](lesson15.1/)
 **Format:** Final Development + User Testing
 
 Students complete their capstone projects and engage in systematic user testing to improve their work based on feedback from classmates.
@@ -40,7 +40,7 @@ Students complete their capstone projects and engage in systematic user testing 
 
 ---
 
-### [Lesson 15.2: Final Presentations and Peer Feedback](lesson15.2.md)
+### [Lesson 15.2: Final Presentations and Peer Feedback](lesson15.2/)
 **Format:** Student Presentations + Constructive Feedback
 
 Students present their completed capstone projects to the class, explaining their programming choices and demonstrating their learning journey.
@@ -91,4 +91,4 @@ Students present their completed capstone projects to the class, explaining thei
 
 ---
 
-[← Previous Week: Project Development](../week14/index.md) | [Back to Course Overview](../index.md) | [Next Week: Showcase and Reflection →](../week16/index.md)
+[← Previous Week: Project Development](../week14/) | [Back to Course Overview](../) | [Next Week: Showcase and Reflection →](../week16/)

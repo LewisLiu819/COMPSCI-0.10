@@ -26,10 +26,10 @@ By the end of this week, you'll be able to:
 
 ## Lessons This Week
 
-### [Lesson 2.1: How to Train Your Human Robot](lesson2.1.md)
+### [Lesson 2.1: How to Train Your Human Robot](lesson2.1/)
 **Get Ready To:** Become a programmer for a "human robot"! You'll give commands to your friends and see firsthand why every single step matters.
 
-### [Lesson 2.2: The Great Peanut Butter Sandwich Challenge!](lesson2.2.md)
+### [Lesson 2.2: The Great Peanut Butter Sandwich Challenge!](lesson2.2/)
 **Get Ready To:** Write the most detailed recipe ever for making a peanut butter and jelly sandwich. We'll test your instructions live, and the results are guaranteed to be funny and educational!
 
 ---
@@ -71,4 +71,4 @@ Did you know algorithms are everywhere? They're in:
 
 ---
 
-[← Previous Week: Digital World](../week01/index.md) | [Back to Course Overview](../index.md) | [Next Week: Programming Basics →](../week03/index.md)
+[← Previous Week: Digital World](../week01/) | [Back to Course Overview](../) | [Next Week: Programming Basics →](../week03/)
