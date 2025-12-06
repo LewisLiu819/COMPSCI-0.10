@@ -1,6 +1,6 @@
 <!-- Progress Tracker Component -->
-<div class="progress-tracker-container" style="background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%); border-radius: 16px; padding: 2rem; margin: 2rem 0; border: 1px solid #dee2e6;">
-  <h3 style="text-align: center; color: #2E86AB; margin-bottom: 1.5rem;">
+<div class="progress-tracker-container">
+  <h3>
     {% if page.lang == 'en' %}
       📊 Your Learning Progress
     {% else %}
@@ -8,32 +8,32 @@
     {% endif %}
   </h3>
 
-  <div class="progress-overview" style="display: flex; justify-content: space-around; margin-bottom: 2rem; flex-wrap: wrap; gap: 1rem;">
-    <div class="progress-stat" style="text-align: center; background: white; padding: 1rem; border-radius: 12px; min-width: 120px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-      <div style="font-size: 2rem; font-weight: bold; color: #28a745;">0/16</div>
-      <div style="font-size: 0.9rem; color: #6c757d;">
+  <div class="progress-overview">
+    <div class="progress-stat">
+      <div>0/16</div>
+      <div>
         {% if page.lang == 'en' %}Weeks Completed{% else %}周完成{% endif %}
       </div>
     </div>
-    <div class="progress-stat" style="text-align: center; background: white; padding: 1rem; border-radius: 12px; min-width: 120px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-      <div style="font-size: 2rem; font-weight: bold; color: #17a2b8;">0/32</div>
-      <div style="font-size: 0.9rem; color: #6c757d;">
+    <div class="progress-stat">
+      <div>0/32</div>
+      <div>
         {% if page.lang == 'en' %}Lessons Done{% else %}课程完成{% endif %}
       </div>
     </div>
-    <div class="progress-stat" style="text-align: center; background: white; padding: 1rem; border-radius: 12px; min-width: 120px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
-      <div style="font-size: 2rem; font-weight: bold; color: #ffc107;">0</div>
-      <div style="font-size: 0.9rem; color: #6c757d;">
+    <div class="progress-stat">
+      <div>0</div>
+      <div>
         {% if page.lang == 'en' %}Projects{% else %}项目{% endif %}
       </div>
     </div>
   </div>
 
-  <div class="progress-bar-container" style="background: #e9ecef; border-radius: 10px; height: 20px; overflow: hidden; margin-bottom: 1rem;">
-    <div class="progress-bar" style="height: 100%; background: linear-gradient(90deg, #28a745, #20c997); width: 0%; transition: width 0.5s ease; border-radius: 10px;"></div>
+  <div class="progress-bar-container large">
+    <div class="progress-bar" style="width: 0%;"></div>
   </div>
 
-  <div class="progress-message" style="text-align: center; color: #6c757d; font-size: 0.9rem;">
+  <div class="progress-message">
     {% if page.lang == 'en' %}
       🌟 Great start! Begin your computer science adventure with Week 1.
     {% else %}
@@ -42,78 +42,78 @@
   </div>
 
   <!-- Achievements Section -->
-  <div class="achievements-section" style="margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid #dee2e6;">
-    <h4 style="color: #2E86AB; margin-bottom: 1rem; text-align: center;">
+  <div class="achievements-section">
+    <h4>
       {% if page.lang == 'en' %}
         🏆 Achievements
       {% else %}
         🏆 成就
       {% endif %}
     </h4>
-    <div class="achievements-grid" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 1rem;">
+    <div class="achievements-grid">
 
       <!-- First Steps Achievement -->
-      <div class="achievement-badge locked" style="background: #f8f9fa; border: 2px dashed #dee2e6; border-radius: 12px; padding: 1rem; text-align: center; opacity: 0.6;">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">👶</div>
-        <div style="font-weight: bold; color: #6c757d;">
+      <div class="achievement-badge locked">
+        <div>👶</div>
+        <div>
           {% if page.lang == 'en' %}First Steps{% else %}第一步{% endif %}
         </div>
-        <div style="font-size: 0.8rem; color: #6c757d;">
+        <div>
           {% if page.lang == 'en' %}Complete your first lesson{% else %}完成第一课{% endif %}
         </div>
       </div>
 
       <!-- Detective Achievement -->
-      <div class="achievement-badge locked" style="background: #f8f9fa; border: 2px dashed #dee2e6; border-radius: 12px; padding: 1rem; text-align: center; opacity: 0.6;">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🕵️</div>
-        <div style="font-weight: bold; color: #6c757d;">
+      <div class="achievement-badge locked">
+        <div>🕵️</div>
+        <div>
           {% if page.lang == 'en' %}Computer Detective{% else %}计算机侦探{% endif %}
         </div>
-        <div style="font-size: 0.8rem; color: #6c757d;">
+        <div>
           {% if page.lang == 'en' %}Find 10+ computers{% else %}找到10+台计算机{% endif %}
         </div>
       </div>
 
       <!-- Programmer Achievement -->
-      <div class="achievement-badge locked" style="background: #f8f9fa; border: 2px dashed #dee2e6; border-radius: 12px; padding: 1rem; text-align: center; opacity: 0.6;">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">💻</div>
-        <div style="font-weight: bold; color: #6c757d;">
+      <div class="achievement-badge locked">
+        <div>💻</div>
+        <div>
           {% if page.lang == 'en' %}First Program{% else %}第一个程序{% endif %}
         </div>
-        <div style="font-size: 0.8rem; color: #6c757d;">
+        <div>
           {% if page.lang == 'en' %}Create in Scratch Jr.{% else %}在Scratch Jr.中创建{% endif %}
         </div>
       </div>
 
       <!-- Storyteller Achievement -->
-      <div class="achievement-badge locked" style="background: #f8f9fa; border: 2px dashed #dee2e6; border-radius: 12px; padding: 1rem; text-align: center; opacity: 0.6;">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">📚</div>
-        <div style="font-weight: bold; color: #6c757d;">
+      <div class="achievement-badge locked">
+        <div>📚</div>
+        <div>
           {% if page.lang == 'en' %}Digital Storyteller{% else %}数字故事家{% endif %}
         </div>
-        <div style="font-size: 0.8rem; color: #6c757d;">
+        <div>
           {% if page.lang == 'en' %}Complete a story project{% else %}完成故事项目{% endif %}
         </div>
       </div>
 
       <!-- Game Designer Achievement -->
-      <div class="achievement-badge locked" style="background: #f8f9fa; border: 2px dashed #dee2e6; border-radius: 12px; padding: 1rem; text-align: center; opacity: 0.6;">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🎮</div>
-        <div style="font-weight: bold; color: #6c757d;">
+      <div class="achievement-badge locked">
+        <div>🎮</div>
+        <div>
           {% if page.lang == 'en' %}Game Designer{% else %}游戏设计师{% endif %}
         </div>
-        <div style="font-size: 0.8rem; color: #6c757d;">
+        <div>
           {% if page.lang == 'en' %}Create your first game{% else %}创建第一个游戏{% endif %}
         </div>
       </div>
 
       <!-- Capstone Achievement -->
-      <div class="achievement-badge locked" style="background: #f8f9fa; border: 2px dashed #dee2e6; border-radius: 12px; padding: 1rem; text-align: center; opacity: 0.6;">
-        <div style="font-size: 2rem; margin-bottom: 0.5rem;">🏆</div>
-        <div style="font-weight: bold; color: #6c757d;">
+      <div class="achievement-badge locked">
+        <div>🏆</div>
+        <div>
           {% if page.lang == 'en' %}Course Champion{% else %}课程冠军{% endif %}
         </div>
-        <div style="font-size: 0.8rem; color: #6c757d;">
+        <div>
           {% if page.lang == 'en' %}Finish capstone project{% else %}完成顶点项目{% endif %}
         </div>
       </div>
@@ -121,36 +121,6 @@
     </div>
   </div>
 </div>
-
-<!-- Progress Tracker Styles and Scripts -->
-<style>
-.achievement-badge.unlocked {
-  background: linear-gradient(135deg, #fff3cd 0%, #ffeaa7 100%) !important;
-  border: 2px solid #f39c12 !important;
-  opacity: 1 !important;
-  transform: scale(1.05);
-  box-shadow: 0 4px 15px rgba(243, 156, 18, 0.3);
-}
-
-.achievement-badge {
-  transition: all 0.3s ease;
-}
-
-.achievement-badge:hover {
-  transform: translateY(-2px);
-}
-
-@media (max-width: 768px) {
-  .progress-overview {
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .achievements-grid {
-    grid-template-columns: 1fr !important;
-  }
-}
-</style>
 
 <script>
 // Simple progress tracking (in a real implementation, this would be connected to a backend)
@@ -165,7 +135,7 @@ document.addEventListener('DOMContentLoaded', function() {
     const weeksStat = document.querySelector('.progress-overview .progress-stat:nth-child(1) div:first-child');
     const lessonsStat = document.querySelector('.progress-overview .progress-stat:nth-child(2) div:first-child');
     const projectsStat = document.querySelector('.progress-overview .progress-stat:nth-child(3) div:first-child');
-    const progressBar = document.querySelector('.progress-bar');
+    const progressBar = document.querySelector('.progress-bar-container.large .progress-bar');
 
     if (weeksStat) weeksStat.textContent = `${progress.weeks}/16`;
     if (lessonsStat) lessonsStat.textContent = `${progress.lessons}/32`;

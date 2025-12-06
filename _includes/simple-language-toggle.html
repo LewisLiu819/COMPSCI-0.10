@@ -3,7 +3,7 @@
 {% assign current_lang = page.lang | default: 'zh' %}
 {% assign current_path = page.url %}
 
-<div class="language-toggle" style="position: fixed; top: 20px; right: 20px; z-index: 1000; background: white; border: 1px solid #ddd; border-radius: 6px; padding: 8px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);">
+<div class="language-toggle">
   {% if current_lang == 'zh' %}
     {% comment %} Convert Chinese path to English path {% endcomment %}
     {% if current_path == '/' %}
@@ -16,7 +16,7 @@
     {% else %}
       {% assign target_url = '/en/' %}
     {% endif %}
-    <a href="{{ target_url }}" style="text-decoration: none; color: #333; font-size: 14px;">English</a>
+    <a href="{{ target_url }}">English</a>
   {% else %}
     {% comment %} Convert English path to Chinese path {% endcomment %}
     {% if current_path == '/en/' %}
@@ -26,7 +26,7 @@
     {% else %}
       {% assign target_url = '/' %}
     {% endif %}
-    <a href="{{ target_url }}" style="text-decoration: none; color: #333; font-size: 14px;">中文</a>
+    <a href="{{ target_url }}">中文</a>
   {% endif %}
 </div>
 

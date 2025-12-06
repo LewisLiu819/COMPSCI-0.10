@@ -1,4 +1,4 @@
-title: "COMPSCI 0.10 | CS 0.10 - Elementary Computer Science Course"
+title: "COMPSCI 0.10"
 description: "COMPSCI 0.10 (CS 0.10, CS 010, COMPSCI 010) - A free introductory computer science course for elementary students grades 4-6. Learn programming, algorithms, and computational thinking with Scratch Jr. Adapted from UC Berkeley CS10."
 url: "https://compsci010.cn"
 baseurl: ""
@@ -177,6 +177,12 @@ plugins:
   - jekyll-include-cache
   - jekyll-sitemap
   - jekyll-feed
+  - jekyll-minifier
+
+jekyll-minifier:
+  exclude: ['robots.txt']
+  uglifier_args:
+    harmony: true
 
 # Feed settings
 feed:

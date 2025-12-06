@@ -1,0 +1,237 @@
+(function() {
+  'use strict';
+  
+  // Dark Mode Logic
+  const toggle = document.getElementById('themeToggle');
+  const icon = document.getElementById('themeIcon');
+  
+  function updateIcon(theme) {
+    if (icon) {
+      icon.innerHTML = theme === 'dark' ? '&#9728;' : '&#9790;';
+    }
+  }
+  
+  function setTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    updateIcon(theme);
+  }
+  
+  // Initialize Dark Mode
+  const savedTheme = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const currentTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+  updateIcon(currentTheme);
+  
+  if (toggle) {
+    toggle.addEventListener('click', function() {
+      const current = document.documentElement.getAttribute('data-theme') || 'light';
+      setTheme(current === 'dark' ? 'light' : 'dark');
+    });
+  }
+  
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+    if (!localStorage.getItem('theme')) {
+      setTheme(e.matches ? 'dark' : 'light');
+    }
+  });
+
+  // Lazy Loading for Images
+  if ('loading' in HTMLImageElement.prototype) {
+    // Native lazy loading supported
+    const images = document.querySelectorAll('img');
+    images.forEach(function(img) {
+      if (!img.hasAttribute('loading')) {
+        img.setAttribute('loading', 'lazy');
+      }
+      if (img.dataset.src) {
+        img.src = img.dataset.src;
+      }
+    });
+  } else {
+    // Fallback with IntersectionObserver
+    const lazyImages = document.querySelectorAll('img');
+    if ('IntersectionObserver' in window) {
+      const imageObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            const img = entry.target;
+            if (img.dataset.src) {
+              img.src = img.dataset.src;
+            }
+            imageObserver.unobserve(img);
+          }
+        });
+      }, { rootMargin: '50px 0px' });
+      
+      lazyImages.forEach(function(img) {
+        if (!img.dataset.src && !img.src) return; // Skip if no source
+        imageObserver.observe(img);
+      });
+    }
+  }
+
+  // Link Prefetching on Hover
+  const prefetchLink = function(url) {
+    if (document.querySelector(`link[rel="prefetch"][href="${url}"]`)) return;
+    const link = document.createElement('link');
+    link.rel = 'prefetch';
+    link.href = url;
+    document.head.appendChild(link);
+  };
+
+  document.querySelectorAll('a').forEach(function(link) {
+    link.addEventListener('mouseenter', function() {
+      const url = link.getAttribute('href');
+      if (url && url.startsWith('/') && !url.startsWith('#')) {
+        prefetchLink(url);
+      }
+    });
+  });
+  
+  // Smooth Scroll for Anchor Links
+  document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
+    anchor.addEventListener('click', function(e) {
+      const targetId = this.getAttribute('href');
+      if (targetId === '#') return;
+      
+      const target = document.querySelector(targetId);
+      if (target) {
+        e.preventDefault();
+        target.scrollIntoView({
+          behavior: 'smooth',
+          block: 'start'
+        });
+        // Update URL without jumping
+        history.pushState(null, null, targetId);
+      }
+    });
+  });
+  
+  // Add Skip to Main Content Link (if not present)
+  if (!document.querySelector('.skip-to-main')) {
+      const skipLink = document.createElement('a');
+      skipLink.href = '#main-content';
+      skipLink.className = 'skip-to-main';
+      skipLink.textContent = 'Skip to main content';
+      skipLink.style.cssText = 'position: absolute; left: -9999px; top: 0; z-index: 9999;';
+      document.body.insertBefore(skipLink, document.body.firstChild);
+  }
+  
+  // Keyboard Navigation Enhancement
+  document.addEventListener('keydown', function(e) {
+    // Press '/' to focus search
+    if (e.key === '/' && !e.ctrlKey && !e.metaKey) {
+      const searchInput = document.querySelector('.search-input');
+      if (searchInput && document.activeElement !== searchInput) {
+        e.preventDefault();
+        searchInput.focus();
+      }
+    }
+    
+    // Escape to close modals/focus out
+    if (e.key === 'Escape') {
+      if (document.activeElement) {
+        document.activeElement.blur();
+      }
+    }
+  });
+  
+  // Page Transition Animation
+  document.addEventListener('DOMContentLoaded', function() {
+    document.body.classList.add('page-loaded');
+    
+    // Animate elements on scroll
+    const animateElements = document.querySelectorAll('.lesson-card, .week-card, .stat-item');
+    
+    if ('IntersectionObserver' in window) {
+      const animationObserver = new IntersectionObserver(function(entries) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            entry.target.style.opacity = '1';
+            entry.target.style.transform = 'translateY(0)';
+          }
+        });
+      }, { threshold: 0.1 });
+      
+      animateElements.forEach(function(el) {
+        el.style.opacity = '0';
+        el.style.transform = 'translateY(20px)';
+        el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
+        animationObserver.observe(el);
+      });
+    }
+  });
+  
+  // Reading Progress Bar (for lesson pages)
+  if (document.querySelector('.main-content-wrap')) {
+    const progressBar = document.createElement('div');
+    progressBar.style.cssText = 'position: fixed; top: 0; left: 0; width: 0%; height: 4px; background: linear-gradient(90deg, #2E86AB, #A23B72, #F18F01); z-index: 9999; transition: width 0.1s;';
+    document.body.appendChild(progressBar);
+    
+    window.addEventListener('scroll', function() {
+      const scrollTop = window.scrollY;
+      const docHeight = document.documentElement.scrollHeight - window.innerHeight;
+      const progress = docHeight > 0 ? (scrollTop / docHeight) * 100 : 0;
+      progressBar.style.width = progress + '%';
+    });
+  }
+  
+  // Copy Code Button Enhancement
+  document.querySelectorAll('pre code').forEach(function(codeBlock) {
+    const wrapper = codeBlock.parentElement;
+    // Check for existing copy buttons (custom or theme provided)
+    if (wrapper.querySelector('.copy-btn') || wrapper.querySelector('.btn-copy')) return;
+    
+    const copyBtn = document.createElement('button');
+    copyBtn.className = 'copy-btn';
+    copyBtn.innerHTML = 'Copy';
+    copyBtn.style.cssText = 'position: absolute; top: 8px; right: 8px; padding: 4px 12px; font-size: 12px; background: #2E86AB; color: white; border: none; border-radius: 4px; cursor: pointer; opacity: 0; transition: opacity 0.3s;';
+    
+    wrapper.style.position = 'relative';
+    wrapper.appendChild(copyBtn);
+    
+    wrapper.addEventListener('mouseenter', function() {
+      copyBtn.style.opacity = '1';
+    });
+    
+    wrapper.addEventListener('mouseleave', function() {
+      copyBtn.style.opacity = '0';
+    });
+    
+    copyBtn.addEventListener('click', function() {
+      navigator.clipboard.writeText(codeBlock.textContent).then(function() {
+        copyBtn.innerHTML = 'Copied!';
+        setTimeout(function() {
+          copyBtn.innerHTML = 'Copy';
+        }, 2000);
+      });
+    });
+  });
+  
+  // External Link Handler
+  document.querySelectorAll('a[href^="http"]').forEach(function(link) {
+    // Check if it's actually external
+    const url = new URL(link.href);
+    if (url.hostname === window.location.hostname) return;
+
+    if (!link.getAttribute('target')) {
+      link.setAttribute('target', '_blank');
+      link.setAttribute('rel', 'noopener noreferrer');
+    }
+    
+    // Add external link indicator
+    if (!link.querySelector('.external-indicator')) {
+      const indicator = document.createElement('span');
+      indicator.className = 'external-indicator';
+      indicator.innerHTML = ' &#x2197;';
+      indicator.style.fontSize = '0.8em';
+      link.appendChild(indicator);
+    }
+  });
+  
+  // Console Easter Egg for Kids
+  console.log('%c Welcome to COMPSCI 0.10! ', 'background: linear-gradient(90deg, #2E86AB, #A23B72, #F18F01); color: white; font-size: 20px; font-weight: bold; padding: 10px; border-radius: 5px;');
+  console.log('%c You found the developer console! You are on your way to becoming a programmer! ', 'font-size: 14px; color: #2E86AB;');
+})();
