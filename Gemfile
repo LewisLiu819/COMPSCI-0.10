@@ -1,19 +1,23 @@
 source 'https://rubygems.org'
 
-gem "jekyll", "~> 4.3.4" # installed by `gem jekyll`
-# gem "webrick"        # required when using Ruby >= 3 and Jekyll <= 4.2.2
+gem "jekyll", "~> 4.3.4"
 
-gem "just-the-docs", "0.10.0" # pinned to the current release
-# gem "just-the-docs"        # always download the latest release
+# Theme
+gem "just-the-docs", "0.10.0"
 
+# Required gems
 gem 'logger'
-
 gem 'csv'
-
 gem 'ostruct'
-
 gem 'base64'
 
+# Plugins
 gem 'jekyll-github-metadata'
-
 gem 'jekyll-sitemap'
+gem 'jekyll-feed'
+gem 'jekyll-seo-tag'
+gem 'jekyll-include-cache'
+gem 'jekyll-minifier'
+
+# Performance
+gem 'webrick'

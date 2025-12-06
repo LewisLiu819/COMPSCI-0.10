@@ -1,462 +1,638 @@
-// COMPSCI Kids Custom Styles
-// Enhanced styling for elementary school students
+// COMPSCI Kids Custom Styles - Enhanced Version
+// Optimized for elementary school students with accessibility focus
 
-// Import the color scheme variables
 @import "color_schemes/compsci-kids";
 
-// Typography improvements for young readers
-body {
-  font-size: 16px;
-  line-height: 1.6;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+// CSS Custom Properties for Dark Mode
+:root {
+  --color-bg: #{$body-background-color};
+  --color-text: #{$body-text-color};
+  --color-primary: #{$primary-color};
+  --color-secondary: #{$secondary-color};
+  --color-accent: #{$accent-color};
+  --color-border: #{$border-color};
+  --color-muted: #{$muted-text-color};
+  --shadow-sm: 0 2px 8px rgba(0, 0, 0, 0.08);
+  --shadow-md: 0 4px 16px rgba(0, 0, 0, 0.12);
+  --shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.16);
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-xl: 24px;
+  --transition-fast: 0.15s ease;
+  --transition-normal: 0.3s ease;
+  --transition-slow: 0.5s ease;
 }
 
-// Larger, more readable headings
+// Dark Mode Overrides
+[data-theme="dark"] {
+  --color-bg: #1a1a2e;
+  --color-text: #e8e8e8;
+  --color-primary: #64b5f6;
+  --color-secondary: #ce93d8;
+  --color-accent: #ffb74d;
+  --color-border: #3d3d5c;
+  --color-muted: #9e9e9e;
+  
+  body {
+    background-color: var(--color-bg);
+    color: var(--color-text);
+  }
+  
+  .side-bar {
+    background-color: #16213e;
+  }
+  
+  .main-content {
+    background-color: var(--color-bg);
+  }
+  
+  .site-nav {
+    background: linear-gradient(135deg, #16213e 0%, #1a1a2e 100%);
+  }
+  
+  .nav-list-link {
+    color: var(--color-text) !important;
+    
+    &:hover {
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%) !important;
+    }
+  }
+  
+  pre, code {
+    background-color: #2d2d44;
+    color: #e8e8e8;
+  }
+  
+  .search-input {
+    background-color: #2d2d44 !important;
+    color: var(--color-text) !important;
+  }
+}
+
+// Typography - Kid-Friendly with Better Readability
+body {
+  font-size: 17px;
+  line-height: 1.7;
+  font-family: 'Nunito', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: var(--color-bg);
+  color: var(--color-text);
+}
+
+// Headings with Gradient Underlines
 h1 {
   font-size: 2.5rem;
-  color: $primary-color;
+  color: var(--color-primary);
   margin-bottom: 1.5rem;
-  font-weight: 700;
+  font-weight: 800;
+  position: relative;
+  
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -8px;
+    left: 0;
+    width: 60px;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-accent));
+    border-radius: 2px;
+  }
 }
 
 h2 {
   font-size: 2rem;
-  color: $secondary-color;
-  margin: 2rem 0 1rem 0;
-  font-weight: 600;
+  color: var(--color-secondary);
+  margin: 2.5rem 0 1.25rem;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 1.5rem;
-  color: $primary-color;
-  margin: 1.5rem 0 1rem 0;
-  font-weight: 600;
+  color: var(--color-primary);
+  margin: 2rem 0 1rem;
+  font-weight: 700;
 }
 
 h4, h5, h6 {
   font-size: 1.25rem;
-  color: $body-text-color;
-  margin: 1rem 0 0.5rem 0;
+  color: var(--color-text);
+  margin: 1.5rem 0 0.75rem;
   font-weight: 600;
 }
 
-// Enhanced paragraph spacing
 p {
   margin-bottom: 1.25rem;
   font-size: 1.1rem;
 }
 
-// Colorful and engaging button styles
+// Enhanced Links
+a {
+  color: var(--color-primary);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+  
+  &:hover {
+    color: var(--color-accent);
+    text-decoration: underline;
+    text-decoration-thickness: 2px;
+    text-underline-offset: 3px;
+  }
+  
+  &:focus-visible {
+    outline: 3px solid var(--color-accent);
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+}
+
+// Button Styles
+.btn, button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
 .btn-primary {
-  background: linear-gradient(135deg, $accent-color 0%, lighten($accent-color, 10%) 100%);
+  background: linear-gradient(135deg, var(--color-accent) 0%, lighten($accent-color, 10%) 100%);
   border: none;
-  border-radius: 12px;
+  border-radius: var(--radius-lg);
   font-size: 1.2rem;
-  font-weight: 600;
-  padding: 12px 24px;
+  font-weight: 700;
+  padding: 14px 28px;
   color: white;
   text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 4px 15px rgba($accent-color, 0.3);
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-md), 0 4px 15px rgba($accent-color, 0.3);
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
 
   &:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 6px 20px rgba($accent-color, 0.4);
-    background: linear-gradient(135deg, darken($accent-color, 5%) 0%, $accent-color 100%);
+    transform: translateY(-3px);
+    box-shadow: var(--shadow-lg), 0 8px 25px rgba($accent-color, 0.4);
+  }
+  
+  &:active {
+    transform: translateY(-1px);
   }
 }
 
 .btn-secondary {
-  background: linear-gradient(135deg, $primary-color 0%, lighten($primary-color, 10%) 100%);
+  background: linear-gradient(135deg, var(--color-primary) 0%, lighten($primary-color, 10%) 100%);
   border: none;
-  border-radius: 12px;
+  border-radius: var(--radius-md);
   font-size: 1.1rem;
   font-weight: 600;
-  padding: 10px 20px;
+  padding: 12px 24px;
   color: white;
   text-decoration: none;
-  transition: all 0.3s ease;
-  box-shadow: 0 3px 12px rgba($primary-color, 0.3);
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-sm);
 
   &:hover {
-    transform: translateY(-1px);
-    box-shadow: 0 5px 18px rgba($primary-color, 0.4);
+    transform: translateY(-2px);
+    box-shadow: var(--shadow-md);
   }
 }
 
-// Card-based layout styles
-.lesson-card {
-  background: white;
-  border-radius: 16px;
+// Card Styles
+.lesson-card, .week-card {
+  background: var(--color-bg);
+  border-radius: var(--radius-lg);
   padding: 1.5rem;
   margin: 1rem 0;
-  border: 2px solid $border-color;
-  transition: all 0.3s ease;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  border: 2px solid var(--color-border);
+  transition: all var(--transition-normal);
+  box-shadow: var(--shadow-sm);
+  position: relative;
+  overflow: hidden;
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--color-primary), var(--color-secondary), var(--color-accent));
+    opacity: 0;
+    transition: opacity var(--transition-normal);
+  }
 
   &:hover {
-    transform: translateY(-3px);
-    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
-    border-color: $primary-color;
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-lg);
+    border-color: var(--color-primary);
+    
+    &::before {
+      opacity: 1;
+    }
   }
 }
 
 .lesson-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
   gap: 1.5rem;
   margin: 2rem 0;
 }
 
-// Fun fact boxes
-.fun-fact {
-  background: linear-gradient(135deg, $fun-yellow 0%, lighten($fun-yellow, 20%) 100%);
-  border-radius: 12px;
+// Info Boxes
+.fun-fact, .tip-box, .important-box, .warning-box {
+  border-radius: var(--radius-md);
   padding: 1.5rem;
   margin: 1.5rem 0;
-  border-left: 5px solid $fun-yellow;
-
+  position: relative;
+  
   &::before {
-    content: "🤔 Did You Know?";
     font-weight: bold;
     font-size: 1.1rem;
-    color: darken($fun-yellow, 30%);
     display: block;
     margin-bottom: 0.5rem;
   }
 }
 
-.important-box {
-  background: linear-gradient(135deg, $fun-purple 0%, lighten($fun-purple, 20%) 100%);
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
-  border-left: 5px solid $fun-purple;
-  color: white;
-
-  &::before {
-    content: "⭐ Important!";
-    font-weight: bold;
-    font-size: 1.1rem;
-    display: block;
-    margin-bottom: 0.5rem;
-  }
+.fun-fact {
+  background: linear-gradient(135deg, #FFF8E1 0%, #FFECB3 100%);
+  border-left: 5px solid $fun-yellow;
+  &::before { content: "Did You Know?"; color: darken($fun-yellow, 30%); }
 }
 
 .tip-box {
-  background: linear-gradient(135deg, $fun-green 0%, lighten($fun-green, 20%) 100%);
-  border-radius: 12px;
-  padding: 1.5rem;
-  margin: 1.5rem 0;
+  background: linear-gradient(135deg, #E8F5E9 0%, #C8E6C9 100%);
   border-left: 5px solid $fun-green;
-  color: white;
-
-  &::before {
-    content: "💡 Tip!";
-    font-weight: bold;
-    font-size: 1.1rem;
-    display: block;
-    margin-bottom: 0.5rem;
-  }
+  &::before { content: "Pro Tip!"; color: darken($fun-green, 20%); }
 }
 
-// Progress indicators
-.progress-bar {
-  width: 100%;
-  height: 12px;
-  background-color: #E5E7EB;
-  border-radius: 6px;
-  overflow: hidden;
-  margin: 1rem 0;
+.important-box {
+  background: linear-gradient(135deg, #EDE7F6 0%, #D1C4E9 100%);
+  border-left: 5px solid $fun-purple;
+  &::before { content: "Important!"; color: darken($fun-purple, 20%); }
 }
 
-.progress-fill {
-  height: 100%;
-  background: linear-gradient(90deg, $fun-green 0%, $primary-color 100%);
-  border-radius: 6px;
-  transition: width 0.5s ease;
+.warning-box {
+  background: linear-gradient(135deg, #FFEBEE 0%, #FFCDD2 100%);
+  border-left: 5px solid #EF5350;
+  &::before { content: "Warning!"; color: #C62828; }
 }
 
-// Enhanced navigation styles
+// Navigation Enhancements
+.site-nav {
+  background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%);
+  border-radius: var(--radius-lg);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  box-shadow: var(--shadow-sm);
+}
+
 .nav-list {
+  font-size: 1.05rem;
+
   .nav-list-item {
     margin: 0.5rem 0;
 
-    .nav-list-link {
-      font-size: 1.1rem;
-      padding: 0.75rem 1rem;
-      border-radius: 8px;
-      transition: all 0.3s ease;
-
-      &:hover {
-        background-color: lighten($primary-color, 40%);
-        color: $primary-color;
-      }
-    }
-  }
-}
-
-// Mobile-friendly adjustments
-@media (max-width: 768px) {
-  body {
-    font-size: 18px;
-  }
-
-  h1 {
-    font-size: 2rem;
-  }
-
-  h2 {
-    font-size: 1.75rem;
-  }
-
-  .lesson-grid {
-    grid-template-columns: 1fr;
-  }
-
-  .btn-primary, .btn-secondary {
-    font-size: 1.3rem;
-    padding: 14px 28px;
-  }
-}
-
-// Animation keyframes for fun interactions
-@keyframes bounce {
-  0%, 20%, 60%, 100% {
-    transform: translateY(0);
-  }
-  40% {
-    transform: translateY(-10px);
-  }
-  80% {
-    transform: translateY(-5px);
-  }
-}
-
-.bounce-on-hover:hover {
-  animation: bounce 1s;
-}
-
-// Language toggle improvements
-.language-toggle {
-  font-size: 1.1rem !important;
-  padding: 10px 16px !important;
-  border-radius: 10px !important;
-  box-shadow: 0 3px 12px rgba(0, 0, 0, 0.15) !important;
-
-  a {
-    font-weight: 600 !important;
-    color: $primary-color !important;
-
-    &:hover {
-      color: $accent-color !important;
-    }
-  }
-}
-
-// Enhanced code blocks for programming lessons
-pre, code {
-  font-size: 1rem;
-  border-radius: 8px;
-}
-
-.highlight {
-  border-radius: 12px;
-  border: 2px solid $border-color;
-
-  pre {
-    padding: 1.5rem;
-  }
-}
-
-// Child-Friendly Navigation Enhancement
-.site-nav {
-  background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
-  border-radius: 15px;
-  padding: 1rem;
-  margin-bottom: 1rem;
-  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
-}
-
-.nav-list {
-  font-size: 1.1rem;
-
-  .nav-list-item {
-    margin: 0.75rem 0;
-
     + .nav-list-item {
       border-top: 1px solid rgba(46, 134, 171, 0.1);
-      padding-top: 0.75rem;
+      padding-top: 0.5rem;
     }
   }
 
   .nav-list-link {
-    padding: 1rem 1.25rem !important;
-    border-radius: 12px !important;
-    font-size: 1.1rem !important;
+    padding: 0.875rem 1rem !important;
+    border-radius: var(--radius-md) !important;
+    font-size: 1rem !important;
     font-weight: 600 !important;
-    transition: all 0.3s ease !important;
+    transition: all var(--transition-normal) !important;
     border: 2px solid transparent !important;
-    position: relative;
-    overflow: hidden;
-
-    &:before {
-      content: '';
-      position: absolute;
-      top: 0;
-      left: -100%;
-      width: 100%;
-      height: 100%;
-      background: linear-gradient(90deg, transparent, rgba(255,255,255,0.4), transparent);
-      transition: left 0.5s;
-    }
+    display: block;
 
     &:hover {
-      background: linear-gradient(135deg, $primary-color 0%, $secondary-color 100%) !important;
+      background: linear-gradient(135deg, var(--color-primary) 0%, var(--color-secondary) 100%) !important;
       color: white !important;
-      transform: translateX(8px) !important;
-      border-color: $primary-color !important;
-      box-shadow: 0 6px 20px rgba(46, 134, 171, 0.3) !important;
-      animation: gentle-bounce 0.6s ease;
-
-      &:before {
-        left: 100%;
-      }
+      transform: translateX(6px) !important;
+      border-color: var(--color-primary) !important;
+      box-shadow: var(--shadow-md) !important;
     }
 
-    &:focus {
-      outline: 3px solid $accent-color;
+    &:focus-visible {
+      outline: 3px solid var(--color-accent);
       outline-offset: 2px;
     }
 
-    // Active/current page styling
     &.active,
     &[aria-current="page"] {
-      background: linear-gradient(135deg, $accent-color 0%, lighten($accent-color, 10%) 100%) !important;
+      background: linear-gradient(135deg, var(--color-accent) 0%, lighten($accent-color, 10%) 100%) !important;
       color: white !important;
-      border-color: $accent-color !important;
-      box-shadow: 0 4px 15px rgba(241, 143, 1, 0.4) !important;
+      border-color: var(--color-accent) !important;
+      box-shadow: var(--shadow-sm) !important;
     }
   }
 }
 
-// Add fun icons to navigation items
-.nav-list .nav-list-link[href*="lesson1"]:before { content: "💻 "; position: static; }
-.nav-list .nav-list-link[href*="lesson2"]:before { content: "📱 "; position: static; }
-.nav-list .nav-list-link[href*="lesson3"]:before { content: "🧩 "; position: static; }
-.nav-list .nav-list-link[href*="lesson4"]:before { content: "🎨 "; position: static; }
-.nav-list .nav-list-link[href*="lesson5"]:before { content: "🔄 "; position: static; }
-.nav-list .nav-list-link[href*="lesson6"]:before { content: "📊 "; position: static; }
-.nav-list .nav-list-link[href*="lesson7"]:before { content: "🎮 "; position: static; }
-.nav-list .nav-list-link[href*="lesson8"]:before { content: "🔧 "; position: static; }
-.nav-list .nav-list-link[href*="lesson9"]:before { content: "🤖 "; position: static; }
-.nav-list .nav-list-link[href*="lesson10"]:before { content: "📈 "; position: static; }
-.nav-list .nav-list-link[href*="lesson11"]:before { content: "🌐 "; position: static; }
-.nav-list .nav-list-link[href*="lesson12"]:before { content: "🚗 "; position: static; }
-.nav-list .nav-list-link[href*="lesson13"]:before { content: "🎬 "; position: static; }
-.nav-list .nav-list-link[href*="lesson14"]:before { content: "🐛 "; position: static; }
-.nav-list .nav-list-link[href*="lesson15"]:before { content: "🚀 "; position: static; }
-
-// Home page and main sections icons
-.nav-list .nav-list-link[href="/"],
-.nav-list .nav-list-link[href="/en/"]:before {
-  content: "🏠 ";
-  position: static;
-}
-
-.nav-list .nav-list-link[href*="lessons"]:not([href*="lesson"]):before {
-  content: "📚 ";
-  position: static;
-}
-
-// Main site header enhancements
+// Site Header
 .site-header {
   background: linear-gradient(135deg, $primary-color 0%, $secondary-color 50%, $accent-color 100%);
   border-bottom: none;
-  padding: 1rem 0;
+  padding: 1.25rem 0;
 }
 
 .site-title {
   color: white !important;
   font-weight: 800 !important;
-  font-size: 1.8rem !important;
-  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+  font-size: 1.5rem !important;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.2);
+  transition: all var(--transition-fast);
 
   &:hover {
     color: #FFE082 !important;
+    transform: scale(1.02);
   }
 }
 
-// Search box enhancements
+// Search Box
 .search {
-  margin: 1rem 1;
+  margin: 1rem 0;
 
   .search-input-wrap {
     border-radius: 25px !important;
     overflow: hidden;
-    box-shadow: 0 4px 15px rgba(120, 120, 120, 0.539);
+    box-shadow: var(--shadow-sm);
+    transition: box-shadow var(--transition-normal);
+    
+    &:focus-within {
+      box-shadow: 0 0 0 4px rgba(46, 134, 171, 0.2);
+    }
   }
 
   .search-input {
     border: none !important;
-    padding: 1rem 4rem !important;
-    font-size: 1.1rem !important;
+    padding: 0.875rem 3rem !important;
+    font-size: 1rem !important;
     border-radius: 25px !important;
+    font-family: inherit;
+  }
+}
 
-    &:focus {
-      box-shadow: 0 0 0 5px rgba(46, 134, 171, 0.3) !important;
+// Tables
+table {
+  border-radius: var(--radius-md);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  
+  th {
+    background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+    color: white;
+    font-weight: 700;
+    padding: 1rem;
+  }
+  
+  td {
+    padding: 0.875rem 1rem;
+    border-bottom: 1px solid var(--color-border);
+  }
+  
+  tr:hover td {
+    background-color: rgba(46, 134, 171, 0.05);
+  }
+}
+
+// Code Blocks
+pre, code {
+  font-family: 'Fira Code', 'Monaco', 'Consolas', monospace;
+  font-size: 0.95rem;
+  border-radius: var(--radius-sm);
+}
+
+.highlight {
+  border-radius: var(--radius-md);
+  border: 2px solid var(--color-border);
+  overflow: hidden;
+
+  pre {
+    padding: 1.25rem;
+    margin: 0;
+    overflow-x: auto;
+  }
+}
+
+// Progress Bar
+.progress-bar-container {
+  width: 100%;
+  height: 12px;
+  background-color: var(--color-border);
+  border-radius: 6px;
+  overflow: hidden;
+  margin: 1rem 0;
+}
+
+.progress-bar {
+  height: 100%;
+  background: linear-gradient(90deg, $fun-green 0%, var(--color-primary) 100%);
+  border-radius: 6px;
+  transition: width var(--transition-slow);
+}
+
+// Language Toggle
+.language-toggle {
+  font-size: 1rem !important;
+  padding: 10px 16px !important;
+  border-radius: var(--radius-md) !important;
+  box-shadow: var(--shadow-sm) !important;
+  background: white !important;
+  transition: all var(--transition-normal) !important;
+
+  &:hover {
+    box-shadow: var(--shadow-md) !important;
+    transform: translateY(-2px);
+  }
+
+  a {
+    font-weight: 600 !important;
+    color: var(--color-primary) !important;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+
+    &:hover {
+      color: var(--color-accent) !important;
+      text-decoration: none;
     }
   }
 }
 
-// Progress indicator for navigation
-.nav-progress {
-  background: linear-gradient(90deg, $primary-color 0%, $accent-color 100%);
-  height: 4px;
-  border-radius: 2px;
-  margin: 1rem 0;
-  position: relative;
-  overflow: hidden;
+// Dark Mode Toggle Button
+.theme-toggle {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  background: linear-gradient(135deg, var(--color-primary), var(--color-secondary));
+  border: none;
+  color: white;
+  font-size: 1.5rem;
+  cursor: pointer;
+  box-shadow: var(--shadow-md);
+  z-index: 1000;
+  transition: all var(--transition-normal);
+  display: flex;
+  align-items: center;
+  justify-content: center;
 
-  &::after {
-    content: '';
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    width: 30%; // This would be dynamic based on actual progress
-    background: rgba(255, 255, 255, 0.8);
-    border-radius: 2px;
-    box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+  &:hover {
+    transform: scale(1.1) rotate(15deg);
+    box-shadow: var(--shadow-lg);
   }
 }
 
-// Animation keyframes
-@keyframes gentle-bounce {
-  0%, 100% { transform: translateX(8px) translateY(0); }
-  50% { transform: translateX(8px) translateY(-3px); }
+// Animations
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }
 
-@keyframes ripple {
-  to {
-    transform: scale(4);
-    opacity: 0;
-  }
+@keyframes slideUp {
+  from { opacity: 0; transform: translateY(20px); }
+  to { opacity: 1; transform: translateY(0); }
 }
 
-// Mobile navigation improvements
+@keyframes bounce {
+  0%, 20%, 60%, 100% { transform: translateY(0); }
+  40% { transform: translateY(-12px); }
+  80% { transform: translateY(-6px); }
+}
+
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+
+.fade-in { animation: fadeIn 0.5s ease-out; }
+.slide-up { animation: slideUp 0.5s ease-out; }
+.bounce-on-hover:hover { animation: bounce 0.8s ease; }
+.pulse-on-hover:hover { animation: pulse 1s ease infinite; }
+
+// Loading Skeleton
+.skeleton {
+  background: linear-gradient(90deg, #f0f0f0 25%, #e0e0e0 50%, #f0f0f0 75%);
+  background-size: 200% 100%;
+  animation: skeleton-loading 1.5s infinite;
+  border-radius: var(--radius-sm);
+}
+
+@keyframes skeleton-loading {
+  0% { background-position: 200% 0; }
+  100% { background-position: -200% 0; }
+}
+
+// Mobile Responsive
 @media (max-width: 768px) {
-  .nav-list .nav-list-link {
-    font-size: 1.2rem !important;
-    padding: 1.25rem 1.5rem !important;
+  body {
+    font-size: 18px;
+  }
+
+  h1 { font-size: 2rem; }
+  h2 { font-size: 1.75rem; }
+  h3 { font-size: 1.35rem; }
+
+  .lesson-grid {
+    grid-template-columns: 1fr;
+    gap: 1rem;
+  }
+
+  .btn-primary, .btn-secondary {
+    width: 100%;
+    justify-content: center;
+    font-size: 1.15rem;
+    padding: 16px 24px;
   }
 
   .site-nav {
     margin: 0.5rem;
-    border-radius: 12px;
+    border-radius: var(--radius-md);
   }
 
-  .nav-list .nav-list-item {
-    margin: 1rem 0;
+  .nav-list .nav-list-link {
+    font-size: 1.1rem !important;
+    padding: 1rem 1.25rem !important;
+  }
+
+  .language-toggle {
+    top: auto !important;
+    bottom: 80px !important;
+    right: 10px !important;
+  }
+  
+  .theme-toggle {
+    bottom: 15px;
+    right: 15px;
+    width: 45px;
+    height: 45px;
+  }
+}
+
+// High Contrast Mode (Accessibility)
+@media (prefers-contrast: high) {
+  :root {
+    --color-text: #000000;
+    --color-bg: #ffffff;
+    --color-border: #000000;
+  }
+  
+  a {
+    text-decoration: underline;
+  }
+  
+  button, .btn {
+    border: 2px solid currentColor;
+  }
+}
+
+// Reduced Motion (Accessibility)
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+  
+  html {
+    scroll-behavior: auto;
+  }
+}
+
+// Print Styles
+@media print {
+  .side-bar,
+  .search,
+  .language-toggle,
+  .theme-toggle,
+  .hero-section,
+  .nav-list-expander {
+    display: none !important;
+  }
+
+  body {
+    font-size: 12pt;
+    color: black;
+    background: white;
+  }
+
+  .main-content {
+    margin: 0;
+    padding: 20px;
+    max-width: 100%;
+  }
+
+  a {
+    color: black;
+    text-decoration: underline;
+  }
+
+  a[href]::after {
+    content: " (" attr(href) ")";
+    font-size: 0.8em;
   }
 }

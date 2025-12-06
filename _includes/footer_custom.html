@@ -1,0 +1,150 @@
+<!-- Custom Footer -->
+<footer class="site-footer" style="background: linear-gradient(135deg, #2E86AB 0%, #A23B72 50%, #F18F01 100%); color: white; padding: 3rem 2rem 1.5rem; margin-top: 4rem;">
+  <div style="max-width: 1200px; margin: 0 auto;">
+    <!-- Footer Grid -->
+    <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 2rem; margin-bottom: 2rem;">
+      
+      <!-- Brand -->
+      <div>
+        <h3 style="font-size: 1.5rem; font-weight: 800; margin-bottom: 1rem; color: white;">COMPSCI 0.10</h3>
+        <p style="opacity: 0.9; line-height: 1.6; margin-bottom: 1rem;">
+          {% if page.lang == 'en' %}
+            An exciting computer science journey for young explorers. Free curriculum for grades 4-6.
+          {% else %}
+            专为小探索者设计的计算机科学精彩之旅。适合4-6年级学生的免费课程。
+          {% endif %}
+        </p>
+      </div>
+      
+      <!-- Quick Links -->
+      <div>
+        <h4 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #FFE082;">
+          {% if page.lang == 'en' %}Quick Links{% else %}快速链接{% endif %}
+        </h4>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li style="margin-bottom: 0.5rem;">
+            <a href="{% if page.lang == 'en' %}/en/{% else %}/zh/{% endif %}" style="color: white; opacity: 0.9; text-decoration: none;">
+              {% if page.lang == 'en' %}Home{% else %}首页{% endif %}
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="{% if page.lang == 'en' %}/en/week01/{% else %}/zh/week01/{% endif %}" style="color: white; opacity: 0.9; text-decoration: none;">
+              {% if page.lang == 'en' %}Week 1: Getting Started{% else %}第1周：入门{% endif %}
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="{% if page.lang == 'en' %}/en/week08/{% else %}/zh/week08/{% endif %}" style="color: white; opacity: 0.9; text-decoration: none;">
+              {% if page.lang == 'en' %}Week 8: Midterm{% else %}第8周：期中{% endif %}
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="{% if page.lang == 'en' %}/en/week16/{% else %}/zh/week16/{% endif %}" style="color: white; opacity: 0.9; text-decoration: none;">
+              {% if page.lang == 'en' %}Week 16: Final{% else %}第16周：期末{% endif %}
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Resources -->
+      <div>
+        <h4 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #FFE082;">
+          {% if page.lang == 'en' %}Resources{% else %}资源{% endif %}
+        </h4>
+        <ul style="list-style: none; padding: 0; margin: 0;">
+          <li style="margin-bottom: 0.5rem;">
+            <a href="https://scratch.mit.edu/" target="_blank" rel="noopener" style="color: white; opacity: 0.9; text-decoration: none;">
+              Scratch
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="https://www.scratchjr.org/" target="_blank" rel="noopener" style="color: white; opacity: 0.9; text-decoration: none;">
+              ScratchJr
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="https://cs10.org/" target="_blank" rel="noopener" style="color: white; opacity: 0.9; text-decoration: none;">
+              UC Berkeley CS10
+            </a>
+          </li>
+          <li style="margin-bottom: 0.5rem;">
+            <a href="https://github.com/LewisLiu819/COMPSCI-0.10" target="_blank" rel="noopener" style="color: white; opacity: 0.9; text-decoration: none;">
+              GitHub
+            </a>
+          </li>
+        </ul>
+      </div>
+      
+      <!-- Language -->
+      <div>
+        <h4 style="font-size: 1.1rem; font-weight: 700; margin-bottom: 1rem; color: #FFE082;">
+          {% if page.lang == 'en' %}Language{% else %}语言{% endif %}
+        </h4>
+        <div style="display: flex; gap: 0.75rem;">
+          <a href="/en/" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.15); padding: 0.5rem 1rem; border-radius: 8px; color: white; text-decoration: none; transition: background 0.3s;">
+            English
+          </a>
+          <a href="/zh/" style="display: inline-flex; align-items: center; gap: 0.5rem; background: rgba(255,255,255,0.15); padding: 0.5rem 1rem; border-radius: 8px; color: white; text-decoration: none; transition: background 0.3s;">
+            Chinese
+          </a>
+        </div>
+      </div>
+    </div>
+    
+    <!-- Divider -->
+    <div style="border-top: 1px solid rgba(255,255,255,0.2); padding-top: 1.5rem; text-align: center;">
+      <p style="opacity: 0.8; font-size: 0.9rem; margin: 0;">
+        &copy; {{ site.time | date: '%Y' }} COMPSCI 0.10. 
+        {% if page.lang == 'en' %}
+          Adapted from UC Berkeley CS10. All course materials are freely available.
+        {% else %}
+          改编自 UC Berkeley CS10。所有课程材料均可免费获取。
+        {% endif %}
+      </p>
+      <p style="opacity: 0.6; font-size: 0.8rem; margin-top: 0.5rem;">
+        CS 0.10 | COMPSCI 0.10 | CS 010 | COMPSCI 010
+      </p>
+    </div>
+  </div>
+</footer>
+
+<!-- Dark Mode Toggle Button -->
+<button class="theme-toggle" id="themeToggle" aria-label="Toggle dark mode" title="Toggle dark/light mode">
+  <span id="themeIcon">&#9790;</span>
+</button>
+
+<script>
+(function() {
+  const toggle = document.getElementById('themeToggle');
+  const icon = document.getElementById('themeIcon');
+  
+  function updateIcon(theme) {
+    icon.innerHTML = theme === 'dark' ? '&#9728;' : '&#9790;';
+  }
+  
+  function setTheme(theme) {
+    document.documentElement.setAttribute('data-theme', theme);
+    localStorage.setItem('theme', theme);
+    updateIcon(theme);
+  }
+  
+  // Initialize
+  const savedTheme = localStorage.getItem('theme');
+  const prefersDark = window.matchMedia('(prefers-color-scheme: dark)').matches;
+  const currentTheme = savedTheme || (prefersDark ? 'dark' : 'light');
+  updateIcon(currentTheme);
+  
+  toggle.addEventListener('click', function() {
+    const current = document.documentElement.getAttribute('data-theme') || 'light';
+    setTheme(current === 'dark' ? 'light' : 'dark');
+  });
+  
+  // Listen for system theme changes
+  window.matchMedia('(prefers-color-scheme: dark)').addEventListener('change', function(e) {
+    if (!localStorage.getItem('theme')) {
+      setTheme(e.matches ? 'dark' : 'light');
+    }
+  });
+})();
+</script>
+
+{% include scripts.html %}

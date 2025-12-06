@@ -1,32 +1,50 @@
-<!-- SEO Optimization for CS 0.10 / COMPSCI 0.10 / CS 010 / COMPSCI 010 -->
+<!-- Performance Optimizations -->
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
 
-<!-- Additional Meta Tags for Keyword Coverage -->
+<!-- Modern Font Loading -->
+<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800&family=Fira+Code:wght@400;500&display=swap" rel="stylesheet">
+
+<!-- Favicon -->
+<link rel="icon" type="image/svg+xml" href="/assets/images/favicon.svg">
+<link rel="icon" type="image/png" sizes="32x32" href="/assets/images/favicon-32x32.png">
+<link rel="apple-touch-icon" sizes="180x180" href="/assets/images/apple-touch-icon.png">
+<meta name="theme-color" content="#2E86AB">
+<meta name="msapplication-TileColor" content="#2E86AB">
+
+<!-- SEO Meta Tags -->
 <meta name="keywords" content="CS 0.10, COMPSCI 0.10, CS 010, COMPSCI 010, computer science for kids, elementary programming, Scratch Jr, coding for children, grades 4-6, UC Berkeley CS10, computational thinking">
-<meta name="robots" content="index, follow">
+<meta name="robots" content="index, follow, max-image-preview:large">
 <meta name="author" content="COMPSCI 0.10 Team">
+<meta name="copyright" content="COMPSCI 0.10">
 
-<!-- Open Graph Extended Tags -->
+<!-- Open Graph -->
 <meta property="og:image" content="{{ site.url }}/assets/images/og-image.png">
 <meta property="og:image:alt" content="COMPSCI 0.10 - Elementary Computer Science Course">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:locale" content="{% if page.lang == 'en' %}en_US{% else %}zh_CN{% endif %}">
 
-<!-- Twitter Extended Tags -->
+<!-- Twitter Cards -->
+<meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:image" content="{{ site.url }}/assets/images/og-image.png">
 <meta name="twitter:image:alt" content="CS 0.10 Elementary Computer Science Course">
 
-<!-- Alternate Names for Search Engines -->
+<!-- Dublin Core -->
 <meta name="DC.title" content="COMPSCI 0.10 - CS 0.10 - CS 010 - COMPSCI 010">
 <meta name="DC.subject" content="Computer Science Education, Elementary Programming">
+<meta name="DC.creator" content="COMPSCI 0.10 Team">
+<meta name="DC.language" content="{% if page.lang == 'en' %}en{% else %}zh{% endif %}">
 
-<!-- Course Schema.org Structured Data (JSON-LD) -->
+<!-- Course Schema.org Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "Course",
   "name": "COMPSCI 0.10: Elementary Computer Science",
   "alternateName": ["CS 0.10", "CS 010", "COMPSCI 010", "Coding Adventures"],
-  "description": "An introductory computer science course for elementary students (grades 4-6). Learn programming fundamentals, algorithms, and computational thinking through hands-on activities with Scratch Jr. Adapted from UC Berkeley CS10.",
+  "description": "An introductory computer science course for elementary students (grades 4-6). Learn programming fundamentals, algorithms, and computational thinking through hands-on activities with Scratch Jr.",
   "provider": {
     "@type": "Organization",
     "name": "COMPSCI 0.10",
@@ -38,46 +56,20 @@
     "educationalRole": "student",
     "audienceType": "Grades 4-6, Ages 9-12"
   },
-  "about": [
-    {
-      "@type": "Thing",
-      "name": "Computer Science"
-    },
-    {
-      "@type": "Thing",
-      "name": "Programming"
-    },
-    {
-      "@type": "Thing",
-      "name": "Computational Thinking"
-    }
-  ],
   "courseCode": "COMPSCI 0.10",
-  "numberOfCredits": 0,
   "isAccessibleForFree": true,
   "inLanguage": ["en", "zh"],
   "hasCourseInstance": {
     "@type": "CourseInstance",
     "courseMode": "online",
-    "duration": "P16W",
-    "courseWorkload": "PT50M per session, 2 sessions per week"
+    "duration": "P16W"
   },
-  "teaches": [
-    "Algorithm design",
-    "Programming with Scratch Jr.",
-    "Computational thinking",
-    "Digital citizenship",
-    "Problem solving",
-    "Game design",
-    "Digital storytelling"
-  ],
-  "coursePrerequisites": "None required",
   "image": "{{ site.url }}/assets/images/og-image.png",
   "url": "{{ site.url }}"
 }
 </script>
 
-<!-- WebSite Schema with SearchAction -->
+<!-- WebSite Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -85,7 +77,6 @@
   "name": "COMPSCI 0.10",
   "alternateName": ["CS 0.10", "CS 010", "COMPSCI 010"],
   "url": "{{ site.url }}",
-  "description": "Elementary Computer Science Course for Grades 4-6",
   "inLanguage": ["en", "zh"],
   "potentialAction": {
     "@type": "SearchAction",
@@ -95,91 +86,151 @@
 }
 </script>
 
-<!-- BreadcrumbList Schema for Navigation -->
 {% if page.parent %}
+<!-- BreadcrumbList Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "BreadcrumbList",
   "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "COMPSCI 0.10",
-      "item": "{{ site.url }}"
-    },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "{{ page.parent }}",
-      "item": "{{ site.url }}{{ page.url | split: '/' | pop | join: '/' }}/"
-    },
-    {
-      "@type": "ListItem",
-      "position": 3,
-      "name": "{{ page.title }}",
-      "item": "{{ site.url }}{{ page.url }}"
-    }
+    {"@type": "ListItem", "position": 1, "name": "COMPSCI 0.10", "item": "{{ site.url }}"},
+    {"@type": "ListItem", "position": 2, "name": "{{ page.parent }}", "item": "{{ site.url }}{{ page.url | split: '/' | pop | join: '/' }}/"},
+    {"@type": "ListItem", "position": 3, "name": "{{ page.title }}"}
   ]
 }
 </script>
 {% endif %}
 
-<!-- FAQ Schema for Course Overview Pages -->
-{% if page.title contains 'Overview' or page.title contains 'COMPSCI 0.10' %}
+{% if page.title contains 'Overview' or page.title contains 'COMPSCI' %}
+<!-- FAQ Schema -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@type": "FAQPage",
   "mainEntity": [
-    {
-      "@type": "Question",
-      "name": "What is COMPSCI 0.10 (CS 0.10)?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "COMPSCI 0.10 (also known as CS 0.10, CS 010, or COMPSCI 010) is an introductory computer science course designed for elementary students in grades 4-6. It teaches programming fundamentals, computational thinking, and digital citizenship through hands-on activities with Scratch Jr."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Who is CS 0.10 designed for?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "CS 0.10 is designed for elementary school students in grades 4-6 (ages 9-12). No prior programming experience is required."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "How long is the COMPSCI 010 course?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "The COMPSCI 010 course spans 16 weeks with 32 lessons total (2 sessions per week). Each session is 50 minutes long."
-      }
-    },
-    {
-      "@type": "Question",
-      "name": "Is CS 010 free?",
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": "Yes, all CS 010 course materials are freely available online. The course is adapted from UC Berkeley's CS10 curriculum for elementary students."
-      }
-    }
+    {"@type": "Question", "name": "What is COMPSCI 0.10?", "acceptedAnswer": {"@type": "Answer", "text": "COMPSCI 0.10 is an introductory computer science course for elementary students in grades 4-6."}},
+    {"@type": "Question", "name": "Is CS 0.10 free?", "acceptedAnswer": {"@type": "Answer", "text": "Yes, all course materials are freely available online."}},
+    {"@type": "Question", "name": "How long is the course?", "acceptedAnswer": {"@type": "Answer", "text": "16 weeks with 32 lessons (2 per week, 50 minutes each)."}}
   ]
 }
 </script>
 {% endif %}
 
-<!-- Canonical URL -->
+<!-- Canonical & Hreflang -->
 <link rel="canonical" href="{{ site.url }}{{ page.url }}">
-
-<!-- Hreflang for Multilingual Support -->
 {% if page.lang == 'en' %}
-<link rel="alternate" hreflang="en" href="{{ site.url }}/en{{ page.url | remove: '/en' }}">
-<link rel="alternate" hreflang="zh" href="{{ site.url }}/zh{{ page.url | remove: '/en' }}">
-<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
+<link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url }}">
+<link rel="alternate" hreflang="zh" href="{{ site.url }}{{ page.url | replace: '/en/', '/zh/' }}">
 {% elsif page.lang == 'zh' %}
 <link rel="alternate" hreflang="zh" href="{{ site.url }}{{ page.url }}">
-<link rel="alternate" hreflang="en" href="{{ site.url }}/en{{ page.url | remove: '/zh' }}">
-<link rel="alternate" hreflang="x-default" href="{{ site.url }}{{ page.url }}">
+<link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.url | replace: '/zh/', '/en/' }}">
 {% endif %}
+<link rel="alternate" hreflang="x-default" href="{{ site.url }}/">
 
+<!-- Dark Mode Detection -->
+<script>
+  (function() {
+    const theme = localStorage.getItem('theme') || 
+      (window.matchMedia('(prefers-color-scheme: dark)').matches ? 'dark' : 'light');
+    document.documentElement.setAttribute('data-theme', theme);
+  })();
+</script>
+
+<!-- Custom Styles -->
+<style>
+  :root {
+    --primary: #2E86AB;
+    --secondary: #A23B72;
+    --accent: #F18F01;
+    --success: #10B981;
+    --bg: #FEFEFE;
+    --text: #2B2B2B;
+    --font-main: 'Nunito', -apple-system, BlinkMacSystemFont, sans-serif;
+    --font-code: 'Fira Code', monospace;
+  }
+  
+  [data-theme="dark"] {
+    --bg: #1a1a2e;
+    --text: #eaeaea;
+    --primary: #4fc3f7;
+    --secondary: #ce93d8;
+  }
+  
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    font-family: var(--font-main);
+  }
+  
+  code, pre {
+    font-family: var(--font-code);
+  }
+  
+  /* Page loading animation */
+  .page-content {
+    animation: fadeInUp 0.5s ease-out;
+  }
+  
+  @keyframes fadeInUp {
+    from {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /* Smooth scrollbar */
+  ::-webkit-scrollbar {
+    width: 10px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: var(--primary);
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: var(--secondary);
+  }
+  
+  /* Focus styles for accessibility */
+  :focus-visible {
+    outline: 3px solid var(--accent);
+    outline-offset: 2px;
+  }
+  
+  /* Skip link for accessibility */
+  .skip-to-main:focus {
+    position: fixed;
+    top: 10px;
+    left: 10px;
+    z-index: 9999;
+    padding: 1rem 2rem;
+    background: var(--accent);
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+  }
+  
+  /* Print styles */
+  @media print {
+    .side-bar, .search, .language-toggle, .hero-section {
+      display: none !important;
+    }
+    .main-content {
+      margin: 0;
+      padding: 20px;
+    }
+  }
+</style>
